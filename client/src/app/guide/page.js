@@ -27,6 +27,8 @@ export const metadata = {
   canonical: "https://vidhyatyres.in/guide",
 };
 
-export default function Home() {
-  return <GuidePage />;
+export default function GuidePageRoute() {
+  return (
+    <GuidePage />
+  );
 }

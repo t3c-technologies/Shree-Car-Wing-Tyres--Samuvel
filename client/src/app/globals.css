@@ -272,3 +272,20 @@ button:active {
 		@apply cursor-pointer;
 	}
 }
+
+/* Section Layout System - Static Header Approach */
+.section-layout {
+	@apply py-4 sm:py-6 md:py-8 lg:py-10;
+}
+
+/* Full height sections accounting for header height (approximately 69px on desktop) */
+.section-layout-full {
+	@apply py-4 sm:py-6 md:py-8 lg:py-10;
+	min-height: calc(100dvh - 69px);
+}
+
+@media (min-width: 1024px) {
+	.section-layout-full {
+		min-height: calc(100dvh - 80px); /* Account for lg header height */
+	}
+}

@@ -1,5 +1,6 @@
 import ServicesPage from "@/uiPages/servicesPage/ServicesPage";
 
+
 export const metadata = {
   title: "Vidhya Tyres | Services",
   description: "Authorized Apollo Tyres dealer in Coimbatore offering professional tyre services",
@@ -28,5 +29,9 @@ export const metadata = {
 };
 
 export default function Home() {
-  return <ServicesPage />;
+  return (
+
+    <ServicesPage />
+
+  );
 }

@@ -73,7 +73,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-50 border-b bg-background mobile-header">
+      <nav className="w-full sticky top-0 z-50 border-b bg-background mobile-header shadow-md transition-all duration-300">
         <div className="w-full px-4 sm:px-6 lg:px-12 xl:px-16 2xl:px-20 mobile-compact mobile-ultra-compact">
           <div className="flex h-14 sm:h-16 lg:h-20 items-center justify-between w-full max-w-7xl mx-auto">
 

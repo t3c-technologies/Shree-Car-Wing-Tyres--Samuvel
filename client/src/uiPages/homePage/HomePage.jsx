@@ -45,7 +45,7 @@ export default function HomePage() {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="relative py-12 md:py-24 bg-primary overflow-hidden">
+            <section className="relative section-layout-full bg-primary overflow-hidden">
                 <div className="absolute inset-0 opacity-20">
                     <Image
                         src="/images/tyres/4W/alnac_4g_1.png"
@@ -121,7 +121,7 @@ export default function HomePage() {
             </section>
 
             {/* Tyres Section */}
-            <section className="py-12 md:py-20 bg-card">
+            <section className="section-layout bg-card">
                 <div id="tyres" className="container mx-auto px-4 md:px-6">
                     <h2 className="text-2xl md:text-3xl font-bold text-card-foreground text-center mb-8 md:mb-12">
                         Our Tyres
@@ -165,7 +165,7 @@ export default function HomePage() {
             </section>
 
             {/* Services Section */}
-            <section id="services" className="py-12 md:py-20 bg-muted">
+            <section id="services" className="section-layout bg-muted">
                 <div className="container mx-auto px-4 md:px-6">
                     <h2 className="text-2xl md:text-3xl font-bold text-muted-foreground text-center mb-8 md:mb-12">
                         Our Services
@@ -344,7 +344,7 @@ export default function HomePage() {
             </section>
 
             {/* Why Choose Multi-Brand Section */}
-            <section className="py-12 md:py-20 bg-muted">
+            <section className="section-layout bg-muted">
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="text-center mb-8 md:mb-12">
                         <h2 className="text-2xl md:text-3xl font-bold text-muted-foreground mb-4">
@@ -396,7 +396,7 @@ export default function HomePage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-12 md:py-20 bg-primary">
+            <section className="section-layout bg-primary">
                 <div className="container mx-auto px-4 md:px-6 text-center">
                     <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4 md:mb-6">
                         Need Expert Advice?
