@@ -154,7 +154,7 @@ const Header = () => {
                         {tyreCategories.map((category) => (
                           <Link
                             key={category.name}
-                            href={`/tyres${category.href}`}
+                            href={category.href}
                             className="flex items-start rounded-sm px-3 py-3 text-sm hover:bg-accent hover:text-accent-foreground
                               focus:bg-accent focus:text-accent-foreground focus:outline-none"
                             onClick={() => setTyresDropdownOpen(false)}
@@ -312,7 +312,7 @@ const Header = () => {
                         {tyreCategories.map((category) => (
                           <Link
                             key={category.name}
-                            href={`/tyres${category.href}`}
+                            href={category.href}
                             className="flex items-center rounded-md p-2 hover:bg-accent hover:text-accent-foreground
                               focus:bg-accent focus:text-accent-foreground focus:outline-none
                               mobile-touch-target mobile-menu-item w-full text-left"
