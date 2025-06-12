@@ -1,0 +1,5003 @@
+[
+  {
+    "name": "Alpha H1",
+    "group": "2W",
+    "tyre_position": "all",
+    "url": "/tyres/2w/alpha_h1",
+    "tagline": "For Pure Driving Pleasure",
+    "description": "The Apollo ALPHA is a sports touring radial tyres designed for the ones who do not stop through changing weather and road conditions. Made for the seekers of thrill, the APLHA is built for the ones who ride to go the distance.",
+    "image_urls": [
+      "/images/tyres/2W/Alpha_H1.png"
+    ],
+    "features": [
+      {
+        "V-oriented Grooves": "Excellent wet weather and wet surface performance and shorter braking distance. \n Excellent high-speed stability via minimal structural deformation"
+      },
+      {
+        "Zero Degree Steel Belt": "Optimised structure with zero degree steel belt for highest-quality performance. \n Quick to achieve lean angles"
+      },
+      {
+        "Dual-radii Cavity Proﬁle": "Outstanding sport handling and quicker to achieve lean angles when cornering. \n Outstanding sport handling"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "150/17 R17",
+        "width_mm": 150,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 66,
+        "speed_rating": "W",
+        "tube_type": "Tubeless"
+      },
+      {
+        "size": "110/17 R17",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 54,
+        "speed_rating": "W",
+        "tube_type": "Tubeless"
+      }
+    ],
+    "related_products": [
+      2,
+      3,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "name": "Tramplr Xr",
+    "group": "2W",
+    "tyre_position": "all",
+    "url": "/tyres/2w/tramplr_xr",
+    "tagline": "Let Only the Compass Know Your Location",
+    "description": "TRAMPLR XR sports touring radials are complemented by the mnemonic of a compass, representing the nomadic nature of adventure biking and exploration. Apollo TRAMPLR inspires you to get lost in the wilderness with your bike and let the compass guide you to find the way.",
+    "image_urls": [
+      "/images/tyres/2W/Tramplr_Xr.png"
+    ],
+    "features": [
+      {
+        "W-shaped Open Grooves": "For efficient mud evacuation and hydroplaning protection on and off the road."
+      },
+      {
+        "Alternating Tread Pattern": "To keep the bike connected to the trail for better all terrain capability and greater stability."
+      },
+      {
+        "Tyre Life Indicator": "To ensure optimal driving experience and highlight tyre replacement cycles for high-performance riders."
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "150/17 R17",
+        "width_mm": 150,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 66,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      },
+      {
+        "size": "130/17 R17",
+        "width_mm": 130,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 65,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      },
+      {
+        "size": "110/17 R17",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 54,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/17 R17",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "140/17 R17",
+        "width_mm": 140,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 66,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      },
+      {
+        "size": "120/18 R18",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 62,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      },
+      {
+        "size": "90/19 R19",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 19,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/19 R19",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 19,
+        "load_index": 57,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      },
+      {
+        "size": "90/21 R21",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 21,
+        "load_index": 54,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      }
+    ],
+    "related_products": [
+      1,
+      3,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "name": "ACTIGRIP S5",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/actigrip_s5",
+    "tagline": "Riding Excellence on Wet Roads",
+    "description": "9 to 5 deadlines, and weekend getaways to the suburbs, the Apollo ActiGrip S5 is built for every side of you. Designed to ensure precision, safety, and stability in every journey you make, so you go the distance every time.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_s5_1.png",
+      "/images/tyres/2W/actigrip_s5_2.png"
+    ],
+    "features": [
+      {
+        "High Damage Resistance": "Damage resistant turtle shell tread pattern to protect your tyre and suspension from bumps and potholes."
+      },
+      {
+        "Maximum Traction": "Wider pentagonal blocks at centre for increased contact area and traction on city roads."
+      },
+      {
+        "Superior Tread Life": "Self cleaning tread capabilities to increase grip and durability of the tread pattern."
+      }
+    ],
+    "ideal_for": [
+      "SCOOTER"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "110/10 R10",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 10,
+        "load_index": 53,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "90/10 R10",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 10,
+        "load_index": 53,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "90/12 R12",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 12,
+        "load_index": 54,
+        "speed_rating": "J",
+        "tube_type": "NA"
+      }
+    ],
+    "related_products": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "ACTIGRIP R2",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/actigrip_r2",
+    "tagline": "Conquer the Unconquerable",
+    "description": "A custom touring motorcycle tyre designed especially for the ones who love stability and precision. The actiGRIP R2 rides on when it rains, and when it doesn’t. A tyre to conquer Indian roads, every time you ride.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_r2_1.png",
+      "/images/tyres/2W/actigrip_r2_2.png"
+    ],
+    "features": [
+      {
+        "High-speed Cornering Grip": "Aggressive block design with unique trapezoidal tread pattern for better grip when riding at highway speeds."
+      },
+      {
+        "Efficient Water Evacuation": "Symmetric sipe orientation for efficient water channelling and excellent safety on wet roads."
+      },
+      {
+        "Supreme Structural Durability": "Reinforced casing structure to ensure tyre protection when going over potholes and bumps."
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "3.00/17 R17",
+        "width_mm": 3,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 50,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "3.00/18 R18",
+        "width_mm": 3,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "2.75/18 R18",
+        "width_mm": 2.75,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 48,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "3.25/19 R19",
+        "width_mm": 3.25,
+        "aspect_ratio": "NA",
+        "rim_diameter": 19,
+        "load_index": 60,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "ACTIGRIP S3",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/actigrip_s3",
+    "tagline": "Take the Unpaved Roads with Confidence",
+    "description": "A custom touring motorcycle tyre designed especially for the ones who love stability and precision. The actiGRIP R2 rides on when it rains, and when it doesn’t. A tyre to conquer Indian roads, every time you ride.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_s3_1.png",
+      "/images/tyres/2W/actigrip_s3_2.png"
+    ],
+    "features": [
+      {
+        "High Damage Resistance": "Damage resistant turtle shell tread pattern to protect your tyre and suspension from bumps and potholes."
+      },
+      {
+        "Maximum Traction": "Wider pentagonal blocks at centre for increased contact area and traction on city roads."
+      },
+      {
+        "Improved Ride and Handling": "Enhanced Stress free casing with elliptical cavity for easier handling and riding comfort."
+      }
+    ],
+    "ideal_for": [
+      "SCOOTER"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "3.50/10 R10",
+        "width_mm": 3.5,
+        "aspect_ratio": null,
+        "rim_diameter": 10,
+        "load_index": 51,
+        "speed_rating": "J",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "90/10 R10",
+        "width_mm": 90,
+        "aspect_ratio": null,
+        "rim_diameter": 10,
+        "load_index": 53,
+        "speed_rating": "J",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      4,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "ActiGRIP S4",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/actigrip_s4",
+    "tagline": "Make Routine Interesting Again",
+    "description": "A premium scooter tyre for those who tend to go a little further than everyone else. Make your daily commute a little more effortless with the superior traction of Apollo actiGRIP S4 scooter tyres.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_s4_1.png",
+      "/images/tyres/2W/actigrip_s4_2.png"
+    ],
+    "features": [
+      {
+        "Superior Traction & Grip": "Paw-shaped block pattern design for efficient grip on different types of road surfaces."
+      },
+      {
+        "Great Performance in Sand & Mud": "Wider blocks at the centre with uniform arrangement for stable ride and handling on different terrains."
+      },
+      {
+        "Long Lasting Tread": "Stress-free casing with elliptical cavity for even tread wear and durability that envies the competition."
+      }
+    ],
+    "ideal_for": [
+      "SCOOTER"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "90/10 R10",
+        "width_mm": 90,
+        "aspect_ratio": null,
+        "rim_diameter": 10,
+        "load_index": 53,
+        "speed_rating": "J",
+        "tube_type": null
+      },
+      {
+        "size": "90/10 R10",
+        "width_mm": 90,
+        "aspect_ratio": null,
+        "rim_diameter": 10,
+        "load_index": 53,
+        "speed_rating": "J",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      4,
+      5,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Actigrip F6",
+    "group": "2W",
+    "tyre_position": "front",
+    "usage": [
+      "Cruiser"
+    ],
+    "url": "/tyres/2w/actigrip_f6",
+    "tagline": "Conquer the Mountains",
+    "description": "A motorcycle tyre for the ones who chase adventure wherever they go. Set the rules with the off-roading capabilities of Apollo actiGRIP F6 every time you face off with the mountains.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_f6_1.png",
+      "/images/tyres/2W/actigrip_f6_2.png"
+    ],
+    "features": [
+      {
+        "Excellent Off-roading": "Smart V-shaped tread block designed to provide maximum traction when riding on hilly and rocky terrains. \n Maximum grip and More working edges for off-road traction in different conditions"
+      },
+      {
+        "Enhanced Tear Resistance": "Performance enhanced tread compound to minimise damage from potholes, bumps and sharp rocks. \n Self cleaning from mud and dirt and superior ride performance"
+      },
+      {
+        "Superior Wet Grip": "Block pattern with longitudinal grooves for enhanced hydroplaning and superior grip in wet weather. \n Superior traction in the on-off maneuvering"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "90/19 R19",
+        "width_mm": 90,
+        "aspect_ratio": null,
+        "rim_diameter": 19,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": null
+      },
+      {
+        "size": "90/21 R21",
+        "width_mm": 90,
+        "aspect_ratio": null,
+        "rim_diameter": 21,
+        "load_index": 54,
+        "speed_rating": "S",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      4,
+      5,
+      6,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Actigrip F8",
+    "group": "2W",
+    "tyre_position": "all",
+    "usage": [
+      "Street Sport"
+    ],
+    "url": "/tyres/2w/actigrip_f8",
+    "tagline": "Take the City with Style",
+    "description": "A tyre for the modern street biker, who goes beyond the tarmac. Ride fearlessly through the concrete jungles and into the wild with the superior grip and handling of Apollo actiGRIP F8.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_f8_1.png"
+    ],
+    "features": [
+      {
+        "Superior Grip and Handling": "Pentagonal tri-block pattern with bigger block area for efficient ride & handling. Superior traction\n "
+      },
+      {
+        "Enhanced Durability": "Strudy casing structure built to last the trails and trials of city traffic and rural ruggedness. \n Efficient water evacuation"
+      },
+      {
+        "Improved Cornering Performance": "Improved cornering stability and precise steering control on wet and dry road conditions. \n Higher structural durability"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "90/18 R18",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 51,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      }
+    ],
+    "related_products": [
+      4,
+      5,
+      6,
+      7,
+      3,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Actigrip R4",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/actigrip_r4",
+    "tagline": "Real Tyres for Real Riders",
+    "description": "A street sports bike tyre for the daring, the brave, the nomads. The actiGRIP R4 is made for those who go where the roads take them, and where they don’t.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_r4_1.png",
+      "/images/tyres/2W/actigrip_r4_.png"
+    ],
+    "features": [
+      {
+        "New Tread Design": "Increased grip on a wide range of tarmac and weather conditions. \n Improved wear regularity with better  traction"
+      },
+      {
+        "High Resistance to Aquaplaning": "Better wet weather performance with variable groove connected to the shoulder. \n Uniform foot print pressure distribution and reduced block movement"
+      },
+      {
+        "Excellent Tread Mileage": "Tread compound with optimised polymer blend and reinforcement system. \n Efficient water dispersal and improved  dry traction"
+      },
+      {
+        "Excellent Tread Mileage": "Reduced wear rate. \n Superior resistance to tread cut and cut growth resistance"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "110/17 R17",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 57,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/17 R17",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 55,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "120/17 R17",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 61,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "120/18 R18",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 62,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/18 R18",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 56,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "110/18 R18",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 61,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Actigrip R6",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/actigrip_r6",
+    "tagline": "Conquer the Mountains",
+    "description": "Set the rules with the off-roading capabilities of Apollo actiGRIP R6 every time you face off with the mountains. A motorcycle tyre for the ones who chase adventure wherever they go.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_r6_1.png"
+    ],
+    "features": [
+      {
+        "Excellent Off-roading": "Smart V-shaped tread block designed to provide maximum traction when riding on hilly and rocky terrains. \n Maximum grip and More working edges for off-road traction in different conditions"
+      },
+      {
+        "Enhanced Tear Resistance": "Performance enhanced tread compound to minimise damage from potholes, bumps and sharp rocks. \n Self cleaning from mud and dirt and superior ride performance."
+      },
+      {
+        "Superior Wet Grip": "Block pattern with longitudinal grooves for enhanced hydroplaning and superior grip in wet weather. \n Superior traction in the on-off maneuvering"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "120/17 R17",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 64,
+        "speed_rating": "S",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "120/18 R18",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 62,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      }
+    ],
+    "related_products": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      3,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Actigrip R8",
+    "group": "2W",
+    "tyre_position": "all",
+    "usage": [
+      "Street Sport"
+    ],
+    "url": "/tyres/2w/actigrip_r8",
+    "tagline": "Conquer the Mountains",
+    "description": "Directional MC Tire for precise steering control and cornering stability",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_r8_1.png",
+      "/images/tyres/2W/actigrip_r8_2.png"
+    ],
+    "features": [
+      {
+        "Superior  on road performance and better dry and wet grip safety": "Pentagonal Tri-Block Pattern with bigger block area. \n Superior traction"
+      },
+      {
+        "Improved cornering stability and precise steering control  on wet and dry road condition": "Cut sipes at Shoulder. \n Efficient water evacuation"
+      },
+      {
+        "Uniform tread wear Easy Tire mounting/ demounting": "Stress free casing structure with extra protection at bead area. \n Higher structural durability"
+      },
+      {
+        "Excellent Tread mileage and road holding characteristics. Skid  Resistance": "Specially designed tread compound with optimized polymer blend ratio. \n Reduced wear rate. Better traction"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "120/16 R16",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 16,
+        "load_index": 60,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      }
+    ],
+    "related_products": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Actigrip R1",
+    "group": "2W",
+    "tyre_position": "rear",
+    "usage": [
+      "Urban"
+    ],
+    "url": "/tyres/2w/actigrip_r1",
+    "tagline": "Take the Unpaved Roads with Confidence",
+    "description": "9 to 5 deadlines, and weekend getaways to the suburbs, the Apollo actiGRIP R1 is built for every side of you. Designed to ensure precision, safety and stability in every journey you make, so you go the distance every time.",
+    "image_urls": [
+      "/images/tyres/2W/actigrip_r1_1.png",
+      "/images/tyres/2W/actigrip_r1_2.png"
+    ],
+    "features": [
+      {
+        "All-terrain Perfection": "Angular block pattern on shoulders for superior cornering traction in sand and muddy terrains."
+      },
+      {
+        "High Damage Resistance": "Turtle shell tread pattern that distributes force on impact and makes the tyre highly damage resistant."
+      },
+      {
+        "Self Cleaning Tread Design": "Wide pentagonal blocks at centre to ensure stable riding and self-cleaning tread capabilities."
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "80/17 R17",
+        "width_mm": 80,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 53,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "3.00/17 R17",
+        "width_mm": 3,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 50,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "3.00/17 R17",
+        "width_mm": 3,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 50,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/17 R17",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 55,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/17 R17",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 55,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "100/17 R17",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 55,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "3.00/18 R18",
+        "width_mm": 3,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "2.75/18 R18",
+        "width_mm": 2.75,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 48,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "2.75/18 R18",
+        "width_mm": 2.75,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 48,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "90/18 R18",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 51,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "80/18 R18",
+        "width_mm": 80,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 54,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/18 R18",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 56,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "3.00/18 R18",
+        "width_mm": 3,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "3.00/18 R18",
+        "width_mm": 3,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "3.50/19 R19",
+        "width_mm": 3.5,
+        "aspect_ratio": "NA",
+        "rim_diameter": 19,
+        "load_index": 63,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      3
+    ]
+  },
+  {
+    "name": "Tramplr St",
+    "group": "2W",
+    "tyre_position": "all",
+    "url": "/tyres/2w/tramplr_st",
+    "tagline": "Road Ahead. Fun Ahead.",
+    "description": "TRAMPLR ST sports touring radial tyres are complemented by the mnemonic of the roads ahead. The design pushes you to turn the streets into your playground and become the lord of the game.",
+    "image_urls": [
+      "/images/tyres/2W/Tramplr_st_1.png"
+    ],
+    "features": [
+      {
+        "Open Transverse Grooves": "Provide enhanced traction and hydroplaning protection for better performance on dry and wet roads."
+      },
+      {
+        "Alternate Large Shoulder Blocks": "For confidence when leaning in and out of corners on the highway or city streets."
+      },
+      {
+        "Staggered Central Tread Blocks": "For balanced contact on street and sandy terrain, offering a stable and confident riding experience. \n "
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "140/17 R17",
+        "width_mm": 140,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 66,
+        "speed_rating": "S",
+        "tube_type": "NA"
+      },
+      {
+        "size": "90/17 R17",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 49,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "130/17 R17",
+        "width_mm": 130,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 62,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "120/17 R17",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 61,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/17 R17",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "110/17 R17",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 57,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      }
+    ],
+    "related_products": [
+      1,
+      2,
+      14,
+      15
+    ]
+  },
+  {
+    "name": "ALPHA S1",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/alpha_s1",
+    "tagline": "Thrill Up Your Beast",
+    "description": "A high-performance street sports tyre for riders who aren’t slowed down by the weather or the condition of the roads they’re traveling. Be it the toughest roads to navigate or the harshest weather to ride in, with the Alpha S1, your journey continues fearlessly.",
+    "image_urls": [
+      "/images/tyres/2W/alpha_s1_1.png",
+      "/images/tyres/2W/alpha_s1_2.png"
+    ],
+    "features": [
+      {
+        "V-oriented Grooves": "Excellent wet weather and wet surface performance and shorter braking distance."
+      },
+      {
+        "Zero Degree Steel Belt": "Optimised structure with zero degree steel belt for highest-quality performance."
+      },
+      {
+        "Dual-radii Cavity Proﬁle": "Outstanding sport handling and quicker to achieve lean angles when cornering."
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "110/17 R17",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 57,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      },
+      {
+        "size": "120/17 R17",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 61,
+        "speed_rating": "H",
+        "tube_type": "NA"
+      },
+      {
+        "size": "130/17 R17",
+        "width_mm": 130,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 62,
+        "speed_rating": "H",
+        "tube_type": "Tubeless"
+      },
+      {
+        "size": "140/17 R17",
+        "width_mm": 140,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 63,
+        "speed_rating": "H",
+        "tube_type": "Tubeless"
+      }
+    ],
+    "related_products": [
+      1,
+      2,
+      13,
+      15
+    ]
+  },
+  {
+    "name": "ACTIZIP F5",
+    "group": "2W",
+    "tyre_position": "front",
+    "url": "/tyres/2w/actizip_f5",
+    "tagline": "Engineered to Empower True Riders",
+    "description": "A street sports bike tyre designed especially for the unstoppable, the invincible, the ones who ride on through every situation. The Apollo actiZIP F5 empowers the true riders who seek superior performance every time they set out to go the distance.",
+    "image_urls": [
+      "/images/tyres/2W/actizip_f5_1.png"
+    ],
+    "features": [
+      {
+        "Minimised Hydroplaning": "Continuous zig-zag grooves for improved water channelling to allow extra grip in wet weather and on wet surfaces. \n Improved water channeling"
+      },
+      {
+        "Reduced Braking Distance": "New-age tread compound that sticks to the road and reduces braking distance to provide safety wherever you go. \n Excellent correlation with rear tyre"
+      },
+      {
+        "Unmatched Sport Performance": "Rounded cavity proﬁle with an extended shoulder for excellent leaning and sport performance. \n Higher structural durability"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "100/17 R17",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      }
+    ],
+    "related_products": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "name": "ACTIZIP R5",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/actizip_r5",
+    "tagline": "Engineered to Empower True Riders",
+    "description": "The Apollo actiZIP R5 is designed especially for the unstoppable, the invincible, the ones who ride on through every situation. A street sports bike tyre that offers superior performance every time you set out to go the distance.",
+    "image_urls": [
+      "/images/tyres/2W/actizip_r5_1.png"
+    ],
+    "features": [
+      {
+        "Minimised Hydroplaning": "Continuous zig-zag grooves for improved water channelling to allow extra grip in wet weather and on wet surfaces. \n Improved water channeling"
+      },
+      {
+        "Reduced Braking Distance": "New-age tread compound that sticks to the road and reduces braking distance to provide safety wherever you go. \n Excellent correlation with rear tyre"
+      },
+      {
+        "Unmatched Sport Performance": "Rounded cavity proﬁle with an extended shoulder for excellent leaning and sport performance. \n Higher structural durability"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "130/15 R15",
+        "width_mm": 130,
+        "aspect_ratio": "NA",
+        "rim_diameter": 15,
+        "load_index": 64,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "130/17 R17",
+        "width_mm": 130,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 62,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "140/17 R17",
+        "width_mm": 140,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 66,
+        "speed_rating": "S",
+        "tube_type": "NA"
+      },
+      {
+        "size": "110/18 R18",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 61,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "120/18 R18",
+        "width_mm": 120,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 62,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "name": "ACTIZIP F2",
+    "group": "2W",
+    "tyre_position": "front",
+    "usage": [
+      "Cruiser"
+    ],
+    "url": "/tyres/2w/actizip_f2",
+    "tagline": "Built for the Roads Less Taken",
+    "description": "A custom touring motorcycle tyre for unstoppable journeys through the roughest roads and the toughest terrains. The actiZIP F2 by Apollo Tyres is built to ensure stability and precision whenever you ride, wherever you ride.",
+    "image_urls": [
+      "/images/tyres/2W/actizip_f2_2.png",
+      "/images/tyres/2W/actizip_f2_1.png"
+    ],
+    "features": [
+      {
+        "Enhanced Stability & Precision": "Continuous tread pattern with wider channel grooves for directional stability when touring."
+      },
+      {
+        "Assured Stability": "Continuous 5-rib tread pattern with wider channel grooves for assured stability when riding."
+      },
+      {
+        "Quick Water Evacuation": "Oriented stress relieving sipes for quick water evacuation and avoiding slips."
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "90/17 R17",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 49,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "80/17 R17",
+        "width_mm": 80,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 46,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "80/18 R18",
+        "width_mm": 80,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 47,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "2.75/18 R18",
+        "width_mm": 2.75,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 42,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      },
+      {
+        "size": "90/19 R19",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 19,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "90/19 R19",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 19,
+        "load_index": 52,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      16,
+      15,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "name": "ActiZIP F3",
+    "group": "2W",
+    "tyre_position": "front",
+    "url": "/tyres/2w/actizip_f3",
+    "tagline": "High Speed, High Comfort Urban Riding",
+    "description": "Zip through the rush hour traffic at speed and in comfort with Apollo actiZIP F3 tyres. A tyre made for the ones who race with the wind, and win.",
+    "image_urls": [
+      "/images/tyres/2W/actizip_f3_1.png"
+    ],
+    "features": [
+      {
+        "High-speed Riding Comfort": "Special tyre proﬁle and carcass structure allow for high-speed driving comfort at leaning angles."
+      },
+      {
+        "Minimised Hydroplaning": "Stylish parabolic tread groove for easy water evacuation and minimal slipping when riding on wet roads."
+      },
+      {
+        "Higher Structural Durability": "Stress free casing structure with extra protection at bead area"
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "2.75/17 R17",
+        "width_mm": 2.75,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 41,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      16,
+      17,
+      15,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "name": "ActiZIP S1",
+    "group": "2W",
+    "tyre_position": "all",
+    "url": "/tyres/2w/actizip_s1",
+    "tagline": "Take on the Toughest Roads, Easily",
+    "description": "Apollo’s premium scooter tyre for those unfazed by bad roads and worse weather. The ones who dare to dream. And then make those dreams come true. Because bad roads lead to good places, and they know it.",
+    "image_urls": [
+      "/images/tyres/2W/actizip_s1_1.png",
+      "/images/tyres/2W/actizip_s1_2.png"
+    ],
+    "features": [
+      {
+        "Minimised Hydroplaning": "Enhanced grip and stability on wet roads with stylish parabolic tread groove design to channel away water effectively."
+      },
+      {
+        "Effective Grip on Lean Angles": "Directional pattern with aesthetically-styled shoulder to provide superior grip when leaning into corners at speed."
+      },
+      {
+        "Improved Directional Stability": "Continuous central grooves to keep the tyre connected to the road and make manoeuvres easy."
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "90/10 R10",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 10,
+        "load_index": 53,
+        "speed_rating": "J",
+        "tube_type": "Tubeless"
+      }
+    ],
+    "related_products": [
+      16,
+      17,
+      18,
+      15,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "name": "ActiZIP S2",
+    "group": "2W",
+    "tyre_position": "all",
+    "url": "/tyres/2w/actizip_s2",
+    "tagline": "Better Your Best, Every Day",
+    "description": "The scooter tyre of choice for the ones looking to give an urban twist to their ride. The ones who ride every day. The ones who go the distance every day and wish to enjoy every ride.",
+    "image_urls": [
+      "/images/tyres/2W/actizip_s2_1.png",
+      "/images/tyres/2W/actizip_s2_2.png"
+    ],
+    "features": [
+      {
+        "Excellent Road Holding": "New age polymer blend based tread compound for improved skid-resistance on the road."
+      },
+      {
+        "Efficient Water Evacuation": "Continuous centre groove with oriented stress-relieving sipes for quick water evacuation."
+      },
+      {
+        "Precision Control on All Roads": "Bridged curvy grooves opening towards the shoulders for precision control on and off the road."
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "90/10 R10",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 10,
+        "load_index": 53,
+        "speed_rating": "J",
+        "tube_type": "Tubeless"
+      },
+      {
+        "size": "90/12 R12",
+        "width_mm": 90,
+        "aspect_ratio": "NA",
+        "rim_diameter": 12,
+        "load_index": 54,
+        "speed_rating": "J",
+        "tube_type": "Tubeless"
+      }
+    ],
+    "related_products": [
+      16,
+      17,
+      18,
+      19,
+      15,
+      21,
+      22
+    ]
+  },
+  {
+    "name": "Actizip R3",
+    "group": "2W",
+    "tyre_position": "rear",
+    "usage": [
+      "Urban"
+    ],
+    "url": "/tyres/2w/actizip_r3",
+    "tagline": "Superior Wet Grip and Control",
+    "description": "Minimize the risk and maximize the fun with Apollo actiZIP R3, a motorbike tyre offering superior handling, no matter the surface. Rated for high speed cornering and superior braking stability, the enhanced traction of this tyre helps you chart the uncharted.",
+    "image_urls": [
+      "/images/tyres/2W/actizip_r3_1.png",
+      "/images/tyres/2W/actizip_r3_2.png"
+    ],
+    "features": [
+      {
+        "Higher Land to Sea Ratio": "The tyre has more rubber making contact with the ground with each rotation."
+      },
+      {
+        "Controlled Hydroplaning Groove Design": "Unique tread design that expels water effectively and ensure superior grip in wet road and weather conditions."
+      },
+      {
+        "Enhanced Tyre Mileage": "Made from high-quality rubber compounds that enhance tyre life and durability."
+      }
+    ],
+    "ideal_for": [
+      "MOTORCYCLE"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "110/17 R17",
+        "width_mm": 110,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 57,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/17 R17",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 55,
+        "speed_rating": "P",
+        "tube_type": "Tubeless"
+      },
+      {
+        "size": "80/17 R17",
+        "width_mm": 80,
+        "aspect_ratio": "NA",
+        "rim_diameter": 17,
+        "load_index": 46,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "80/18 R18",
+        "width_mm": 80,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 54,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "100/18 R18",
+        "width_mm": 100,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 55,
+        "speed_rating": "P",
+        "tube_type": "Tubeless"
+      },
+      {
+        "size": "2.75/18 R18",
+        "width_mm": 2.75,
+        "aspect_ratio": "NA",
+        "rim_diameter": 18,
+        "load_index": 48,
+        "speed_rating": "P",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      15,
+      22
+    ]
+  },
+  {
+    "name": "Actizip S6",
+    "group": "2W",
+    "tyre_position": "rear",
+    "url": "/tyres/2w/actizip_s6",
+    "tagline": "Drive What Drives You",
+    "description": "Scooter tyre for the conquerors of the concrete jungle. The ones who ride fast but ride stable. Take your daily commute to another level of comfort and ease with the actiZIP S6.",
+    "image_urls": [
+      "/images/tyres/2W/actizip_s6_1.png",
+      "/images/tyres/2W/actizip_s6_2.png"
+    ],
+    "features": [
+      {
+        "Improved Cornering Stability": "Innovative tread design at the centre and on the shoulders for improved grip on lean. \n Superior traction"
+      },
+      {
+        "Excellent Skid Resistance": "New age tread compounds to increase the road holding capabilities, providing superior traction everywhere. \n Efficient water evacuation"
+      },
+      {
+        "Excellent in Wet Weather": "Enhanced water evacuating tread design to for hydroplaning protection and superior wet weather performance. \n Higher structural durability"
+      },
+      {
+        "Excellent Tread mileage and road holding characteristics. Skid  Resistance": "Specially designed tread compound with optimized polymer blend ratio \n Reduced wear rate. Better traction"
+      }
+    ],
+    "ideal_for": [
+      "SCOOTER"
+    ],
+    "brochure": "/assets/2W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "3.00/10 R10",
+        "width_mm": 3,
+        "aspect_ratio": "NA",
+        "rim_diameter": 10,
+        "load_index": 42,
+        "speed_rating": "P",
+        "tube_type": "NA"
+      },
+      {
+        "size": "3.50/10 R10",
+        "width_mm": 3.5,
+        "aspect_ratio": "NA",
+        "rim_diameter": 10,
+        "load_index": 51,
+        "speed_rating": "J",
+        "tube_type": "Tube Type"
+      }
+    ],
+    "related_products": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      15
+    ]
+  },
+  {
+    "name": "ALNAC 4G",
+    "group": "4W",
+    "url": "/tyres/4w/alnac_4g",
+    "tagline": "For Pure Driving Pleasure",
+    "description": "A premium tyre for hatchbacks and sedans, offering effortless driving on the highways and city streets. Rediscover the joy of driving with ALNAC 4G's precision control and handling prowess.",
+    "image_urls": [
+      "/images/tyres/4W/alnac_4g_1.png",
+      "/images/tyres/4W/alnac_4g_2.png"
+    ],
+    "features": [
+      {
+        "Ultimate Driving Precision": "Directional ribs that maximise traction and enable precision driving control. \n Precise steering control during lane change"
+      },
+      {
+        "Superior Cornering Stability": "Robust connected shoulder design to increase surface contact and enhance cornering stability. \n High in steering precision"
+      },
+      {
+        "Exceptional Wet Grip": "Wider grooves to enable water channeling for safer wet weather driving. \n Superior  dry braking"
+      }
+    ],
+    "ideal_for": [
+      "CAR"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "185/60 R14",
+        "width_mm": 185,
+        "aspect_ratio": 60,
+        "rim_diameter": 14,
+        "load_index": 82,
+        "speed_rating": "H"
+      },
+      {
+        "size": "185/70 R14",
+        "width_mm": 185,
+        "aspect_ratio": 70,
+        "rim_diameter": 14,
+        "load_index": 88,
+        "speed_rating": "H"
+      },
+      {
+        "size": "185/60 R15",
+        "width_mm": 185,
+        "aspect_ratio": 60,
+        "rim_diameter": 15,
+        "load_index": 84,
+        "speed_rating": "H"
+      },
+      {
+        "size": "195/65 R15",
+        "width_mm": 195,
+        "aspect_ratio": 65,
+        "rim_diameter": 15,
+        "load_index": 91,
+        "speed_rating": "H"
+      },
+      {
+        "size": "205/65 R15",
+        "width_mm": 205,
+        "aspect_ratio": 65,
+        "rim_diameter": 15,
+        "load_index": 94,
+        "speed_rating": "H"
+      },
+      {
+        "size": "185/70 R15",
+        "width_mm": 185,
+        "aspect_ratio": 70,
+        "rim_diameter": 15,
+        "load_index": 89,
+        "speed_rating": "H"
+      },
+      {
+        "size": "195/65 R15",
+        "width_mm": 195,
+        "aspect_ratio": 65,
+        "rim_diameter": 15,
+        "load_index": 91,
+        "speed_rating": "H"
+      },
+      {
+        "size": "205/60 R16",
+        "width_mm": 205,
+        "aspect_ratio": 60,
+        "rim_diameter": 16,
+        "load_index": 92,
+        "speed_rating": "V"
+      },
+      {
+        "size": "225/60 R16",
+        "width_mm": 225,
+        "aspect_ratio": 60,
+        "rim_diameter": 16,
+        "load_index": 98,
+        "speed_rating": "V"
+      },
+      {
+        "size": "0/0 R16",
+        "width_mm": 0,
+        "aspect_ratio": 0,
+        "rim_diameter": 16,
+        "load_index": 87,
+        "speed_rating": "H"
+      },
+      {
+        "size": "195/55 R16",
+        "width_mm": 195,
+        "aspect_ratio": 55,
+        "rim_diameter": 16,
+        "load_index": 87,
+        "speed_rating": "V"
+      },
+      {
+        "size": "185/55 R16",
+        "width_mm": 185,
+        "aspect_ratio": 55,
+        "rim_diameter": 16,
+        "load_index": 83,
+        "speed_rating": "H"
+      },
+      {
+        "size": "205/55 R17",
+        "width_mm": 205,
+        "aspect_ratio": 55,
+        "rim_diameter": 17,
+        "load_index": 91,
+        "speed_rating": "H"
+      },
+      {
+        "size": "215/60 R17",
+        "width_mm": 215,
+        "aspect_ratio": 60,
+        "rim_diameter": 17,
+        "load_index": 96,
+        "speed_rating": "H"
+      }
+    ],
+    "related_products": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "name": "AMAZER 4G LIFE",
+    "group": "4W",
+    "url": "/tyres/4w/amazer_4g_life",
+    "tagline": "Runs up to 1 Lakh Kilometers",
+    "description": "A high durability tyre for small cars and hatchbacks, offering improved mileage, enhanced braking and increased resistance to punctures. Cross all milestones with AMAZER 4G LIFE’s long lasting performance.",
+    "image_urls": [
+      "/images/tyres/4W/amazer_4g_life_1.png",
+      "/images/tyres/4W/amazer_4g_life_2.png"
+    ],
+    "features": [
+      {
+        "Enhanced Safety & Durability": "Solid and robust shoulder blocks for enhanced safety in extreme situations. \n 100000+ kms. tyre life"
+      },
+      {
+        "Hassle-free Long Life": "High-mileage tread compound enabling the tyre to last up to 1 lakh kilometres. \n Impact resistance and structural durability on bad roads"
+      },
+      {
+        "High Puncture Resistance": "High-strength cap ply and belt construction for worry-free driving. \n Superior resistance to nail penetration"
+      }
+    ],
+    "ideal_for": [
+      "CAR"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "145/80 R12",
+        "width_mm": 145,
+        "aspect_ratio": 80,
+        "rim_diameter": 12,
+        "load_index": 74,
+        "speed_rating": "T"
+      },
+      {
+        "size": "145/70 R12",
+        "width_mm": 145,
+        "aspect_ratio": 70,
+        "rim_diameter": 12,
+        "load_index": 69,
+        "speed_rating": "T"
+      },
+      {
+        "size": "145/80 R12",
+        "width_mm": 145,
+        "aspect_ratio": 80,
+        "rim_diameter": 12,
+        "load_index": 74,
+        "speed_rating": "T"
+      },
+      {
+        "size": "145/80 R12",
+        "width_mm": 145,
+        "aspect_ratio": 80,
+        "rim_diameter": 12,
+        "load_index": 74,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/70 R13",
+        "width_mm": 165,
+        "aspect_ratio": 70,
+        "rim_diameter": 13,
+        "load_index": 79,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/65 R13",
+        "width_mm": 165,
+        "aspect_ratio": 65,
+        "rim_diameter": 13,
+        "load_index": 77,
+        "speed_rating": "T"
+      },
+      {
+        "size": "175/70 R13",
+        "width_mm": 175,
+        "aspect_ratio": 70,
+        "rim_diameter": 13,
+        "load_index": 82,
+        "speed_rating": "T"
+      },
+      {
+        "size": "155/65 R13",
+        "width_mm": 155,
+        "aspect_ratio": 65,
+        "rim_diameter": 13,
+        "load_index": 73,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/65 R13",
+        "width_mm": 165,
+        "aspect_ratio": 65,
+        "rim_diameter": 13,
+        "load_index": 77,
+        "speed_rating": "T"
+      },
+      {
+        "size": "155/70 R13",
+        "width_mm": 155,
+        "aspect_ratio": 70,
+        "rim_diameter": 13,
+        "load_index": 75,
+        "speed_rating": "T"
+      },
+      {
+        "size": "145/70 R13",
+        "width_mm": 145,
+        "aspect_ratio": 70,
+        "rim_diameter": 13,
+        "load_index": 71,
+        "speed_rating": "T"
+      },
+      {
+        "size": "145/80 R13",
+        "width_mm": 145,
+        "aspect_ratio": 80,
+        "rim_diameter": 13,
+        "load_index": 75,
+        "speed_rating": "T"
+      },
+      {
+        "size": "155/80 R13",
+        "width_mm": 155,
+        "aspect_ratio": 80,
+        "rim_diameter": 13,
+        "load_index": 79,
+        "speed_rating": "T"
+      },
+      {
+        "size": "175/65 R14",
+        "width_mm": 175,
+        "aspect_ratio": 65,
+        "rim_diameter": 14,
+        "load_index": 82,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/80 R14",
+        "width_mm": 165,
+        "aspect_ratio": 80,
+        "rim_diameter": 14,
+        "load_index": 85,
+        "speed_rating": "T"
+      },
+      {
+        "size": "155/65 R14",
+        "width_mm": 155,
+        "aspect_ratio": 65,
+        "rim_diameter": 14,
+        "load_index": 75,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/70 R14",
+        "width_mm": 165,
+        "aspect_ratio": 70,
+        "rim_diameter": 14,
+        "load_index": 81,
+        "speed_rating": "T"
+      },
+      {
+        "size": "175/65 R14",
+        "width_mm": 175,
+        "aspect_ratio": 65,
+        "rim_diameter": 14,
+        "load_index": 82,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/65 R14",
+        "width_mm": 165,
+        "aspect_ratio": 65,
+        "rim_diameter": 14,
+        "load_index": 79,
+        "speed_rating": "T"
+      },
+      {
+        "size": "155/70 R14",
+        "width_mm": 155,
+        "aspect_ratio": 70,
+        "rim_diameter": 14,
+        "load_index": 77,
+        "speed_rating": "T"
+      },
+      {
+        "size": "185/70 R14",
+        "width_mm": 185,
+        "aspect_ratio": 70,
+        "rim_diameter": 14,
+        "load_index": 88,
+        "speed_rating": "T"
+      },
+      {
+        "size": "185/65 R15",
+        "width_mm": 185,
+        "aspect_ratio": 65,
+        "rim_diameter": 15,
+        "load_index": 88,
+        "speed_rating": "T"
+      },
+      {
+        "size": "185/60 R15",
+        "width_mm": 185,
+        "aspect_ratio": 60,
+        "rim_diameter": 15,
+        "load_index": 88,
+        "speed_rating": "T"
+      },
+      {
+        "size": "205/65 R15",
+        "width_mm": 205,
+        "aspect_ratio": 65,
+        "rim_diameter": 15,
+        "load_index": 94,
+        "speed_rating": "T"
+      },
+      {
+        "size": "205/65 R16",
+        "width_mm": 205,
+        "aspect_ratio": 65,
+        "rim_diameter": 16,
+        "load_index": 95,
+        "speed_rating": "T"
+      }
+    ],
+    "related_products": [
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "name": "APTERRA CROSS",
+    "group": "4W",
+    "url": "/tyres/4w/apterra_cross",
+    "tagline": "For Adventures in the Urban Jungle",
+    "description": "Cross the urban jungle with unflinching precision and ease with Apollo APTERRA CROSS. A class-leading tyre for compact SUVs.",
+    "image_urls": [
+      "/images/tyres/4W/apterra_cross_2.png",
+      "/images/tyres/4W/apterra_cross_1.png"
+    ],
+    "features": [
+      {
+        "Best-in-class Mileage and Durability": "Twin steel belt construction with JCP protection for higher puncture resistance."
+      },
+      {
+        "Great Handling & Braking": "Balanced stiffness of tread block for superior handling and braking performance."
+      },
+      {
+        "Unmatched Ride Comfort": "Rounder contact patch to lower road noise and vibrations and ensure greater ride comfort."
+      }
+    ],
+    "ideal_for": [
+      "SUV"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "195/60 R16",
+        "width_mm": 195,
+        "aspect_ratio": 60,
+        "rim_diameter": 16,
+        "load_index": 89,
+        "speed_rating": "V"
+      },
+      {
+        "size": "215/60 R16",
+        "width_mm": 215,
+        "aspect_ratio": 60,
+        "rim_diameter": 16,
+        "load_index": 95,
+        "speed_rating": "H"
+      },
+      {
+        "size": "205/60 R16",
+        "width_mm": 205,
+        "aspect_ratio": 60,
+        "rim_diameter": 16,
+        "load_index": 92,
+        "speed_rating": "H"
+      },
+      {
+        "size": "215/65 R16",
+        "width_mm": 215,
+        "aspect_ratio": 65,
+        "rim_diameter": 16,
+        "load_index": 98,
+        "speed_rating": "H"
+      },
+      {
+        "size": "215/55 R18",
+        "width_mm": 215,
+        "aspect_ratio": 55,
+        "rim_diameter": 18,
+        "load_index": 95,
+        "speed_rating": "H"
+      }
+    ],
+    "related_products": [
+      24,
+      23,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "name": "APTERRA HL",
+    "group": "4W",
+    "url": "/tyres/4w/apterra_hl",
+    "tagline": "Excellent comfort highway tyres",
+    "description": "The Apterra HL offers high traction, good comfort, moderate life.",
+    "image_urls": [
+      "/images/tyres/4W/apterra_hl_1.png",
+      "/images/tyres/4W/apterra_hl_2.png"
+    ],
+    "features": [
+      {
+        "Excellent wet and dry performance": "Assymetric  Pattern. \n Superior wet and dry performance"
+      },
+      {
+        "Excellent directional stability": "Circumferential grooves. \n Highly reliable at high speeds"
+      },
+      {
+        "Good steering response": "Robust Construction. \n Excellent handling"
+      },
+      {
+        "Low noise": "Optimised pattern"
+      }
+    ],
+    "ideal_for": [
+      "SUV"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "205/65 R16",
+        "width_mm": 205,
+        "aspect_ratio": 65,
+        "rim_diameter": 16,
+        "load_index": 95,
+        "speed_rating": "S"
+      }
+    ],
+    "related_products": [
+      24,
+      25,
+      23,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "name": "APTERRA HP",
+    "group": "4W",
+    "url": "/tyres/4w/apterra_hp",
+    "tagline": "For High Performance On-road Driving",
+    "description": "Bring every destination closer with APTERRA HP’s enduring design and enhanced handling. A strengthened shoulder and stiffness optimised longitudinal ribs always keep your SUV planted at highway speeds.",
+    "image_urls": [
+      "/images/tyres/4W/apterra_hp_1.png",
+      "/images/tyres/4W/apterra_hp_2.png"
+    ],
+    "features": [
+      {
+        "Exceptional Wet Handling": "Wider grooves to help avoid hydroplaning and to keep you on track. \n Enhanced steering response"
+      },
+      {
+        "Enhanced Vehicle Stability": "Precision steering response enabled by stabiliser grooves on the shoulder rib. \n Better stability"
+      },
+      {
+        "Superior Driving Precision": "High quality rubber compound with unique tread design for effortless cornering and overtakes. \n Better dry braking"
+      },
+      {
+        "Low noise": "Optimised pattern"
+      }
+    ],
+    "ideal_for": [
+      "SUV"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "215/70 R16",
+        "width_mm": 215,
+        "aspect_ratio": 70,
+        "rim_diameter": 16,
+        "load_index": 100,
+        "speed_rating": "H"
+      },
+      {
+        "size": "235/70 R16",
+        "width_mm": 235,
+        "aspect_ratio": 70,
+        "rim_diameter": 16,
+        "load_index": 105,
+        "speed_rating": "H"
+      }
+    ],
+    "related_products": [
+      24,
+      25,
+      26,
+      23,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "name": "APTERRA HT",
+    "group": "4W",
+    "url": "/tyres/4w/apterra_ht",
+    "tagline": "For Maximum Durability and Grip",
+    "description": "No terrain is tough enough when you ride with Apollo APTERRA. Max up your traction, conquer every terrain with APTERRA HT, an SUV tyre for superior all-round performance on an off the road.",
+    "image_urls": [
+      "/images/tyres/4W/apterra_ht_1.png"
+    ],
+    "features": [
+      {
+        "Highly Puncture Resistant": "High-strength dual cap ply construction that keeps punctures at bay. \n Superior life time performance"
+      },
+      {
+        "Maximum Life & Durability": "Rugged shoulder blocks for rolling over hurdles and protecting tyre strength. \n Fast and precise steering response"
+      },
+      {
+        "Outstanding Gripping Power": "Wider contact patch for maximum traction on dry, wet and muddy tracks. \n Improved safety on wet road with optimum  off-road Performance"
+      }
+    ],
+    "ideal_for": [
+      "SUV"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "235/75 R15",
+        "width_mm": 235,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 105,
+        "speed_rating": "S"
+      },
+      {
+        "size": "215/75 R15",
+        "width_mm": 215,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 100,
+        "speed_rating": "S"
+      },
+      {
+        "size": "235/75 R15",
+        "width_mm": 235,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 105,
+        "speed_rating": "S"
+      },
+      {
+        "size": "255/70 R15",
+        "width_mm": 255,
+        "aspect_ratio": 70,
+        "rim_diameter": 15,
+        "load_index": 108,
+        "speed_rating": "S"
+      },
+      {
+        "size": "215/75 R15",
+        "width_mm": 215,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 100,
+        "speed_rating": "S"
+      },
+      {
+        "size": "235/70 R16",
+        "width_mm": 235,
+        "aspect_ratio": 70,
+        "rim_diameter": 16,
+        "load_index": 105,
+        "speed_rating": "S"
+      }
+    ],
+    "related_products": [
+      24,
+      25,
+      26,
+      27,
+      23,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "name": "APTERRA HT 2",
+    "group": "4W",
+    "url": "/tyres/4w/apterra_ht2",
+    "tagline": "Super Silent Tyre for Outstanding Lifetime Comfort",
+    "description": "Don’t let rough roads hamper your driving experience. Glide over the bumps on the road with APTERRA HT2 in quiet comfort. Features specially designed tyre contours for smoother drives .",
+    "image_urls": [
+      "/images/tyres/4W/apterra_ht2_1.png",
+      "/images/tyres/4W/apterra_ht2_2.png"
+    ],
+    "features": [
+      {
+        " Longer service  life ": "Helically-designed pitch line for uniform load distribution and minimising vibrations. \n Superior life time performance"
+      },
+      {
+        "Highly comfortable even on rough roads": "Reinforced shoulder blocks that enable high cornering stability on and off road. \n Fast and precise steering response"
+      },
+      {
+        "Excellent Safety during high speed driving and braking ": "Lightning shaped sipes to optimise 4-pitch sequencing and minimising tyre noise. \n Improved safety on wet road with optimum  off-road Performance"
+      }
+    ],
+    "ideal_for": [
+      "SUV"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "215/75 R15",
+        "width_mm": 215,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 100,
+        "speed_rating": "T"
+      },
+      {
+        "size": "215/75 R15",
+        "width_mm": 215,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 100,
+        "speed_rating": "T"
+      },
+      {
+        "size": "215/75 R15",
+        "width_mm": 215,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 100,
+        "speed_rating": "T"
+      },
+      {
+        "size": "235/70 R16",
+        "width_mm": 235,
+        "aspect_ratio": 70,
+        "rim_diameter": 16,
+        "load_index": 105,
+        "speed_rating": "H"
+      },
+      {
+        "size": "215/65 R16",
+        "width_mm": 215,
+        "aspect_ratio": 65,
+        "rim_diameter": 16,
+        "load_index": 98,
+        "speed_rating": "H"
+      },
+      {
+        "size": "215/65 R16",
+        "width_mm": 215,
+        "aspect_ratio": 65,
+        "rim_diameter": 16,
+        "load_index": 98,
+        "speed_rating": "H"
+      },
+      {
+        "size": "235/60 R16",
+        "width_mm": 235,
+        "aspect_ratio": 60,
+        "rim_diameter": 16,
+        "load_index": 100,
+        "speed_rating": "H"
+      },
+      {
+        "size": "235/65 R17",
+        "width_mm": 235,
+        "aspect_ratio": 65,
+        "rim_diameter": 17,
+        "load_index": 104,
+        "speed_rating": "H"
+      },
+      {
+        "size": "265/65 R17",
+        "width_mm": 265,
+        "aspect_ratio": 65,
+        "rim_diameter": 17,
+        "load_index": 112,
+        "speed_rating": "H"
+      },
+      {
+        "size": "235/60 R17",
+        "width_mm": 235,
+        "aspect_ratio": 60,
+        "rim_diameter": 17,
+        "load_index": 102,
+        "speed_rating": "H"
+      },
+      {
+        "size": "245/65 R17",
+        "width_mm": 245,
+        "aspect_ratio": 65,
+        "rim_diameter": 17,
+        "load_index": 107,
+        "speed_rating": "H"
+      },
+      {
+        "size": "225/60 R17",
+        "width_mm": 225,
+        "aspect_ratio": 60,
+        "rim_diameter": 17,
+        "load_index": 99,
+        "speed_rating": "H"
+      },
+      {
+        "size": "235/60 R18",
+        "width_mm": 235,
+        "aspect_ratio": 60,
+        "rim_diameter": 18,
+        "load_index": 107,
+        "speed_rating": "V"
+      },
+      {
+        "size": "255/60 R18",
+        "width_mm": 255,
+        "aspect_ratio": 60,
+        "rim_diameter": 18,
+        "load_index": 108,
+        "speed_rating": "H"
+      },
+      {
+        "size": "265/60 R18",
+        "width_mm": 265,
+        "aspect_ratio": 60,
+        "rim_diameter": 18,
+        "load_index": 114,
+        "speed_rating": "H"
+      },
+      {
+        "size": "255/60 R18",
+        "width_mm": 255,
+        "aspect_ratio": 60,
+        "rim_diameter": 18,
+        "load_index": 108,
+        "speed_rating": "S"
+      },
+      {
+        "size": "235/55 R19",
+        "width_mm": 235,
+        "aspect_ratio": 55,
+        "rim_diameter": 19,
+        "load_index": 105,
+        "speed_rating": "H"
+      }
+    ],
+    "related_products": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      23,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "name": "Apterra AT2",
+    "group": "4W",
+    "url": "/tyres/4w/apterra_at2",
+    "tagline": "For the Roads, Not on the Map",
+    "description": "Discover the roads not taken with Apterra AT2, an all terrain SUV tyre by Apollo Tyres. Features patented multi-directional tread design for those who crave adventure at every turn.",
+    "image_urls": [
+      "/images/tyres/4W/apterra_at2_1.png",
+      "/images/tyres/4W/apterra_at2_2.png"
+    ],
+    "features": [
+      {
+        "All Terrain Traction": "SAW-TOOTH shoulder technology for high levels of traction in mud and sand."
+      },
+      {
+        "Puncture Resistant & Durable": "Triplex casing and polymer-blend compound with DPF technology for outstanding all-terrain performance."
+      },
+      {
+        "High Precision Control": "Herringbone grooves with wider tread for water dispersion and quick steering response."
+      }
+    ],
+    "ideal_for": [
+      "SUV"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "265/70 R15",
+        "width_mm": 265,
+        "aspect_ratio": 70,
+        "rim_diameter": 15,
+        "load_index": 112,
+        "speed_rating": "T"
+      },
+      {
+        "size": "215/75 R15",
+        "width_mm": 215,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 100,
+        "speed_rating": "T"
+      },
+      {
+        "size": "225/70 R15",
+        "width_mm": 225,
+        "aspect_ratio": 70,
+        "rim_diameter": 15,
+        "load_index": 100,
+        "speed_rating": "T"
+      },
+      {
+        "size": "31/10 R15",
+        "width_mm": 31,
+        "aspect_ratio": 10,
+        "rim_diameter": 15,
+        "load_index": 109,
+        "speed_rating": "S"
+      },
+      {
+        "size": "235/75 R15",
+        "width_mm": 235,
+        "aspect_ratio": 75,
+        "rim_diameter": 15,
+        "load_index": 105,
+        "speed_rating": "T"
+      },
+      {
+        "size": "235/60 R16",
+        "width_mm": 235,
+        "aspect_ratio": 60,
+        "rim_diameter": 16,
+        "load_index": 100,
+        "speed_rating": "H"
+      },
+      {
+        "size": "245/75 R16",
+        "width_mm": 245,
+        "aspect_ratio": 75,
+        "rim_diameter": 16,
+        "load_index": 115,
+        "speed_rating": "T"
+      },
+      {
+        "size": "245/70 R16",
+        "width_mm": 245,
+        "aspect_ratio": 70,
+        "rim_diameter": 16,
+        "load_index": 111,
+        "speed_rating": "T"
+      },
+      {
+        "size": "235/70 R16",
+        "width_mm": 235,
+        "aspect_ratio": 70,
+        "rim_diameter": 16,
+        "load_index": 105,
+        "speed_rating": "H"
+      },
+      {
+        "size": "275/65 R17",
+        "width_mm": 275,
+        "aspect_ratio": 65,
+        "rim_diameter": 17,
+        "load_index": "121/118",
+        "speed_rating": "S"
+      },
+      {
+        "size": "175/60 R17",
+        "width_mm": 175,
+        "aspect_ratio": 60,
+        "rim_diameter": 17,
+        "load_index": 110,
+        "speed_rating": "H"
+      },
+      {
+        "size": "235/65 R17",
+        "width_mm": 235,
+        "aspect_ratio": 65,
+        "rim_diameter": 17,
+        "load_index": 104,
+        "speed_rating": "H"
+      },
+      {
+        "size": "265/65 R17",
+        "width_mm": 265,
+        "aspect_ratio": 65,
+        "rim_diameter": 17,
+        "load_index": 112,
+        "speed_rating": "H"
+      },
+      {
+        "size": "265/60 R18",
+        "width_mm": 265,
+        "aspect_ratio": 60,
+        "rim_diameter": 18,
+        "load_index": 110,
+        "speed_rating": "H"
+      }
+    ],
+    "related_products": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      23,
+      31,
+      32
+    ]
+  },
+  {
+    "name": "Amazer XP",
+    "group": "4W",
+    "url": "/tyres/4w/amazer_xp",
+    "tagline": "Fuel-Efficient for You and the Planet.",
+    "description": "Best in class RRc and unparalleled comfort make the Apollo Amazer XP the perfect choice for your journey while its fuel-efficiency makes it the perfect choice for the environment so you can go the distance everyday and the planet can too.",
+    "image_urls": [
+      "/images/tyres/4W/amazer_xp_2.png",
+      "/images/tyres/4W/amazer_xp_1.png"
+    ],
+    "features": [
+      {
+        "Better Fuel Efficiency": "Low rolling resistance compound for better fuel efficiency"
+      },
+      {
+        "Better Ride Comfort": "Improved comfort helical placement of sipes for smooth tyre-road interaction"
+      }
+    ],
+    "ideal_for": [
+      "CAR"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "145/80 R12",
+        "width_mm": 145,
+        "aspect_ratio": 80,
+        "rim_diameter": 12,
+        "load_index": 74,
+        "speed_rating": "T"
+      },
+      {
+        "size": "155/70 R12",
+        "width_mm": 155,
+        "aspect_ratio": 70,
+        "rim_diameter": 12,
+        "load_index": 73,
+        "speed_rating": "T"
+      },
+      {
+        "size": "145/70 R12",
+        "width_mm": 145,
+        "aspect_ratio": 70,
+        "rim_diameter": 12,
+        "load_index": 69,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/80 R13",
+        "width_mm": 165,
+        "aspect_ratio": 80,
+        "rim_diameter": 13,
+        "load_index": 83,
+        "speed_rating": "T"
+      },
+      {
+        "size": "155/70 R13",
+        "width_mm": 155,
+        "aspect_ratio": 70,
+        "rim_diameter": 13,
+        "load_index": 75,
+        "speed_rating": "H"
+      },
+      {
+        "size": "175/70 R13",
+        "width_mm": 175,
+        "aspect_ratio": 70,
+        "rim_diameter": 13,
+        "load_index": 82,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/60 R13",
+        "width_mm": 165,
+        "aspect_ratio": 60,
+        "rim_diameter": 13,
+        "load_index": 73,
+        "speed_rating": "H"
+      },
+      {
+        "size": "145/70 R13",
+        "width_mm": 145,
+        "aspect_ratio": 70,
+        "rim_diameter": 13,
+        "load_index": 71,
+        "speed_rating": "H"
+      },
+      {
+        "size": "145/80 R13",
+        "width_mm": 145,
+        "aspect_ratio": 80,
+        "rim_diameter": 13,
+        "load_index": 75,
+        "speed_rating": "T"
+      },
+      {
+        "size": "175/60 R13",
+        "width_mm": 175,
+        "aspect_ratio": 60,
+        "rim_diameter": 13,
+        "load_index": 77,
+        "speed_rating": "H"
+      },
+      {
+        "size": "185/70 R14",
+        "width_mm": 185,
+        "aspect_ratio": 70,
+        "rim_diameter": 14,
+        "load_index": 88,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/70 R14",
+        "width_mm": 165,
+        "aspect_ratio": 70,
+        "rim_diameter": 14,
+        "load_index": 81,
+        "speed_rating": "T"
+      },
+      {
+        "size": "175/65 R14",
+        "width_mm": 175,
+        "aspect_ratio": 65,
+        "rim_diameter": 14,
+        "load_index": 86,
+        "speed_rating": "T"
+      },
+      {
+        "size": "165/65 R14",
+        "width_mm": 165,
+        "aspect_ratio": 65,
+        "rim_diameter": 14,
+        "load_index": 79,
+        "speed_rating": "T"
+      },
+      {
+        "size": "155/65 R14",
+        "width_mm": 155,
+        "aspect_ratio": 65,
+        "rim_diameter": 14,
+        "load_index": 75,
+        "speed_rating": "T"
+      },
+      {
+        "size": "185/60 R14",
+        "width_mm": 185,
+        "aspect_ratio": 60,
+        "rim_diameter": 14,
+        "load_index": 82,
+        "speed_rating": "H"
+      },
+      {
+        "size": "165/80 R14",
+        "width_mm": 165,
+        "aspect_ratio": 80,
+        "rim_diameter": 14,
+        "load_index": 85,
+        "speed_rating": "T"
+      },
+      {
+        "size": "185/65 R14",
+        "width_mm": 185,
+        "aspect_ratio": 65,
+        "rim_diameter": 14,
+        "load_index": 86,
+        "speed_rating": "H"
+      },
+      {
+        "size": "195/65 R15",
+        "width_mm": 195,
+        "aspect_ratio": 65,
+        "rim_diameter": 15,
+        "load_index": 91,
+        "speed_rating": "H"
+      },
+      {
+        "size": "185/55 R15",
+        "width_mm": 185,
+        "aspect_ratio": 55,
+        "rim_diameter": 15,
+        "load_index": 82,
+        "speed_rating": "H"
+      }
+    ],
+    "related_products": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      23,
+      32
+    ]
+  },
+  {
+    "name": "ALNAC 4GS",
+    "group": "4W",
+    "url": "/tyres/4w/alnac_4gs",
+    "tagline": "For Superb Handling and Braking",
+    "description": "Presenting the Alnac 4Gs with our class-leading tread design that favors superior performance every single time. Backed by 5-year manufacturing warranty, the Alnac 4GS is the ultimate city tyre for sedans and hatchbacks.",
+    "image_urls": [
+      "/images/tyres/4W/alnac_4gs_1.png",
+      "/images/tyres/4W/alnac_4gs_2.png"
+    ],
+    "features": [
+      {
+        "Excellent Vehicle Stability": "Optimized for stability and maximum contact with the road when driven at highway speeds. \n Precise steering control during lane change"
+      },
+      {
+        "Precision Control": "Class-leading 4G tread design offers precision control and traction for zippy performance in the city. \n High in steering precision"
+      },
+      {
+        "Exceptional Dry Braking": "New age tread compounds optimized for high traction and exceptional braking on dry surfaces. \n Superior  dry braking"
+      }
+    ],
+    "ideal_for": [
+      "CAR"
+    ],
+    "brochure": "/assets/4W_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "195/60 R15",
+        "width_mm": 195,
+        "aspect_ratio": 60,
+        "rim_diameter": 15,
+        "load_index": 88,
+        "speed_rating": "H"
+      },
+      {
+        "size": "175/65 R15",
+        "width_mm": 175,
+        "aspect_ratio": 65,
+        "rim_diameter": 15,
+        "load_index": 84,
+        "speed_rating": "H"
+      },
+      {
+        "size": "0/0 R16",
+        "width_mm": 0,
+        "aspect_ratio": 0,
+        "rim_diameter": 16,
+        "load_index": 95,
+        "speed_rating": "H"
+      }
+    ],
+    "related_products": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      23
+    ]
+  },
+  {
+    "name": "ENDURACE LD",
+    "group": "TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/trucks/endurace_ld",
+    "tagline": "Best in Class Regional Drive Tyre",
+    "description": "An LCV tyre for those who need better mileage, better traction, and better load carrying capabilities. When nothing else endures, ENDURACE does.",
+    "image_urls": [
+      "/images/tyres/Trucks/endurace_ld_1.png"
+    ],
+    "features": [
+      {
+        "Uniform Contact Pressure": "Even rubber distribution for better load bearing and mileage when hauling heavy loads."
+      },
+      {
+        "Cord Tension Optimisation": "CTO technology to enable longer tyre life and durability in tough road conditions. \n Highest no. of 2nd retreads"
+      },
+      {
+        "Load Bearing Technology": "Enabling better tyre ageing and retread ability without losing the structural strength."
+      }
+    ],
+    "ideal_for": [
+      "LCV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "7.50 R16",
+        "load_index": "122/118",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 7.5,
+        "diameter_mm": 814,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "7.50 R16",
+        "load_index": "124/120",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 7.5,
+        "diameter_mm": 814,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "8.25 R16",
+        "load_index": "129/127",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 8.25,
+        "diameter_mm": 857,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "295/90 R20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1065,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "10.00 R20",
+        "load_index": "146/143",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 10,
+        "diameter_mm": 1065,
+        "recommended_rim_width": 7.5,
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "8.25 R20",
+        "load_index": "137/135",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 8.25,
+        "diameter_mm": 981,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6.5
+      }
+    ],
+    "related_products": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "name": "EnduRace RAT",
+    "group": "TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "ALL WHEEL"
+    ],
+    "url": "/tyres/trucks/endurace_rat",
+    "tagline": "Best in Class Regional Drive Tyre",
+    "description": "An LCV tyre for those who need better mileage, better traction, and better load carrying capabilities. When nothing else endures, ENDURACE does.",
+    "image_urls": [
+      "/images/tyres/Trucks/endurace_rat_1.png"
+    ],
+    "features": [
+      {
+        "Uniform Contact Pressure": "Even rubber distribution for better load bearing and mileage when hauling heavy loads."
+      },
+      {
+        "Cord Tension Optimisation": "CTO technology to enable longer tyre life and durability in tough road conditions. \n Highest no. of 2nd retreads"
+      },
+      {
+        "Load Bearing Technology": "Enabling better tyre ageing and retread ability without losing the structural strength."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "9.00 R20",
+        "load_index": "142/140",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 9,
+        "diameter_mm": 1022,
+        "recommended_rim_width": 7,
+        "alternative_rim_width": "x"
+      },
+      {
+        "size": "8.25 R20",
+        "load_index": "137/135",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 8.25,
+        "diameter_mm": 982,
+        "recommended_rim_width": 6.5,
+        "alternative_rim_width": "x"
+      },
+      {
+        "size": "295/90 R20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "K",
+        "section_width_mm": 295,
+        "diameter_mm": 1064,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "295/90 R20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "K",
+        "section_width_mm": 295,
+        "diameter_mm": 1064,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "name": "ENDURACE RA",
+    "group": "TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "FRONT",
+      "ALL WHEEL"
+    ],
+    "url": "/tyres/trucks/endurace_ra",
+    "tagline": "Highest Mileage Regional All-Wheel Tyre",
+    "description": "With highest mileage and durability rating in its class, this is the tyre you need when you really need to go the distance. Take the roads not taken with Apollo ENDURACE RA.",
+    "image_urls": [
+      "/images/tyres/Trucks/endurace_ra_1.png"
+    ],
+    "features": [
+      {
+        "Robust Rib Design": "Specially engineered groove design with optimised contact patch technology for long lasting performance."
+      },
+      {
+        "Superior Belt Construction": "Well built durable carcass for enhanced puncture resistance and load bearing capabilities."
+      },
+      {
+        "Optimised Tread Pattern": "Circumferentially optimised ribs with straight grooves, higher taper angles and scooped shoulder windows for maximum traction."
+      }
+    ],
+    "ideal_for": [
+      "LCV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "7.00 R16",
+        "load_index": "115/110",
+        "ply_rating": 12,
+        "speed_symbol": "M",
+        "section_width_mm": 7,
+        "diameter_mm": 791,
+        "recommended_rim_width": 5.5,
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.00 R16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 7,
+        "diameter_mm": 791,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.50 R16",
+        "load_index": "122/118",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 7.5,
+        "diameter_mm": 806,
+        "recommended_rim_width": 6,
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "8.25 R16",
+        "load_index": "129/127",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 8.25,
+        "diameter_mm": 852,
+        "recommended_rim_width": 6.5,
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "7.50 R16",
+        "load_index": "124/120",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 7.5,
+        "diameter_mm": 806,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "225/75 R17.5",
+        "load_index": "129/127",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 228,
+        "diameter_mm": 783,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "225/75 R17.5",
+        "load_index": "129/127",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 228,
+        "diameter_mm": 783,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "235/75 R17.5",
+        "load_index": "132/130",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 235,
+        "diameter_mm": 803,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "235/75R17.5",
+        "load_index": "132/130",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 235,
+        "diameter_mm": 803,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "245/70 R17.5",
+        "load_index": "136/134",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 245,
+        "diameter_mm": 791,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      33,
+      34,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "name": "ENDURACE MA326",
+    "group": "TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "ALL WHEEL"
+    ],
+    "url": "/tyres/trucks/endurace_ma326",
+    "tagline": "Reinforced Truck Tyre for Moderate Loads",
+    "description": "Upgrade your fleet with better stability, ride quality, and mileage with Apollo EnduRace. With its unique multi axle pattern and deep treads the EnduRace MA 326 is a highly durable and cost effective product for truck and bus vehicles.",
+    "image_urls": [
+      "/images/tyres/Trucks/endurace_ma_1.png"
+    ],
+    "features": [
+      {
+        "Multi Axle Grip Pattern": "For ultimate steer and traction performance for the driver."
+      },
+      {
+        "Deep Treads with Reinforced Carcass": "Gives longer tread life and allows multiple retreading ability for cost effective operability."
+      },
+      {
+        "Superior Bead Durability": "Chip and cut resistant compound ensures long lasting performance and structural soundness"
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "295/90 R20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1062,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      34,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "name": "EnduComfort CA2",
+    "group": "TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "ALL WHEEL"
+    ],
+    "url": "/tyres/trucks/enducomfort_ca2",
+    "tagline": "Designed for Ultimate Comfort on the Go",
+    "description": "With EnduComfort CA2, enjoy unparalleled comfort and stability in your cargo operations. Engineered with advanced technology to ensure a smooth and pleasant ride experience.",
+    "image_urls": [
+      "/images/tyres/Trucks/enducomfort_ca2.png"
+    ],
+    "features": [
+      {
+        "Reinforced Tread Compounds": "Higher tread volume with optimally scattered ribs to ensure lower tread wear."
+      },
+      {
+        "Superior All-weather Traction": "Lateral sipes with deep cuts and adequate groove ventilation with straight circumferential grooves."
+      },
+      {
+        "Easier to Operate": "ACTO casing design with special bead design for easy operation during long haul."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "295/80 R22.5",
+        "load_index": "154/149",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 295,
+        "diameter_mm": 1057,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 9
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      34,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "name": "EnduTrax MD",
+    "group": "TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/trucks/endutrax_md",
+    "tagline": "Best On / Off Road Tyre for Higher Up-time",
+    "description": "Stay on track, always, with EnduTrax MD. Higher up-time with enhanced design and construction to reduce tyre maintenance and improve your bottom lines. Meant for Mixed Application, to be fitted in tipper trucks & tip trailers in Drive Position.",
+    "image_urls": [
+      "/images/tyres/Trucks/endutrax_md.png"
+    ],
+    "features": [
+      {
+        "Strengthened Bead Area": "Reinforced bead design minimizes deformation, ensuring stability and longer tyre life."
+      },
+      {
+        "Enhanced Traction & Grip": "Rugged block pattern provides superior traction and grip on varied terrains."
+      },
+      {
+        "Superior Cut & Chip Resistant Compound for Tough Terrains": "Durable compound resists cuts and chips, ensuring reliable performance on rough roads."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "11.00 R20",
+        "load_index": "150/147",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 11,
+        "diameter_mm": 1095,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 8
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      37,
+      34,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "name": "Amar Gold",
+    "group": "TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "FRONT"
+    ],
+    "url": "/tyres/trucks/amar_gold",
+    "tagline": "Rib Tyre for Heavy Duty Regional & Mixed Operations",
+    "description": "Overtake every obstacle, overcome every challenge, go the distance with Apollo AMAR GOLD bias tyres for regional haulage and mixed operations.",
+    "image_urls": [
+      "/images/tyres/Trucks/amar_gold.png"
+    ],
+    "features": [
+      {
+        "Improved Cord Insulation": "Offers better casing integrity and protects the tyre structure during heavy load operations."
+      },
+      {
+        "Heat Resistant Durable Compound": "Prevents premature tyre ageing caused by heat build up during extended haulage runs. \n 6.5% lower heat build up"
+      },
+      {
+        "Universal Steer Application": "A steer friendly tread compound and design to make it easier to drive for long haul operations."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "295/95 D20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1091,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "10.00-20",
+        "load_index": "146/142",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 10,
+        "diameter_mm": 1082,
+        "recommended_rim_width": 0,
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "9.00-20",
+        "load_index": "142/137",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 9,
+        "diameter_mm": 1055,
+        "recommended_rim_width": 7,
+        "alternative_rim_width": 7
+      },
+      {
+        "size": "8.25-20",
+        "load_index": "137/132",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 8.25,
+        "diameter_mm": 997,
+        "recommended_rim_width": 6.5,
+        "alternative_rim_width": 6.5
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      34,
+      40,
+      41
+    ]
+  },
+  {
+    "name": "XT100 HD",
+    "group": "TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/trucks/xt100_hd",
+    "tagline": "25% Higher Casing Strength for Regional Operations",
+    "description": "Made for rugged performance, Apollo XT-100 HD offers superior durability and reliability in regional haulage. Tackle tough terrains with confidence, get optimal traction and extend tyre life for your fleet.",
+    "image_urls": [
+      "/images/tyres/Trucks/xt100_hd_1.png",
+      "/images/tyres/Trucks/xt100_hd_2.png"
+    ],
+    "features": [
+      {
+        "Extra Tread Depth": "Extra tread depth with MMT technology for highest mileage combined with superior load carrying capability."
+      },
+      {
+        "Higher Carcass Strength": "High strength fabric for excellent carcass strength and durability."
+      },
+      {
+        "Better Casing Insulation": "Improved Cord Insulation for better casing integrity and cooler running under heavy load."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "295/95 D20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1086,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      34,
+      41
+    ]
+  },
+  {
+    "name": "XT-9 Gold",
+    "group": "TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/trucks/xt9_gold",
+    "tagline": "The Preferred Choice for High Mileage & Retread ability",
+    "description": "Go the distance without giving it a second thought. Apollo XT-9 Gold offers long lasting performance that goes on and on with higher mileage and retread potential.",
+    "image_urls": [
+      "/images/tyres/Trucks/xt9_gold.png"
+    ],
+    "features": [
+      {
+        "High Tread Depth": "Reinforced compound that slows tread wear and offers superior mileage."
+      },
+      {
+        "Improved Heat Dissipation": "Progressively opening grooves to ensure stable handling when reaching highway speeds for prolonged periods."
+      },
+      {
+        "Superior Traction": "Wavy tread lug configuration for solid grip and improved handling performance."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "10.00-20",
+        "load_index": "146/142",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 10,
+        "diameter_mm": 1082,
+        "recommended_rim_width": 7.5,
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "295/95 D20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1088,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      34
+    ]
+  },
+  {
+    "name": "ENDURACE RA",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "ALL WHEEL",
+      "FRONT"
+    ],
+    "url": "/tyres/non-trucks/endurace_ra",
+    "tagline": "Highest Mileage Regional All-Wheel Tyre",
+    "description": "With highest mileage and durability rating in its class, this is the tyre you need when you really need to go the distance. Take the roads not taken with Apollo ENDURACE RA.",
+    "image_urls": [
+      "/images/tyres/Trucks/endurace_ra_1.png"
+    ],
+    "features": [
+      {
+        "Robust Rib Design": "Specially engineered groove design with optimised contact patch technology for long lasting performance."
+      },
+      {
+        "Superior Belt Construction": "Well built durable carcass for enhanced puncture resistance and load bearing capabilities."
+      },
+      {
+        "Optimised Tread Pattern": "Circumferentially optimised ribs with straight grooves, higher taper angles and scooped shoulder windows for maximum traction."
+      }
+    ],
+    "ideal_for": [
+      "LCV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "7.00 R16",
+        "load_index": "115/110",
+        "ply_rating": 12,
+        "speed_symbol": "M",
+        "section_width_mm": 7,
+        "diameter_mm": 791,
+        "recommended_rim_width": 5.5,
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.00 R16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 7,
+        "diameter_mm": 791,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.50 R16",
+        "load_index": "122/118",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 7.5,
+        "diameter_mm": 806,
+        "recommended_rim_width": 6,
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "8.25 R16",
+        "load_index": "129/127",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 8.25,
+        "diameter_mm": 852,
+        "recommended_rim_width": 6.5,
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "7.50 R16",
+        "load_index": "124/120",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 7.5,
+        "diameter_mm": 806,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "225/75 R17.5",
+        "load_index": "129/127",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 228,
+        "diameter_mm": 783,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "225/75 R17.5",
+        "load_index": "129/127",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 228,
+        "diameter_mm": 783,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "235/75 R17.5",
+        "load_index": "132/130",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 235,
+        "diameter_mm": 803,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "235/75R17.5",
+        "load_index": "132/130",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 235,
+        "diameter_mm": 803,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "245/70 R17.5",
+        "load_index": "136/134",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 245,
+        "diameter_mm": 791,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "name": "ENDURACE LD",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "ALL WHEEL",
+      "FRONT",
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/endurace_ld",
+    "tagline": "Best in Class Regional Drive Tyre",
+    "description": "An LCV tyre for those who need better mileage, better traction, and better load carrying capabilities. When nothing else endures, ENDURACE does.",
+    "image_urls": [
+      "/images/tyres/Trucks/endurace_ld_1.png"
+    ],
+    "features": [
+      {
+        "Uniform Contact Pressure": "Even rubber distribution for better load bearing and mileage when hauling heavy loads."
+      },
+      {
+        "Cord Tension Optimisation": "CTO technology to enable longer tyre life and durability in tough road conditions. \n Highest no. of 2nd retreads"
+      },
+      {
+        "Load Bearing Technology": "Enabling better tyre ageing and retread ability without losing the structural strength."
+      }
+    ],
+    "ideal_for": [
+      "LCV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "7.50 R16",
+        "load_index": "122/118",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 7.5,
+        "diameter_mm": 814,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "7.50 R16",
+        "load_index": "124/120",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 7.5,
+        "diameter_mm": 814,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "8.25 R16",
+        "load_index": "129/127",
+        "ply_rating": 16,
+        "speed_symbol": "M",
+        "section_width_mm": 8.25,
+        "diameter_mm": 857,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      }
+    ],
+    "related_products": [
+      42,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "name": "Endumaxx LT",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "ALL WHEEL"
+    ],
+    "url": "/tyres/non-trucks/endumaxx_lt",
+    "tagline": "Heavy Loads Meets its Match",
+    "description": "Engineered for durability and safety for heavy load transport.. Experience unmatched performance and longevity, making every journey efficient and worry-free. Trust Apollo, carry heavier, travel farther.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/endumaxx_lt.png"
+    ],
+    "features": [
+      {
+        "Better Wet and Dry Traction": "Zig Zag grooves that stick to the road and ensure traction in challenging conditions."
+      },
+      {
+        "Reduced Uneven Wear": "Stiﬀened blocks for cornering capabilities wider shoulder to reduce wear and tear."
+      },
+      {
+        "Long Lasting Performance": "Better heat dissipation ensures that your tyres run cooler and longer than ever before."
+      }
+    ],
+    "ideal_for": [
+      "Pick up"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "185 R14",
+        "load_index": "107/105",
+        "ply_rating": 10,
+        "speed_symbol": "R",
+        "section_width_mm": 185,
+        "diameter_mm": 653,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "165 R14",
+        "load_index": "97/95",
+        "ply_rating": 8,
+        "speed_symbol": "R",
+        "section_width_mm": 165,
+        "diameter_mm": 624,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 4.5
+      },
+      {
+        "size": "185 R14",
+        "load_index": "107/105",
+        "ply_rating": 10,
+        "speed_symbol": "R",
+        "section_width_mm": 185,
+        "diameter_mm": 653,
+        "recommended_rim_width": 0,
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "165 R14",
+        "load_index": "97/95",
+        "ply_rating": 8,
+        "speed_symbol": "R",
+        "section_width_mm": 165,
+        "diameter_mm": 624,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 4.5
+      },
+      {
+        "size": "195 R15",
+        "load_index": "107/105",
+        "ply_rating": 8,
+        "speed_symbol": "R",
+        "section_width_mm": 195,
+        "diameter_mm": 696,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "215/75 R15",
+        "load_index": "115/113",
+        "ply_rating": 8,
+        "speed_symbol": "S",
+        "section_width_mm": 215,
+        "diameter_mm": 704,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "195 R15",
+        "load_index": "107/105",
+        "ply_rating": 8,
+        "speed_symbol": "R",
+        "section_width_mm": 195,
+        "diameter_mm": 696,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.00 R15",
+        "load_index": "114/109",
+        "ply_rating": 12,
+        "speed_symbol": "Q",
+        "section_width_mm": 7,
+        "diameter_mm": 752,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 4
+      },
+      {
+        "size": "195 R15",
+        "load_index": "107/105",
+        "ply_rating": 8,
+        "speed_symbol": "R",
+        "section_width_mm": 195,
+        "diameter_mm": 696,
+        "recommended_rim_width": 0,
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.00 R15",
+        "load_index": "114/109",
+        "ply_rating": 12,
+        "speed_symbol": "Q",
+        "section_width_mm": 7,
+        "diameter_mm": 752,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 4
+      },
+      {
+        "size": "215/75 R15",
+        "load_index": "115/113",
+        "ply_rating": 8,
+        "speed_symbol": "S",
+        "section_width_mm": 215,
+        "diameter_mm": 704,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "215/75 R16",
+        "load_index": "116/114",
+        "ply_rating": 10,
+        "speed_symbol": "S",
+        "section_width_mm": 215,
+        "diameter_mm": 728,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "215/75 R16",
+        "load_index": "116/114",
+        "ply_rating": 10,
+        "speed_symbol": "S",
+        "section_width_mm": 215,
+        "diameter_mm": 728,
+        "recommended_rim_width": 0,
+        "alternative_rim_width": 6
+      }
+    ],
+    "related_products": [
+      43,
+      42,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "name": "Amar Gold",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "FRONT"
+    ],
+    "url": "/tyres/non-trucks/amar_gold",
+    "tagline": "Rib Tyre for Heavy Duty Regional & Mixed Operations",
+    "description": "Overtake every obstacle, overcome every challenge, go the distance with Apollo AMAR GOLD bias tyres for regional haulage and mixed operations.",
+    "image_urls": [
+      "/images/tyres/Trucks/amar_gold.png"
+    ],
+    "features": [
+      {
+        "Improved Cord Insulation": "Offers better casing integrity and protects the tyre structure during heavy load operations."
+      },
+      {
+        "Heat Resistant Durable Compound": "Prevents premature tyre ageing caused by heat build up during extended haulage runs. \n 6.5% lower heat build up"
+      },
+      {
+        "Universal Steer Application": "A steer friendly tread compound and design to make it easier to drive for long haul operations."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "295/95 D20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1091,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "10.00-20",
+        "load_index": "146/142",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 10,
+        "diameter_mm": 1082,
+        "recommended_rim_width": 0,
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "9.00-20",
+        "load_index": "142/137",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 9,
+        "diameter_mm": 1055,
+        "recommended_rim_width": 7,
+        "alternative_rim_width": 7
+      },
+      {
+        "size": "8.25-20",
+        "load_index": "137/132",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 8.25,
+        "diameter_mm": 997,
+        "recommended_rim_width": 6.5,
+        "alternative_rim_width": 6.5
+      }
+    ],
+    "related_products": [
+      43,
+      44,
+      42,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "name": "BHIM RIB",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "FRONT",
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/bhim_rib",
+    "tagline": "Loading ka Mahabali",
+    "description": "Specially designed for heavy loads, these tyres offer unparalleled durability and grip. Perfect for challenging terrains. Ensure your cargo's safety and your peace of mind. Choose BHIM, where strength meets reliability on every road.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/bhim_rib.png"
+    ],
+    "features": [
+      {
+        "Heavy Load Application": "Bigger and bulkier tyre with reinforced rubber to ensure heavy duty performance."
+      },
+      {
+        "Prevent Rim Digging": "Reinforced bead support to prevent tyre flex and smoother rides with full load."
+      },
+      {
+        "Better Mileage and Durability": "Optimized tyre footprint for Indian roads to ensure minimum downtime and maximum performance."
+      }
+    ],
+    "ideal_for": [
+      "Light Truck"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "165 D12",
+        "load_index": 89,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 165,
+        "diameter_mm": 579,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "155 D12",
+        "load_index": 88,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 155,
+        "diameter_mm": 562,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "155 D12",
+        "load_index": 88,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 155,
+        "diameter_mm": 566,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "165 D12",
+        "load_index": 89,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 165,
+        "diameter_mm": 575,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "165 D13",
+        "load_index": 94,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 165,
+        "diameter_mm": 607,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "165 D13",
+        "load_index": 94,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 165,
+        "diameter_mm": 604,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "195 D15",
+        "load_index": "102/99",
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 195,
+        "diameter_mm": 710,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      }
+    ],
+    "related_products": [
+      43,
+      44,
+      45,
+      42,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "name": "VIHAAN RIB",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "FRONT",
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/vihaan_rib",
+    "tagline": "Mileage Ki Shaan",
+    "description": "A game-changer for LCVs, designed for high mileage without compromising on performance. Offering superior durability and fuel efficiency. An ideal partner for long journeys.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/vihaan_rib_1.png"
+    ],
+    "features": [
+      {
+        "Exceptionally High Mileage": "Superior tread compound for higher wear resistance on Indian roads."
+      },
+      {
+        "Enhanced Heat Dissipation": "New generation ply compounds for Enhanced heat ageing resistance."
+      },
+      {
+        "Optimized Wear Zones": "More rubber mass on the wear zone to maximize mileage."
+      }
+    ],
+    "ideal_for": [
+      "LCV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "7.00-16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 806,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "8.25-16",
+        "load_index": "129/127",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 8.25,
+        "diameter_mm": 864,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6.5
+      },
+      {
+        "size": "7.00-16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 804,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "8.25-16",
+        "load_index": "129/127",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 8.25,
+        "diameter_mm": 862,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6.5
+      },
+      {
+        "size": "8.25-16",
+        "load_index": "130/128",
+        "ply_rating": 18,
+        "speed_symbol": "J",
+        "section_width_mm": 8.25,
+        "diameter_mm": 864,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6.5
+      },
+      {
+        "size": "7.00-16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 806,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.50-16",
+        "load_index": "124/120",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 7.5,
+        "diameter_mm": 826,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "7.00-16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 804,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.50-16",
+        "load_index": "124/120",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 7.5,
+        "diameter_mm": 838,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      }
+    ],
+    "related_products": [
+      43,
+      44,
+      45,
+      46,
+      42,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "name": "XT7 GOLD",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/xt7_gold",
+    "tagline": "Best in Class Regional Drive Tyre",
+    "description": "For the ones who prefer performance over everything else. Go the distance without breaking a sweat with Apollo XT-7 tyres for medium and heavy commercial vehicles.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/xt7_gold.png"
+    ],
+    "features": [
+      {
+        "Improved Cord Insulation": "Maintains casing strength when hauling higher loads at highway speeds."
+      },
+      {
+        "Heat Ageing Resistant Casing": "Enhanced durability through improved heat dissipation when driving in hot and dry weather conditions."
+      },
+      {
+        "Balanced Lug Pattern": "An all-round tread pattern that runs cooler and lasts longer with even wear and increased tear resistance."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "11.00-20",
+        "load_index": "152/147",
+        "ply_rating": 18,
+        "speed_symbol": "K",
+        "section_width_mm": 11,
+        "diameter_mm": 1107,
+        "recommended_rim_width": 8,
+        "alternative_rim_width": 8
+      },
+      {
+        "size": "295/95 D20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1080,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "10.00-20",
+        "load_index": "146/142",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 10,
+        "diameter_mm": 1075,
+        "recommended_rim_width": 7.5,
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      42,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "name": "XT-9 Gold",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/xt9_gold",
+    "tagline": "The Preferred Choice for High Mileage & Retread ability",
+    "description": "Go the distance without giving it a second thought. Apollo XT-9 Gold offers long lasting performance that goes on and on with higher mileage and retread potential.",
+    "image_urls": [
+      "/images/tyres/Trucks/xt9_gold.png"
+    ],
+    "features": [
+      {
+        "High Tread Depth": "Reinforced compound that slows tread wear and offers superior mileage."
+      },
+      {
+        "Improved Heat Dissipation": "Progressively opening grooves to ensure stable handling when reaching highway speeds for prolonged periods."
+      },
+      {
+        "Superior Traction": "Wavy tread lug configuration for solid grip and improved handling performance."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "10.00-20",
+        "load_index": "146/142",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 10,
+        "diameter_mm": 1082,
+        "recommended_rim_width": 7.5,
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "295/95 D20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1088,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      42,
+      50,
+      51
+    ]
+  },
+  {
+    "name": "BHIM LUG",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "FRONT",
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/bhim_lug",
+    "tagline": "Loading ka Mahabali",
+    "description": "Specially designed for heavy loads, these tyres offer unparalleled durability and grip. Perfect for challenging terrains. Ensure your cargo's safety and your peace of mind. Choose BHIM, where strength meets reliability on every road.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/bhim_lug.png"
+    ],
+    "features": [
+      {
+        "Heavy Load Application": "Bigger and bulkier tyre with reinforced rubber to ensure heavy duty performance."
+      },
+      {
+        "Prevent Rim Digging": "Reinforced bead support to prevent tyre flex and smoother rides with full load."
+      },
+      {
+        "Better Mileage and Durability": "Optimized tyre footprint for Indian roads to ensure minimum downtime and maximum performance."
+      }
+    ],
+    "ideal_for": [
+      "Light Truck"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "165 D12",
+        "load_index": 89,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 165,
+        "diameter_mm": 579,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "155 D12",
+        "load_index": 88,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 155,
+        "diameter_mm": 562,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "155 D12",
+        "load_index": 88,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 155,
+        "diameter_mm": 566,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "165 D12",
+        "load_index": 89,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 165,
+        "diameter_mm": 575,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "165 D13",
+        "load_index": 94,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 165,
+        "diameter_mm": 607,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "165 D13",
+        "load_index": 94,
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 165,
+        "diameter_mm": 604,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "195 D15",
+        "load_index": "102/99",
+        "ply_rating": 8,
+        "speed_symbol": "K",
+        "section_width_mm": 195,
+        "diameter_mm": 710,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      }
+    ],
+    "related_products": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      42,
+      51
+    ]
+  },
+  {
+    "name": "VIHAAN LUG",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "FRONT",
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/vihaan_lug",
+    "tagline": "Mileage Ki Shaan",
+    "description": "A game-changer for LCVs, designed for high mileage without compromising on performance. Offering superior durability and fuel efficiency. An ideal partner for long journeys.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/vihaan_lug.png"
+    ],
+    "features": [
+      {
+        "Exceptionally High Mileage": "Superior tread compound for higher wear resistance on Indian roads."
+      },
+      {
+        "Enhanced Heat Dissipation": "New generation ply compounds for Enhanced heat ageing resistance."
+      },
+      {
+        "Optimized Wear Zones": "More rubber mass on the wear zone to maximize mileage."
+      }
+    ],
+    "ideal_for": [
+      "LCV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "7.00-16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 806,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "8.25-16",
+        "load_index": "129/127",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 8.25,
+        "diameter_mm": 864,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6.5
+      },
+      {
+        "size": "7.00-16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 804,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "8.25-16",
+        "load_index": "129/127",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 8.25,
+        "diameter_mm": 862,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6.5
+      },
+      {
+        "size": "8.25-16",
+        "load_index": "130/128",
+        "ply_rating": 18,
+        "speed_symbol": "J",
+        "section_width_mm": 8.25,
+        "diameter_mm": 864,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6.5
+      },
+      {
+        "size": "7.00-16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 806,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.50-16",
+        "load_index": "124/120",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 7.5,
+        "diameter_mm": 826,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      },
+      {
+        "size": "7.00-16",
+        "load_index": "118/113",
+        "ply_rating": 14,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 804,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 5.5
+      },
+      {
+        "size": "7.50-16",
+        "load_index": "124/120",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 7.5,
+        "diameter_mm": 838,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6
+      }
+    ],
+    "related_products": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      42
+    ]
+  },
+  {
+    "name": "XT7",
+    "group": "TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/trucks/xt7",
+    "tagline": "Best in Class Regional Drive Tyre",
+    "description": "For the ones who prefer performance over everything else. Go the distance without breaking a sweat with Apollo XT-7 tyres for medium and heavy commercial vehicles.",
+    "image_urls": [
+      "/images/tyres/Trucks/xt7.png"
+    ],
+    "features": [
+      {
+        "Improved Cord Insulation": "Maintains casing strength when hauling higher loads at highway speeds."
+      },
+      {
+        "Heat Ageing Resistant Casing": "Enhanced durability through improved heat dissipation when driving in hot and dry weather conditions."
+      },
+      {
+        "Balanced Lug Pattern": "An all-round tread pattern that runs cooler and lasts longer with even wear and increased tear resistance."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "11.00-20",
+        "load_index": "152/147",
+        "ply_rating": 18,
+        "speed_symbol": "K",
+        "section_width_mm": 11,
+        "diameter_mm": 1107,
+        "recommended_rim_width": 8,
+        "alternative_rim_width": 8
+      },
+      {
+        "size": "295/95 D20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1080,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "10.00-20",
+        "load_index": "146/142",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 10,
+        "diameter_mm": 1075,
+        "recommended_rim_width": 7.5,
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      34
+    ]
+  },
+  {
+    "name": "Abhimanyu",
+    "group": "TRUCKS",
+    "tyreConstruction": "NYLON",
+    "tyrePosition": [
+      "FRONT"
+    ],
+    "url": "/tyres/trucks/abhimanyu",
+    "tagline": "Designed to Deliver the Best",
+    "description": "Setting new standards for mileage in its class. Engineered for efficiency and durability, the Apollo ABHIMANYU is the ideal choice for steer applications in the commercial segment.",
+    "image_urls": [
+      "/images/tyres/Trucks/abhimanyu.png"
+    ],
+    "features": [
+      {
+        "Best-in-Class Mileage": "Made from reinforced compounds that ensure longer tyre life, always."
+      },
+      {
+        "Heat Resistant Casing": "Cooler running tread compounds that mitigates tyre ageing from heat buildups."
+      },
+      {
+        "Better Worn-out Appearance": "Pattern and profile design that looks better, even after miles of usage."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "295/95 D20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "J",
+        "section_width_mm": 295,
+        "diameter_mm": 1090,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "11.00-20",
+        "load_index": "152/147",
+        "ply_rating": 18,
+        "speed_symbol": "J",
+        "section_width_mm": 11,
+        "diameter_mm": 1100,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 8
+      },
+      {
+        "size": "8.25-20",
+        "load_index": "137/132",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 8.25,
+        "diameter_mm": 1000,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 6.5
+      },
+      {
+        "size": "9.00-20",
+        "load_index": "142/137",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 9,
+        "diameter_mm": 1055,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      34
+    ]
+  },
+  {
+    "name": "Endurace RD",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/endurace_rd",
+    "tagline": "High Mileage Tyre for Regional Haulage",
+    "description": "Reinforced with a stress limited carcass design to give your fleet a stress-free operability. Trust the EnduRace RD for enhanced traction and a solid footprint that keeps both goods and passengers safe.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/endurace_rd.png"
+    ],
+    "features": [
+      {
+        "Highly Reinforced Tread Compound": "When mileage matter the most, trust the EnduRace RD to come on the top. \n 12% NSD in its category"
+      },
+      {
+        "Stress Limiting Carcass Design": "For multiple retreads without compromising on the structural integrity of the tyre."
+      },
+      {
+        "Optimized Central Blocks": "A squared footprint that enhances traction and ensures even wear for optimal tyre use."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "11R22.5",
+        "load_index": "148/145",
+        "ply_rating": 16,
+        "speed_symbol": "L",
+        "section_width_mm": 11,
+        "diameter_mm": 1061,
+        "recommended_rim_width": 8.25,
+        "alternative_rim_width": 8
+      },
+      {
+        "size": "235/75 R17.5",
+        "load_index": "132/130",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 238,
+        "diameter_mm": 803,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "235/75 R17.5",
+        "load_index": "132/130",
+        "ply_rating": 14,
+        "speed_symbol": "M",
+        "section_width_mm": 238,
+        "diameter_mm": 803,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "295/90 R20",
+        "load_index": "152/148",
+        "ply_rating": 0,
+        "speed_symbol": "K",
+        "section_width_mm": 295,
+        "diameter_mm": 1066,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": 7.5
+      }
+    ],
+    "related_products": [
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      34
+    ]
+  },
+  {
+    "name": "Endurace RT",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "TRAILER"
+    ],
+    "url": "/tyres/non-trucks/endurace_rt",
+    "tagline": "Retreadable Regional Trailer Tyre",
+    "description": "For the trailblazers transforming trucking and haulage. The EnduRace RT is specially developed for heavy trailer usage and enables cost efficient operations through its strong construction that can support multiple retreads.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/endurace_rt.png"
+    ],
+    "features": [
+      {
+        "Wider Tread Design": "Get superior mileage with long lasting, high strength tread blocks."
+      },
+      {
+        "Stronger Sidewall Design": "A robust sidewall that is optimized for structural durability. \n Extra wide scrub resistance shoulder"
+      },
+      {
+        "Scrub Reistant Compound": "Strengthened rubber that withstands common scrubs during loading and unloading operations."
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "385/65 R22.5",
+        "load_index": 160,
+        "ply_rating": 20,
+        "speed_symbol": "K",
+        "section_width_mm": 385,
+        "diameter_mm": 1071,
+        "recommended_rim_width": 11.75,
+        "alternative_rim_width": 8.25
+      },
+      {
+        "size": "245/70 R17.5",
+        "load_index": "143/141",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 248,
+        "diameter_mm": 790,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "235/75 R17.5",
+        "load_index": "143/141",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 238,
+        "diameter_mm": 800,
+        "recommended_rim_width": 6.75,
+        "alternative_rim_width": 6.75
+      },
+      {
+        "size": "215/75 R17.5",
+        "load_index": "135/133",
+        "ply_rating": 16,
+        "speed_symbol": "J",
+        "section_width_mm": 213,
+        "diameter_mm": 769,
+        "recommended_rim_width": 6,
+        "alternative_rim_width": 6
+      }
+    ],
+    "related_products": []
+  },
+  {
+    "name": "Endurace MA",
+    "group": "NON-TRUCKS",
+    "tyreConstruction": "RADIAL",
+    "tyrePosition": [
+      "DRIVE"
+    ],
+    "url": "/tyres/non-trucks/endurace_ma",
+    "tagline": "Superior Handling at Lowest Cost Per Mile",
+    "description": "A tyre to handle your goods and your haulage costs with care. The robust design and superior handling of ENDURACE MA keeps you on budget and on track on every road you travel.",
+    "image_urls": [
+      "/images/tyres/Non-Trucks/endurace_ma.png"
+    ],
+    "features": [
+      {
+        "4 Rib Robust Tread Design": "Optimized contact pressure technology with wider shoulder design to ensure better mileage. \n Highest NSD in this category"
+      },
+      {
+        "Zig Zag Channelized Grooves": "With stress relieving sipes for increased grip during both dry and wet weather haulage runs. \n Pressure distribution picture"
+      },
+      {
+        "Concussion Shield Technology": "Reduced stress in tyres through cord optimization to ensure structural integrity at highway speeds. \n Steer Product with the Highest no of 2nd Retreads"
+      }
+    ],
+    "ideal_for": [
+      "M&H CV"
+    ],
+    "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+    "specification_table": [
+      {
+        "size": "9.00 R20",
+        "load_index": "142/140",
+        "ply_rating": 0,
+        "speed_symbol": "K",
+        "section_width_mm": 9,
+        "diameter_mm": 1020,
+        "recommended_rim_width": 7,
+        "alternative_rim_width": [
+          6.5,
+          7.5
+        ]
+      },
+      {
+        "size": "10.00 R20",
+        "load_index": "146/143",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 7.5,
+        "diameter_mm": 1060,
+        "recommended_rim_width": 7.5,
+        "alternative_rim_width": 7.5
+      },
+      {
+        "size": "9.00R20",
+        "load_index": "142/137",
+        "ply_rating": 16,
+        "speed_symbol": "K",
+        "section_width_mm": 7,
+        "diameter_mm": 1020,
+        "recommended_rim_width": "x",
+        "alternative_rim_width": [
+          6.5,
+          7.5
+        ]
+      }
+    ],
+    "related_products": []
+  }
+]

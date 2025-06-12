@@ -1,0 +1,163 @@
+✅ **You're absolutely right!** Since **Next.js 15 removed `next export`**, we must use **`output: 'export'`** in `next.config.js`. Here's the **updated guide** for exporting, deploying, and configuring Nginx on a DigitalOcean Droplet.
+
+---
+
+## **🚀 Step 1: Enable Static Export in `next.config.js`**
+Modify **`next.config.mjs`** (or `next.config.js`):
+
+```js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export'
+};
+
+export default nextConfig;
+```
+
+---
+
+## **🚀 Step 2: Build and Export the Static Site**
+Run the following in your Next.js project:
+
+```sh
+npm run build
+```
+This will **automatically generate** the `out/` folder (since we set `output: 'export'`).
+
+---
+
+## **🚀 Step 3: Compress and Transfer `out/` to DigitalOcean**
+### **A. Compress the `out/` folder**
+```sh
+tar -czvf out.tar.gz out
+```
+
+### **B. Transfer to Your DigitalOcean Droplet**
+Replace `your-server-ip` with your actual Droplet IP:
+```sh
+scp out.tar.gz root@your-server-ip:/var/www/
+```
+
+### **C. SSH into Your Droplet**
+```sh
+ssh root@your-server-ip
+```
+
+### **D. Extract the Files**
+Move to `/var/www/` and extract:
+```sh
+cd /var/www/
+tar -xzvf out.tar.gz
+mv out bonda.rdpb.life  # Example: Renaming it to your subdomain
+```
+
+---
+
+## **🚀 Step 4: Configure Nginx to Serve Your Static Site**
+### **A. Create an Nginx Configuration File**
+```sh
+sudo nano /etc/nginx/sites-available/bonda.rdpb.life
+```
+
+Paste the following configuration:
+```nginx
+server {
+    listen 80;
+    server_name bonda.rdpb.life;
+
+    root /var/www/bonda.rdpb.life;
+    index index.html;
+
+    location / {
+        try_files $uri $uri.html $uri/ /index.html;
+    }
+
+    location = /404.html {
+        internal;
+    }
+
+    error_page 404 /404.html;
+}
+```
+- **Ensures clean URLs (`/offers` loads `offers.html`)**
+- **Handles 404 errors properly**
+
+Save and exit (`CTRL + X`, then `Y`, then `Enter`).
+
+### **B. Enable the Site**
+```sh
+sudo ln -s /etc/nginx/sites-available/bonda.rdpb.life /etc/nginx/sites-enabled/
+```
+
+### **C. Restart Nginx**
+```sh
+sudo nginx -t  # Check syntax
+sudo systemctl restart nginx
+```
+
+---
+
+## **🚀 Step 5: Configure Your Domain (DNS)**
+1. Go to your **domain registrar (Namecheap, GoDaddy, Cloudflare, etc.).**
+2. Add an **A record**:
+   - **Name:** `bonda`
+   - **Type:** `A`
+   - **Value:** `your-server-ip`
+   - **TTL:** `Automatic` or `3600`
+3. Wait for **DNS propagation (5-30 minutes).**
+
+Verify:
+```sh
+ping bonda.rdpb.life
+```
+It should resolve to your **DigitalOcean IP**.
+
+---
+
+## **🚀 Step 6: Enable HTTPS with Let’s Encrypt (Optional)**
+If you want **free HTTPS**, install **Certbot**:
+```sh
+sudo apt install certbot python3-certbot-nginx -y
+```
+
+Then generate an SSL certificate:
+```sh
+sudo certbot --nginx -d bonda.rdpb.life
+```
+
+Follow the prompts, and it will automatically configure SSL.
+
+Verify HTTPS:
+```sh
+curl -I https://bonda.rdpb.life
+```
+✅ If successful, your site is now **secure with HTTPS**.
+
+---
+
+## **🚀 Step 7: Automate Future Deployments**
+Next time you update your site:
+1. Rebuild locally:
+   ```sh
+   npm run build
+   ```
+2. Transfer and extract:
+   ```sh
+   tar -czvf out.tar.gz out
+   scp out.tar.gz root@your-server-ip:/var/www/
+   ssh root@your-server-ip "cd /var/www/ && tar -xzvf out.tar.gz && mv out bonda.rdpb.life && sudo systemctl restart nginx"
+   ```
+
+---
+
+## **🎯 Final Checklist**
+✅ **Updated `next.config.js` with `output: 'export'`**  
+✅ **Built the static site (`npm run build`)**  
+✅ **Transferred `out/` to DigitalOcean (`scp out.tar.gz`)**  
+✅ **Configured Nginx (`sites-available` and enabled)**  
+✅ **Updated DNS (`A record for bonda.rdpb.life`)**  
+✅ **Enabled HTTPS (Let’s Encrypt SSL, optional)**  
+
+💡 **Your static site is now fully deployed & accessible at `https://bonda.rdpb.life`!** 🚀  
+
+Would you like **automatic deployments from GitHub?** Let me know, and I’ll guide you! 🔥
