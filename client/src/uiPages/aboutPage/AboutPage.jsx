@@ -2,9 +2,6 @@
 
 import { useState } from 'react';
 import { AppIcon } from '@/lib/icon';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import FloatingContact from '@/components/Floater';
 import {
     COMPANY_INFO,
     CONTACT_INFO,
@@ -105,9 +102,6 @@ const AboutPage = () => {
 
     return (
         <div className="min-h-screen bg-muted/20">
-            <Header />
-            <FloatingContact />
-
             {/* Hero Section */}
             <section className="relative py-16 md:py-24 bg-primary">
                 <div className="container mx-auto px-4 md:px-6">
@@ -354,8 +348,6 @@ const AboutPage = () => {
                     </a>
                 </div>
             </section>
-
-            <Footer />
 
             {/* Animations */}
             <style jsx global>{`

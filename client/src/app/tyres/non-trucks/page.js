@@ -2,8 +2,6 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { Filter, ChevronDown, Search, Shield, RotateCw, X, ChevronRight } from "lucide-react";
-import Header from "@/components/Header";
-import FloatingContact from "@/components/Floater";
 
 const NonTrucksPage = () => {
   const [selectedFilters, setSelectedFilters] = useState({
@@ -150,9 +148,7 @@ const NonTrucksPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       <div className="container mx-auto px-4 py-8">
-        <FloatingContact />
 
         <div className="mb-8 bg-gradient-to-r from-blue-900 to-blue-800 rounded-xl p-8 text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('/tyre-pattern.png')] opacity-10"></div>

@@ -4,9 +4,6 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, Shield, Star, Truck, Clock, Award, Info, Volume2, Fuel, Droplets } from 'lucide-react';
 import Head from 'next/head';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import FloatingContact from '@/components/Floater';
 
 import { Bike, Car, Tractor } from 'lucide-react';
 
@@ -98,11 +95,9 @@ const ActiGripS4 = () => {
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
         <div className="flex items-center justify-center min-h-[60vh]">
           <div className="animate-pulse text-2xl text-gray-600">Loading...</div>
         </div>
-        <Footer />
       </div>
     );
   }
@@ -135,9 +130,6 @@ const ActiGripS4 = () => {
         <meta name="description" content={tyreData.description} />
         <meta name="keywords" content="Apollo Tyres, Vidhya Tyres, Coimbatore, Amazer XP, Car Tyres" />
       </Head>
-
-      <Header />
-      <FloatingContact />
 
       <main>
         {/* Hero Section with Gradient Background */}
@@ -524,10 +516,6 @@ const ActiGripS4 = () => {
           </div>
         </section>
       </main>
-
-
-
-      <Footer />
 
     </div>
   );

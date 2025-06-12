@@ -38,6 +38,32 @@ const Header = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // Close mobile menu on escape key
+  useEffect(() => {
+    const handleEscape = (event) => {
+      if (event.key === 'Escape') {
+        setIsMenuOpen(false);
+        setTyresDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, []);
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMenuOpen]);
+
   // Get tyres dropdown items from constants
   const tyreCategories = TYRE_CATEGORIES.map(category => ({
     name: category.name,
@@ -50,21 +76,17 @@ const Header = () => {
   const navItems = NAV_ITEMS.filter(item => item.id !== 'tyres' && item.id !== 'home');
 
   return (
-    <div>
-      <nav className={`fixed top-0 w-full z-40 transition-all duration-500 ease-in-out
-          ${scrolled ? 'bg-background/95 backdrop-blur-sm shadow-md py-1 md:py-2' : 'bg-background py-2 md:py-3'}
-          before:absolute before:inset-0 before:z-[-1] before:opacity-0 before:bg-gradient-to-b before:from-background/80 before:to-background/40
-          before:transition-opacity before:duration-500 ${scrolled ? 'before:opacity-100' : ''}
-          border-b border-border`}
+    <>
+      <nav className={`fixed top-0 w-full z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mobile-header
+          ${scrolled ? 'shadow-sm' : ''}`}
       >
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between">
-            <Link href="/">
-              <div className={`flex items-center gap-2 transition-all duration-500
-                  group hover:opacity-90 cursor-pointer
-                  ${scrolled ? 'scale-90' : 'scale-100'}`}
-              >
-                <div className="relative w-12 h-12 md:w-16 md:h-16 transition-transform duration-300">
+        <div className="w-full px-4 sm:px-6 lg:px-12 xl:px-16 2xl:px-20 mobile-compact mobile-ultra-compact">
+          <div className="flex h-14 sm:h-16 lg:h-20 items-center justify-between w-full max-w-7xl mx-auto">
+
+            {/* Section 1: Logo - Left Edge */}
+            <div className="flex items-center flex-shrink-0 min-w-0">
+              <Link href="/" className="flex items-center space-x-2 sm:space-x-3 hover:opacity-90">
+                <div className={`relative flex-shrink-0 mobile-logo-small ${scrolled ? 'w-10 h-10 sm:w-10 sm:h-10' : 'w-12 h-12 sm:w-12 sm:h-12'}`}>
                   <Image
                     src="/vt_logo.png"
                     alt="Shree Caar Wind - Tyres Logo"
@@ -73,203 +95,233 @@ const Header = () => {
                     priority
                   />
                 </div>
-                <div className="flex flex-col">
-                  <span className="text-lg md:text-2xl font-bold text-foreground leading-tight tracking-tight">
+                <div className="hidden xs:flex sm:flex flex-col min-w-0">
+                  <h1 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold text-foreground leading-tight mobile-text-ultra-small">
                     {COMPANY_INFO.name}
-                  </span>
-                  <span className="text-xs md:text-sm text-muted-foreground font-medium tracking-wide">
+                  </h1>
+                  <p className="text-xs text-muted-foreground font-medium hidden sm:block mobile-text-adjust">
                     {COMPANY_INFO.tagline}
-                  </span>
+                  </p>
                 </div>
-              </div>
-            </Link>
-
-            <button
-              className="md:hidden p-2 bg-card text-foreground rounded-lg transition-all duration-300
-                hover:bg-muted active:scale-95 border border-border
-                flex items-center justify-center w-10 h-10"
-              onClick={() => {
-                setIsMenuOpen(!isMenuOpen);
-                setTyresDropdownOpen(false);
-              }}
-              aria-label="Toggle mobile menu"
-            >
-              {isMenuOpen ? (
-                <AppIcon icon="lucide:x" className="w-6 h-6 transition-transform duration-300" />
-              ) : (
-                <AppIcon icon="lucide:menu" className="w-6 h-6 transition-transform duration-300" />
-              )}
-            </button>
-
-            <div className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-muted-foreground hover:text-primary transition-all duration-300 
-                  hover:scale-105 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 
-                  after:w-0 hover:after:w-full after:bg-primary after:transition-all after:duration-300">
-                Home
               </Link>
+            </div>
 
-              <div className="relative">
-                <button
-                  ref={buttonRef}
-                  onClick={() => setTyresDropdownOpen(!tyresDropdownOpen)}
-                  className="flex items-center text-muted-foreground hover:text-primary transition-all duration-300
-                    relative after:absolute after:bottom-0 after:left-0 after:h-0.5 
-                    after:w-0 hover:after:w-full after:bg-primary after:transition-all after:duration-300"
-                  aria-expanded={tyresDropdownOpen}
-                  aria-haspopup="true"
-                >
-                  Tyres
-                  <AppIcon
-                    icon="lucide:chevron-down"
-                    size={16}
-                    className={`ml-1 transform transition-transform duration-300 ${tyresDropdownOpen ? 'rotate-180' : ''}`}
-                  />
-                </button>
+            {/* Section 2: Navigation & Search - Center */}
+            <div className="hidden lg:flex items-center justify-center flex-1 max-w-4xl mx-8">
+              <div className="flex items-center space-x-8 xl:space-x-12">
+                {/* Navigation */}
+                <nav className="flex items-center space-x-6 xl:space-x-8" role="navigation">
+                  <Link
+                    href="/"
+                    className="text-sm font-medium text-muted-foreground hover:text-foreground
+                      focus:outline-none focus:underline focus:underline-offset-4 whitespace-nowrap"
+                  >
+                    Home
+                  </Link>
 
-                <div
-                  ref={dropdownRef}
-                  className={`absolute left-0 mt-2 w-64 bg-card rounded-lg shadow-lg py-2 border border-border
-                    transform transition-all duration-300 ease-out z-50
-                    ${tyresDropdownOpen
-                      ? 'opacity-100 translate-y-0 visible'
-                      : 'opacity-0 -translate-y-4 invisible'}`}
-                >
-                  {tyreCategories.map((category, index) => (
-                    <Link
-                      key={category.name}
-                      href={`/tyres${category.href}`}
-                      className="flex items-center px-4 py-3 text-muted-foreground hover:text-primary 
-                          hover:bg-muted/50 transition-all duration-300 group"
-                      onClick={() => setTyresDropdownOpen(false)}
-                      style={{
-                        transitionDelay: `${index * 50}ms`
-                      }}
+                  {/* Tyres Dropdown */}
+                  <div className="relative">
+                    <button
+                      ref={buttonRef}
+                      onClick={() => setTyresDropdownOpen(!tyresDropdownOpen)}
+                      className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground
+                        focus:outline-none focus:underline focus:underline-offset-4 whitespace-nowrap"
+                      aria-expanded={tyresDropdownOpen}
+                      aria-haspopup="true"
                     >
+                      Tyres
                       <AppIcon
-                        icon={category.icon}
-                        size={20}
-                        className="mr-3 flex-shrink-0 transition-transform duration-300 
-                            group-hover:scale-110 group-hover:rotate-12"
+                        icon="lucide:chevron-down"
+                        className={`ml-1 h-4 w-4 ${tyresDropdownOpen ? 'rotate-180' : ''}`}
                       />
-                      <div>
-                        <div className="font-medium">{category.name}</div>
-                        <div className="text-sm text-muted-foreground/70 transition-all duration-300 
-                            group-hover:text-primary/80">{category.description}</div>
+                    </button>
+
+                    {tyresDropdownOpen && (
+                      <div
+                        ref={dropdownRef}
+                        className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-80 rounded-md border bg-popover p-1 text-popover-foreground shadow-md z-50"
+                      >
+                        {tyreCategories.map((category) => (
+                          <Link
+                            key={category.name}
+                            href={`/tyres${category.href}`}
+                            className="flex items-start rounded-sm px-3 py-3 text-sm hover:bg-accent hover:text-accent-foreground
+                              focus:bg-accent focus:text-accent-foreground focus:outline-none"
+                            onClick={() => setTyresDropdownOpen(false)}
+                          >
+                            <AppIcon
+                              icon={category.icon}
+                              className="mr-3 h-5 w-5 mt-0.5 flex-shrink-0"
+                            />
+                            <div className="min-w-0">
+                              <div className="font-medium text-sm">{category.name}</div>
+                              <div className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                                {category.description}
+                              </div>
+                            </div>
+                          </Link>
+                        ))}
                       </div>
+                    )}
+                  </div>
+
+                  {navItems.map((item) => (
+                    <Link
+                      key={item.name}
+                      href={item.href}
+                      className="text-sm font-medium text-muted-foreground hover:text-foreground
+                        focus:outline-none focus:underline focus:underline-offset-4 whitespace-nowrap"
+                    >
+                      {item.name}
                     </Link>
                   ))}
+                </nav>
+
+                {/* Search Bar */}
+                <div className="w-full max-w-sm">
+                  <div className="relative">
+                    <AlgoliaSearchBar
+                      width="w-full"
+                      containerClass="relative"
+                      mobileFullWidth={false}
+                    />
+
+                  </div>
                 </div>
               </div>
-
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="text-muted-foreground hover:text-primary transition-all duration-300 
-                    hover:scale-105 relative after:absolute after:bottom-0 after:left-0 
-                    after:h-0.5 after:w-0 hover:after:w-full after:bg-primary 
-                    after:transition-all after:duration-300"
-                >
-                  {item.name}
-                </Link>
-              ))}
-
-              <div className="relative w-64 lg:w-72">
-                <AlgoliaSearchBar
-                  width="w-64 lg:w-72"
-                  containerClass="relative"
-                  mobileFullWidth={false}
-                />
-              </div>
-
-              <a href={`tel:${CONTACT_INFO.primaryContact.phone}`}>
-                <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg 
-                  hover:bg-primary/90 transform transition-all duration-300 
-                  hover:scale-105 hover:shadow-lg active:scale-95
-                  relative overflow-hidden before:absolute before:inset-0 
-                  before:bg-primary-foreground/20 before:translate-x-[-150%] hover:before:translate-x-[150%]
-                  before:transition-transform before:duration-500">
-                  Book Now
-                </button>
-              </a>
             </div>
-          </div>
 
-          <div
-            className={`md:hidden transition-all duration-300 absolute top-full left-0 right-0 bg-primary
-              ${isMenuOpen ? 'translate-y-0 opacity-100 visible shadow-lg' : '-translate-y-2 opacity-0 invisible'}`}
-          >
-            <div className="container mx-auto px-4 py-4 space-y-4 max-h-[calc(100vh-5rem)] overflow-y-auto">
-              <div className="bg-card rounded-xl shadow border border-border p-4">
-                <div className="mb-4 transform transition-all duration-300">
-                  <AlgoliaSearchBar
-                    width="w-full"
-                    containerClass="relative"
-                    mobileFullWidth={true}
-                  />
-                </div>
-                <Link href="/" className="block py-2 text-muted-foreground hover:text-primary 
-                    transition-all duration-300 hover:translate-x-2">
-                  Home
-                </Link>
-
-                <div className="space-y-1">
-                  <div className="text-muted-foreground font-medium px-2 py-1">Tyres Categories</div>
-                  {tyreCategories.map((category, index) => {
-                    return (
-                      <Link
-                        key={category.name}
-                        href={`/tyres${category.href}`}
-                        className="flex items-center px-4 py-2 text-muted-foreground hover:text-primary 
-                          transition-all duration-300 hover:translate-x-2 hover:bg-muted/50 
-                          rounded-lg group"
-                        style={{
-                          transitionDelay: `${index * 50}ms`
-                        }}
-                      >
-                        <AppIcon icon={category.icon} size={20} className="mr-3 transition-transform duration-300 
-                          group-hover:scale-110 group-hover:rotate-12" />
-                        <div>
-                          <div className="font-medium">{category.name}</div>
-                          <div className="text-sm text-muted-foreground/70 transition-colors duration-300 
-                            group-hover:text-primary/80">{category.description}</div>
-                        </div>
-                      </Link>
-                    );
-                  })}
-                </div>
-
-                {navItems.map((item, index) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="block py-2 text-muted-foreground hover:text-primary 
-                      transition-all duration-300 hover:translate-x-2"
-                    style={{
-                      transitionDelay: `${(index + tyreCategories.length) * 50}ms`
-                    }}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-
+            {/* Section 3: CTA - Right Edge */}
+            <div className="flex items-center justify-end space-x-2 sm:space-x-3 flex-shrink-0">
+              {/* Book Now Button - Desktop */}
+              <div className="hidden md:block">
                 <a href={`tel:${CONTACT_INFO.primaryContact.phone}`}>
-                  <button className="w-full bg-primary text-primary-foreground px-6 py-2 rounded-lg 
-                    hover:bg-primary/90 transform transition-all duration-300 
-                    hover:scale-105 hover:shadow-lg active:scale-95
-                    relative overflow-hidden before:absolute before:inset-0 
-                    before:bg-primary-foreground/20 before:translate-x-[-150%] hover:before:translate-x-[150%]
-                    before:transition-transform before:duration-500">
+                  <button className="inline-flex items-center justify-center rounded-md text-sm font-medium
+                    bg-primary text-primary-foreground hover:bg-primary/90
+                    focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring
+                    px-3 lg:px-4 xl:px-6 py-2 h-9 lg:h-10 whitespace-nowrap shadow-sm mobile-text-adjust">
                     Book Now
                   </button>
                 </a>
               </div>
+
+              {/* Mobile Menu Button */}
+              <button
+                className="inline-flex items-center justify-center rounded-md p-2 lg:hidden
+                  bg-card border border-border hover:bg-accent hover:text-accent-foreground
+                  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary
+                  mobile-touch-target shadow-sm"
+                onClick={() => {
+                  setIsMenuOpen(!isMenuOpen);
+                  setTyresDropdownOpen(false);
+                }}
+                aria-expanded={isMenuOpen}
+                aria-label="Toggle mobile menu"
+              >
+                <span className="sr-only">Open main menu</span>
+                {isMenuOpen ? (
+                  <AppIcon icon="lucide:x" className="w-5 h-5" />
+                ) : (
+                  <AppIcon icon="lucide:menu" className="w-5 h-5" />
+                )}
+              </button>
             </div>
           </div>
         </div>
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <div className="lg:hidden border-t bg-background w-full mobile-menu-content">
+            <div className="w-full px-4 sm:px-6 py-4 mobile-compact mobile-ultra-compact">
+              <div className="space-y-4 w-full max-w-md mx-auto">
+                {/* Enhanced Search Bar - Mobile - Centered */}
+                <div className="w-full">
+                  <div className="relative">
+                    <AlgoliaSearchBar
+                      width="w-full"
+                      containerClass="relative"
+                      mobileFullWidth={true}
+                    />
+                  </div>
+                </div>
+
+                {/* Navigation Links - Centered */}
+                <nav className="space-y-3 text-center" role="navigation">
+                  <Link
+                    href="/"
+                    className="block text-base font-medium text-foreground hover:text-primary
+                      focus:outline-none focus:text-primary py-2 mobile-touch-target mobile-menu-item"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Home
+                  </Link>
+
+                  {/* Tyre Categories - Centered */}
+                  <div>
+                    <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-2 text-center mobile-text-adjust">
+                      Tyre Categories
+                    </h3>
+                    <div className="space-y-1">
+                      {tyreCategories.map((category) => (
+                        <Link
+                          key={category.name}
+                          href={`/tyres${category.href}`}
+                          className="flex items-center rounded-md p-3 hover:bg-accent hover:text-accent-foreground
+                            focus:bg-accent focus:text-accent-foreground focus:outline-none
+                            mobile-touch-target mobile-menu-item w-full text-left"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          <AppIcon
+                            icon={category.icon}
+                            className="mr-3 h-4 w-4 flex-shrink-0"
+                          />
+                          <div className="min-w-0">
+                            <div className="font-medium text-sm mobile-text-adjust">{category.name}</div>
+                            <div className="text-xs text-muted-foreground mt-0.5 line-clamp-1 mobile-text-adjust">
+                              {category.description}
+                            </div>
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Other Navigation Items - Centered */}
+                  <div className="space-y-1 text-center pt-2">
+                    {navItems.map((item) => (
+                      <Link
+                        key={item.name}
+                        href={item.href}
+                        className="block text-base font-medium text-foreground hover:text-primary
+                          focus:outline-none focus:text-primary py-2 mobile-touch-target mobile-menu-item"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
+                </nav>
+
+                {/* Mobile Section 3: CTA - Centered */}
+                <div className="pt-3 border-t">
+                  <a href={`tel:${CONTACT_INFO.primaryContact.phone}`} className="block">
+                    <button className="w-full inline-flex items-center justify-center rounded-md text-sm font-semibold
+                      bg-primary text-primary-foreground hover:bg-primary/90
+                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
+                      px-4 py-3 mobile-touch-target mobile-menu-item shadow-sm">
+                      Book Now
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </nav>
-      <div className={`${scrolled ? 'h-14 md:h-16' : 'h-16 md:h-20'} transition-all duration-300`} />
-    </div>
+
+      {/* Spacer */}
+      <div className={`${scrolled ? 'h-14 sm:h-16 lg:h-20' : 'h-14 sm:h-16 lg:h-20'}`} />
+    </>
   );
 };
 

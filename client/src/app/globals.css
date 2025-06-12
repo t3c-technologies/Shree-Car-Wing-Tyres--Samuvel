@@ -3,6 +3,69 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Mobile responsiveness improvements */
+@media (max-width: 480px) {
+	.mobile-menu-content {
+		max-height: calc(100vh - 80px);
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+	}
+
+	/* Ensure text doesn't get too small on very small screens */
+	.mobile-text-adjust {
+		font-size: clamp(0.75rem, 2.5vw, 0.875rem);
+	}
+
+	/* Better touch targets */
+	.mobile-touch-target {
+		min-height: 44px;
+		min-width: 44px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* Prevent text selection on mobile menu items */
+	.mobile-menu-item {
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	/* Better mobile header */
+	.mobile-header {
+		min-height: 56px;
+	}
+}
+
+/* Ensure proper spacing on small screens */
+@media (max-width: 375px) {
+	.mobile-compact {
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+	}
+
+	/* Smaller logo on very small screens */
+	.mobile-logo-small {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+}
+
+/* Fix for very small screens like iPhone SE */
+@media (max-width: 320px) {
+	.mobile-ultra-compact {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	.mobile-text-ultra-small {
+		font-size: 0.75rem;
+	}
+}
+
 @keyframes pulse {
 	0% {
 		transform: scale(1);

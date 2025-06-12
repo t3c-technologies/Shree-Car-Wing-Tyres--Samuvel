@@ -1,9 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import FloatingContact from "@/components/Floater";
 import { AppIcon } from "@/lib/icon";
 import {
     COMPANY_INFO,
@@ -61,9 +58,6 @@ const GuidePage = () => {
 
     return (
         <div className="min-h-screen bg-muted/20">
-            <Header />
-            <FloatingContact />
-
             {/* Hero Section */}
             <section className="relative py-16 md:py-24 bg-primary">
                 <div className="absolute inset-0 overflow-hidden">
@@ -231,8 +225,6 @@ const GuidePage = () => {
           animation: slideUp 0.8s ease-out forwards;
         }
       `}</style>
-
-            <Footer />
         </div>
     );
 };

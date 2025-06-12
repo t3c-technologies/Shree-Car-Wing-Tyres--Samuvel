@@ -4,10 +4,6 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { AppIcon } from "@/lib/icon";
 
-import Header from "@/components/Header";
-import FloatingContact from "@/components/Floater";
-import Preloader from "@/components/Preloader";
-import Footer from "@/components/Footer";
 import {
     COMPANY_INFO,
     CONTACT_INFO,
@@ -48,10 +44,6 @@ export default function HomePage() {
 
     return (
         <div className="min-h-screen bg-background">
-            <FloatingContact />
-
-            <Header />
-
             {/* Hero Section */}
             <section className="relative py-12 md:py-24 bg-primary overflow-hidden">
                 <div className="absolute inset-0 opacity-20">
@@ -422,9 +414,6 @@ export default function HomePage() {
                     </a>
                 </div>
             </section>
-
-            {/* Footer */}
-            <Footer />
 
             {/* Animations */}
             <style jsx global>{`

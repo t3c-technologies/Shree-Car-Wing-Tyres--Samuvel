@@ -3,9 +3,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { AppIcon } from '@/lib/icon';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import FloatingContact from '@/components/Floater';
 import {
   COMPANY_INFO,
   CONTACT_INFO,
@@ -53,9 +50,6 @@ const TyresPage = () => {
 
   return (
     <div className="min-h-screen bg-muted/20">
-      <Header />
-      <FloatingContact />
-
       {/* Hero Section */}
       <section className="relative py-16 md:py-24 bg-primary overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -181,8 +175,6 @@ const TyresPage = () => {
           </a>
         </div>
       </section>
-
-      <Footer />
 
       {/* Animations */}
       <style jsx global>{`
