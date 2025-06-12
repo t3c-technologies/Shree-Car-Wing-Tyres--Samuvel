@@ -2,59 +2,15 @@
 
 import { useState } from "react";
 import { AppIcon } from "@/lib/icon";
+import { getAllGuides } from "@/utils/guideConfig";
 import {
     COMPANY_INFO,
     CONTACT_INFO
 } from '@/utils/constants';
 
 const GuidePage = () => {
-    const blogs = [
-        {
-            id: 1,
-            title: "Complete Guide to Tyre Maintenance",
-            excerpt: "Learn essential tips and best practices for maintaining your vehicle's tyres to ensure optimal performance and longevity. Discover how proper maintenance can improve safety and fuel efficiency.",
-            category: "Maintenance",
-            readTime: "8 min read",
-            image: "/images/guide/1.webp",
-            date: "January 15, 2025"
-        },
-        {
-            id: 2,
-            title: "How to Choose the Right Tyres for Your SUV",
-            excerpt: "Selecting the perfect tyres for your SUV involves considering multiple factors. This comprehensive guide helps you make an informed decision based on your specific needs.",
-            category: "Buying Guide",
-            readTime: "10 min read",
-            image: "/images/guide/2.webp",
-            date: "January 12, 2025"
-        },
-        {
-            id: 3,
-            title: "Understanding Tyre Pressure and Its Importance",
-            excerpt: "Proper tyre pressure is crucial for vehicle safety and performance. Learn how to maintain optimal pressure and understand its impact on your driving experience.",
-            category: "Safety",
-            readTime: "6 min read",
-            image: "/images/guide/3.webp",
-            date: "January 10, 2025"
-        },
-        {
-            id: 4,
-            title: "Seasonal Tyre Guide: When to Switch",
-            excerpt: "Different seasons demand different tyre types. Discover when and why you should consider switching your tyres to maintain optimal performance throughout the year.",
-            category: "Seasonal",
-            readTime: "7 min read",
-            image: "/images/guide/4.webp",
-            date: "January 8, 2025"
-        },
-        {
-            id: 5,
-            title: "Common Tyre Problems and Solutions",
-            excerpt: "Identify and resolve common tyre issues before they become major problems. This guide helps you understand warning signs and take preventive measures.",
-            category: "Troubleshooting",
-            readTime: "9 min read",
-            image: "/images/guide/5.webp",
-            date: "January 5, 2025"
-        }
-    ];
+    // Get all guides from centralized configuration
+    const blogs = getAllGuides();
 
     return (
         <div className="min-h-screen bg-muted/20">
