@@ -12,6 +12,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [tyresDropdownOpen, setTyresDropdownOpen] = useState(false);
+  const [expandedCategories, setExpandedCategories] = useState({});
   const dropdownRef = useRef(null);
   const buttonRef = useRef(null);
 
@@ -76,6 +77,14 @@ const Header = () => {
   // Get navigation items from constants (excluding tyres as it has special dropdown)
   const navItems = NAV_ITEMS.filter(item => item.id !== 'tyres' && item.id !== 'home');
 
+  // Toggle category expansion
+  const toggleCategory = (categoryId) => {
+    setExpandedCategories(prev => ({
+      ...prev,
+      [categoryId]: !prev[categoryId]
+    }));
+  };
+
   return (
     <>
       <nav className={`fixed top-0 w-full z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mobile-header
@@ -96,11 +105,11 @@ const Header = () => {
                     priority
                   />
                 </div>
-                <div className="hidden xs:flex sm:flex flex-col min-w-0">
-                  <h1 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold text-foreground leading-tight mobile-text-ultra-small">
+                <div className="flex flex-col min-w-0">
+                  <h1 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold text-foreground leading-tight">
                     {COMPANY_INFO.name}
                   </h1>
-                  <p className="text-xs text-muted-foreground font-medium hidden sm:block mobile-text-adjust">
+                  <p className="text-xs text-muted-foreground font-medium hidden sm:block ">
                     {COMPANY_INFO.tagline}
                   </p>
                 </div>
@@ -200,7 +209,7 @@ const Header = () => {
                   <button className="inline-flex items-center justify-center rounded-md text-sm font-medium
                     bg-primary text-primary-foreground hover:bg-primary/90
                     focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring
-                    px-3 lg:px-4 xl:px-6 py-2 h-9 lg:h-10 whitespace-nowrap shadow-sm mobile-text-adjust">
+                    px-3 lg:px-4 xl:px-6 py-2 h-9 lg:h-10 whitespace-nowrap shadow-sm ">
                     Book Now
                   </button>
                 </a>
@@ -241,9 +250,9 @@ const Header = () => {
             />
 
             {/* Mobile Menu Content */}
-            <div className="lg:hidden mobile-menu-content mobile-menu-animate bg-background">
+            <div className="lg:hidden mobile-menu-content mobile-menu-animate bg-background flex flex-col h-full">
               {/* Mobile Menu Header */}
-              <div className="flex items-center justify-between p-4 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+              <div className="flex items-center justify-between p-4 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 flex-shrink-0">
                 <Link href="/" className="flex items-center space-x-2" onClick={() => setIsMenuOpen(false)}>
                   <div className="relative w-8 h-8 flex-shrink-0">
                     <Image
@@ -255,22 +264,23 @@ const Header = () => {
                     />
                   </div>
                   <div className="flex flex-col min-w-0">
-                    <h1 className="text-sm font-bold text-foreground leading-tight">
+                    <h1 className="text-base font-bold text-foreground leading-tight">
                       {COMPANY_INFO.name}
                     </h1>
                   </div>
                 </Link>
                 <button
-                  className="p-2 rounded-md hover:bg-accent hover:text-accent-foreground mobile-touch-target"
+                  className="p-2 rounded-md border border-border hover:bg-accent flex justify-center hover:text-accent-foreground mobile-touch-target"
                   onClick={() => setIsMenuOpen(false)}
                   aria-label="Close mobile menu"
                 >
-                  <AppIcon icon="lucide:x" className="w-5 h-5" />
+                  <AppIcon icon="lucide:x" className="text-xl" />
                 </button>
               </div>
 
-              <div className="w-full px-4 sm:px-6 py-6 mobile-compact mobile-ultra-compact h-full overflow-y-auto">
-                <div className="space-y-6 w-full max-w-md mx-auto h-full flex flex-col">
+              {/* Scrollable Content Area */}
+              <div className="flex-1 overflow-y-auto px-4 sm:px-6 py-4 mobile-compact mobile-ultra-compact">
+                <div className="space-y-3 w-full max-w-md mx-auto">
                   {/* Enhanced Search Bar - Mobile - Centered */}
                   <div className="w-full">
                     <div className="relative">
@@ -283,40 +293,37 @@ const Header = () => {
                   </div>
 
                   {/* Navigation Links - Centered */}
-                  <nav className="space-y-4 text-center flex-1" role="navigation">
+                  <nav className="space-y-2 text-center" role="navigation">
                     <Link
                       href="/"
-                      className="block text-base font-medium text-foreground hover:text-primary
-                        focus:outline-none focus:text-primary py-3 mobile-touch-target mobile-menu-item"
+                      className="block text-lg font-medium text-foreground hover:text-primary
+                        focus:outline-none focus:text-primary py-2 mobile-touch-target mobile-menu-item"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       Home
                     </Link>
 
-                    {/* Tyre Categories - Centered */}
-                    <div>
-                      <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3 text-center mobile-text-adjust">
+                    {/* Tyre Categories - Left Aligned */}
+                    <div className="text-left">
+                      <h3 className="text-md font-semibold text-muted-foreground uppercase tracking-wide mb-1 ">
                         Tyre Categories
                       </h3>
-                      <div className="space-y-2">
+                      <div className="space-y-1">
                         {tyreCategories.map((category) => (
                           <Link
                             key={category.name}
                             href={`/tyres${category.href}`}
-                            className="flex items-center rounded-md p-3 hover:bg-accent hover:text-accent-foreground
+                            className="flex items-center rounded-md p-2 hover:bg-accent hover:text-accent-foreground
                               focus:bg-accent focus:text-accent-foreground focus:outline-none
                               mobile-touch-target mobile-menu-item w-full text-left"
                             onClick={() => setIsMenuOpen(false)}
                           >
                             <AppIcon
                               icon={category.icon}
-                              className="mr-3 h-4 w-4 flex-shrink-0"
+                              className="mr-3 h-5 w-5 flex-shrink-0"
                             />
                             <div className="min-w-0">
-                              <div className="font-medium text-sm mobile-text-adjust">{category.name}</div>
-                              <div className="text-xs text-muted-foreground mt-0.5 line-clamp-1 mobile-text-adjust">
-                                {category.description}
-                              </div>
+                              <div className="font-medium text-sm">{category.name}</div>
                             </div>
                           </Link>
                         ))}
@@ -324,13 +331,13 @@ const Header = () => {
                     </div>
 
                     {/* Other Navigation Items - Centered */}
-                    <div className="space-y-2 text-center pt-2">
+                    <div className="space-y-1 text-center pt-1">
                       {navItems.map((item) => (
                         <Link
                           key={item.name}
                           href={item.href}
-                          className="block text-base font-medium text-foreground hover:text-primary
-                            focus:outline-none focus:text-primary py-3 mobile-touch-target mobile-menu-item"
+                          className="block text-lg font-medium text-foreground hover:text-primary
+                            focus:outline-none focus:text-primary py-2 mobile-touch-target mobile-menu-item"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {item.name}
@@ -338,18 +345,20 @@ const Header = () => {
                       ))}
                     </div>
                   </nav>
+                </div>
+              </div>
 
-                  {/* Mobile Section 3: CTA - Bottom */}
-                  <div className="pt-4 border-t mt-auto">
-                    <a href={`tel:${CONTACT_INFO.primaryContact.phone}`} className="block">
-                      <button className="w-full inline-flex items-center justify-center rounded-md text-sm font-semibold
-                        bg-primary text-primary-foreground hover:bg-primary/90
-                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
-                        px-4 py-4 mobile-touch-target mobile-menu-item shadow-sm">
-                        Book Now
-                      </button>
-                    </a>
-                  </div>
+              {/* Fixed CTA Section at Bottom */}
+              <div className="flex-shrink-0 p-4 border-t border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+                <div className="w-full max-w-md mx-auto">
+                  <a href={`tel:${CONTACT_INFO.primaryContact.phone}`} className="block">
+                    <button className="w-full inline-flex items-center justify-center rounded-md text-base font-semibold
+                      bg-primary text-primary-foreground hover:bg-primary/90
+                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
+                      px-4 py-4 mobile-touch-target mobile-menu-item shadow-sm">
+                      Book Now
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
