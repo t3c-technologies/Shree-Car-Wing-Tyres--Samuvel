@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { AppIcon } from '@/lib/icon';
 import AlgoliaSearchBar from '@/components/AlgoliaSearchBar';
 import { COMPANY_INFO, CONTACT_INFO, TYRE_CATEGORIES, NAV_ITEMS } from '@/utils/constants';
+import './Header.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -231,91 +232,128 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden border-t bg-background w-full mobile-menu-content">
-            <div className="w-full px-4 sm:px-6 py-4 mobile-compact mobile-ultra-compact">
-              <div className="space-y-4 w-full max-w-md mx-auto">
-                {/* Enhanced Search Bar - Mobile - Centered */}
-                <div className="w-full">
-                  <div className="relative">
-                    <AlgoliaSearchBar
-                      width="w-full"
-                      containerClass="relative"
-                      mobileFullWidth={true}
+          <>
+            {/* Mobile Menu Backdrop */}
+            <div
+              className="mobile-menu-backdrop lg:hidden"
+              onClick={() => setIsMenuOpen(false)}
+              aria-hidden="true"
+            />
+
+            {/* Mobile Menu Content */}
+            <div className="lg:hidden mobile-menu-content mobile-menu-animate bg-background">
+              {/* Mobile Menu Header */}
+              <div className="flex items-center justify-between p-4 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+                <Link href="/" className="flex items-center space-x-2" onClick={() => setIsMenuOpen(false)}>
+                  <div className="relative w-8 h-8 flex-shrink-0">
+                    <Image
+                      src="/vt_logo.png"
+                      alt="Shree Caar Wind - Tyres Logo"
+                      fill
+                      className="object-contain"
+                      priority
                     />
                   </div>
-                </div>
+                  <div className="flex flex-col min-w-0">
+                    <h1 className="text-sm font-bold text-foreground leading-tight">
+                      {COMPANY_INFO.name}
+                    </h1>
+                  </div>
+                </Link>
+                <button
+                  className="p-2 rounded-md hover:bg-accent hover:text-accent-foreground mobile-touch-target"
+                  onClick={() => setIsMenuOpen(false)}
+                  aria-label="Close mobile menu"
+                >
+                  <AppIcon icon="lucide:x" className="w-5 h-5" />
+                </button>
+              </div>
 
-                {/* Navigation Links - Centered */}
-                <nav className="space-y-3 text-center" role="navigation">
-                  <Link
-                    href="/"
-                    className="block text-base font-medium text-foreground hover:text-primary
-                      focus:outline-none focus:text-primary py-2 mobile-touch-target mobile-menu-item"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Home
-                  </Link>
-
-                  {/* Tyre Categories - Centered */}
-                  <div>
-                    <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-2 text-center mobile-text-adjust">
-                      Tyre Categories
-                    </h3>
-                    <div className="space-y-1">
-                      {tyreCategories.map((category) => (
-                        <Link
-                          key={category.name}
-                          href={`/tyres${category.href}`}
-                          className="flex items-center rounded-md p-3 hover:bg-accent hover:text-accent-foreground
-                            focus:bg-accent focus:text-accent-foreground focus:outline-none
-                            mobile-touch-target mobile-menu-item w-full text-left"
-                          onClick={() => setIsMenuOpen(false)}
-                        >
-                          <AppIcon
-                            icon={category.icon}
-                            className="mr-3 h-4 w-4 flex-shrink-0"
-                          />
-                          <div className="min-w-0">
-                            <div className="font-medium text-sm mobile-text-adjust">{category.name}</div>
-                            <div className="text-xs text-muted-foreground mt-0.5 line-clamp-1 mobile-text-adjust">
-                              {category.description}
-                            </div>
-                          </div>
-                        </Link>
-                      ))}
+              <div className="w-full px-4 sm:px-6 py-6 mobile-compact mobile-ultra-compact h-full overflow-y-auto">
+                <div className="space-y-6 w-full max-w-md mx-auto h-full flex flex-col">
+                  {/* Enhanced Search Bar - Mobile - Centered */}
+                  <div className="w-full">
+                    <div className="relative">
+                      <AlgoliaSearchBar
+                        width="w-full"
+                        containerClass="relative"
+                        mobileFullWidth={true}
+                      />
                     </div>
                   </div>
 
-                  {/* Other Navigation Items - Centered */}
-                  <div className="space-y-1 text-center pt-2">
-                    {navItems.map((item) => (
-                      <Link
-                        key={item.name}
-                        href={item.href}
-                        className="block text-base font-medium text-foreground hover:text-primary
-                          focus:outline-none focus:text-primary py-2 mobile-touch-target mobile-menu-item"
-                        onClick={() => setIsMenuOpen(false)}
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                </nav>
+                  {/* Navigation Links - Centered */}
+                  <nav className="space-y-4 text-center flex-1" role="navigation">
+                    <Link
+                      href="/"
+                      className="block text-base font-medium text-foreground hover:text-primary
+                        focus:outline-none focus:text-primary py-3 mobile-touch-target mobile-menu-item"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      Home
+                    </Link>
 
-                {/* Mobile Section 3: CTA - Centered */}
-                <div className="pt-3 border-t">
-                  <a href={`tel:${CONTACT_INFO.primaryContact.phone}`} className="block">
-                    <button className="w-full inline-flex items-center justify-center rounded-md text-sm font-semibold
-                      bg-primary text-primary-foreground hover:bg-primary/90
-                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
-                      px-4 py-3 mobile-touch-target mobile-menu-item shadow-sm">
-                      Book Now
-                    </button>
-                  </a>
+                    {/* Tyre Categories - Centered */}
+                    <div>
+                      <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3 text-center mobile-text-adjust">
+                        Tyre Categories
+                      </h3>
+                      <div className="space-y-2">
+                        {tyreCategories.map((category) => (
+                          <Link
+                            key={category.name}
+                            href={`/tyres${category.href}`}
+                            className="flex items-center rounded-md p-3 hover:bg-accent hover:text-accent-foreground
+                              focus:bg-accent focus:text-accent-foreground focus:outline-none
+                              mobile-touch-target mobile-menu-item w-full text-left"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            <AppIcon
+                              icon={category.icon}
+                              className="mr-3 h-4 w-4 flex-shrink-0"
+                            />
+                            <div className="min-w-0">
+                              <div className="font-medium text-sm mobile-text-adjust">{category.name}</div>
+                              <div className="text-xs text-muted-foreground mt-0.5 line-clamp-1 mobile-text-adjust">
+                                {category.description}
+                              </div>
+                            </div>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Other Navigation Items - Centered */}
+                    <div className="space-y-2 text-center pt-2">
+                      {navItems.map((item) => (
+                        <Link
+                          key={item.name}
+                          href={item.href}
+                          className="block text-base font-medium text-foreground hover:text-primary
+                            focus:outline-none focus:text-primary py-3 mobile-touch-target mobile-menu-item"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </nav>
+
+                  {/* Mobile Section 3: CTA - Bottom */}
+                  <div className="pt-4 border-t mt-auto">
+                    <a href={`tel:${CONTACT_INFO.primaryContact.phone}`} className="block">
+                      <button className="w-full inline-flex items-center justify-center rounded-md text-sm font-semibold
+                        bg-primary text-primary-foreground hover:bg-primary/90
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
+                        px-4 py-4 mobile-touch-target mobile-menu-item shadow-sm">
+                        Book Now
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </>
         )}
       </nav>
 
