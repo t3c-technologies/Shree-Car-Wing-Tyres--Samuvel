@@ -14,7 +14,7 @@ import {
 } from "@/utils/constants";
 
 // Import custom styles
-import "@/styles/homepage.css";
+import "@/uiPages/homePage/homePage.css";
 
 export default function HomePage() {
     // const [isLoading, setIsLoading] = useState(true);
