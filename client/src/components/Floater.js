@@ -23,7 +23,7 @@ const FloatingContact = () => {
       {/* Call Button */}
       <a
         href={`tel:${phoneNumber}`}
-        className="flex items-center justify-center w-14 h-14 md:w-14 md:h-14 bg-white text-blue-700 ring-1 ring-gray-200 rounded-full shadow-lg shadow-gray-200/50 active:bg-gray-50 transition-all duration-300 hover:shadow-xl hover:shadow-gray-300/50 hover:scale-105 group relative md:hover:w-auto md:hover:px-8"
+        className="flex items-center justify-center w-14 h-14 md:w-14 md:h-14 bg-card text-primary ring-1 ring-border rounded-full shadow-lg shadow-border/50 active:bg-accent transition-all duration-300 hover:shadow-xl hover:shadow-border/70 hover:scale-105 group relative md:hover:w-auto md:hover:px-8"
         aria-label="Call us"
       >
         <AppIcon
@@ -31,7 +31,7 @@ const FloatingContact = () => {
           className="w-6 h-6 md:w-6 md:h-6"
           style={{ animation: 'pulse 2s ease-in-out infinite' }}
         />
-        <span className="absolute left-16 text-base font-medium whitespace-nowrap bg-white text-blue-700 px-3 py-2 rounded-lg opacity-0 invisible -translate-x-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-x-0 md:static md:bg-transparent md:p-0 md:text-inherit md:opacity-0 md:visible md:translate-x-0 md:max-w-0 md:overflow-hidden md:group-hover:max-w-xs md:group-hover:opacity-100 md:group-hover:ml-3">
+        <span className="absolute left-16 text-base font-medium whitespace-nowrap bg-card text-primary px-3 py-2 rounded-lg opacity-0 invisible -translate-x-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-x-0 md:static md:bg-transparent md:p-0 md:text-inherit md:opacity-0 md:visible md:translate-x-0 md:max-w-0 md:overflow-hidden md:group-hover:max-w-xs md:group-hover:opacity-100 md:group-hover:ml-3">
           Call Now
         </span>
       </a>
@@ -55,7 +55,7 @@ const FloatingContact = () => {
       {/* Directions Button */}
       <button
         onClick={handleDirections}
-        className="flex items-center justify-center w-14 h-14 md:w-14 md:h-14 bg-red-500 text-white rounded-full shadow-lg shadow-red-500/20 active:bg-red-600 transition-all duration-300 hover:shadow-xl hover:shadow-red-500/30 hover:scale-105 group relative md:hover:w-auto md:hover:px-8"
+        className="flex items-center justify-center w-14 h-14 md:w-14 md:h-14 bg-primary text-primary-foreground rounded-full shadow-lg shadow-primary/20 active:bg-primary/90 transition-all duration-300 hover:shadow-xl hover:shadow-primary/30 hover:scale-105 group relative md:hover:w-auto md:hover:px-8"
         aria-label="Get directions"
       >
         <AppIcon
@@ -63,7 +63,7 @@ const FloatingContact = () => {
           className="w-6 h-6 md:w-6 md:h-6"
           style={{ animation: 'pulse 2s ease-in-out infinite' }}
         />
-        <span className="absolute left-16 text-base font-medium whitespace-nowrap bg-red-500 text-white px-3 py-2 rounded-lg opacity-0 invisible -translate-x-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-x-0 md:static md:bg-transparent md:p-0 md:text-inherit md:opacity-0 md:visible md:translate-x-0 md:max-w-0 md:overflow-hidden md:group-hover:max-w-xs md:group-hover:opacity-100 md:group-hover:ml-3">
+        <span className="absolute left-16 text-base font-medium whitespace-nowrap bg-primary text-primary-foreground px-3 py-2 rounded-lg opacity-0 invisible -translate-x-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-x-0 md:static md:bg-transparent md:p-0 md:text-inherit md:opacity-0 md:visible md:translate-x-0 md:max-w-0 md:overflow-hidden md:group-hover:max-w-xs md:group-hover:opacity-100 md:group-hover:ml-3">
           Get Directions
         </span>
       </button>

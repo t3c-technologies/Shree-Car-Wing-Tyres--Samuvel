@@ -10,7 +10,7 @@ const EmptyQueryBoundary = ({ children }) => {
 
   if (!results?.__isArtificial && results?.nbHits === 0) {
     return (
-      <div className="p-4 text-center text-gray-500">
+      <div className="p-4 text-center text-muted-foreground">
         <AppIcon icon="lucide:search-x" className="mx-auto h-6 w-6 mb-2" />
         <p>No results found</p>
       </div>
@@ -22,7 +22,7 @@ const EmptyQueryBoundary = ({ children }) => {
 
 const Hit = ({ hit }) => (
   <div
-    className="p-4 hover:bg-gray-50 cursor-pointer transition-colors duration-200"
+    className="p-4 hover:bg-accent cursor-pointer transition-colors duration-200"
     onClick={() => window.open(hit.url, '_blank')}
     title={hit.name}
   >
@@ -40,13 +40,13 @@ const Hit = ({ hit }) => (
       )}
       <div className="flex-1 min-w-0">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-1 md:gap-2">
-          <h3 className="text-sm font-medium text-gray-900 truncate">{hit.name}</h3>
-          <div className="flex items-center gap-1 px-2 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-medium w-fit">
+          <h3 className="text-sm font-medium text-foreground truncate">{hit.name}</h3>
+          <div className="flex items-center gap-1 px-2 py-1 bg-primary/10 text-primary rounded-full text-xs font-medium w-fit">
             <AppIcon icon="lucide:tag" className="w-3 h-3" />
             <span>{hit.group}</span>
           </div>
         </div>
-        <p className="text-xs text-gray-500 line-clamp-2 mt-1">{hit.description}</p>
+        <p className="text-xs text-muted-foreground line-clamp-2 mt-1">{hit.description}</p>
       </div>
     </div>
   </div>
@@ -106,9 +106,9 @@ const AlgoliaSearchBar = ({
             classNames={{
               root: 'relative w-full',
               form: 'relative',
-              input: `w-full px-4 pl-10 py-2 rounded-lg border border-red-500 pr-10 
-                focus:outline-none focus:ring-2 focus:ring-blue-700 
-                transition-all duration-300 text-gray-900 placeholder:text-gray-400
+              input: `w-full px-4 pl-10 py-2 rounded-lg border border-primary pr-10 
+                focus:outline-none focus:ring-2 focus:ring-primary 
+                transition-all duration-300 text-foreground placeholder:text-muted-foreground bg-input
                 ${isMobile ? 'text-base' : 'text-sm'}`,
               submit: 'hidden',
               reset: 'hidden',
@@ -127,7 +127,7 @@ const AlgoliaSearchBar = ({
         </div>
 
         {isFocused && (
-          <div className={`absolute mt-2 bg-white rounded-lg shadow-lg border border-gray-200 
+          <div className={`absolute mt-2 bg-popover rounded-lg shadow-lg border border-border 
             overflow-y-auto z-[100] top-full left-0 right-0
             ${isMobile ? 'max-h-[60vh]' : 'w-full min-w-[300px] max-h-[calc(100vh-200px)]'}`}
           >
@@ -136,7 +136,7 @@ const AlgoliaSearchBar = ({
                 hitComponent={Hit}
                 classNames={{
                   root: 'overflow-hidden',
-                  list: 'divide-y divide-gray-100',
+                  list: 'divide-y divide-border',
                   item: 'transition-colors duration-200'
                 }}
               />

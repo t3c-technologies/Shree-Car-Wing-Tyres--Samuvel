@@ -35,15 +35,15 @@ const Footer = () => {
   const socialLinks = SOCIAL_MEDIA;
 
   return (
-    <footer className="bg-gradient-to-b from-gray-50 to-gray-100">
+    <footer className="bg-gradient-to-b from-muted to-secondary">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="text-2xl font-bold text-gray-900 hover:text-blue-700 transition-colors duration-300">
+            <div className="text-2xl font-bold text-foreground hover:text-primary transition-colors duration-300">
               {COMPANY_INFO.name}
             </div>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed">
               Your trusted multi-brand tyre dealer in {COMPANY_INFO.location.city}, offering premium tyres from Goodyear, Michelin, Bridgestone, JK Tyre & more since {COMPANY_INFO.yearEstablished}.
             </p>
             <div className="flex space-x-4 pt-4">
@@ -53,7 +53,7 @@ const Footer = () => {
                   href={social.url}
                   target="_blank"
                   aria-label={social.label}
-                  className="text-gray-600 hover:text-blue-700 transition-colors duration-300 hover:scale-110 transform"
+                  className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
                 >
                   <AppIcon
                     icon={social.icon}
@@ -66,13 +66,13 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-gray-900">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-foreground">Quick Links</h3>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-600 hover:text-blue-700 transition-colors duration-300 hover:translate-x-1 inline-block"
+                    className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block"
                   >
                     {link.name}
                   </Link>
@@ -83,12 +83,12 @@ const Footer = () => {
 
           {/* Services */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-gray-900">Our Services</h3>
+            <h3 className="text-lg font-semibold text-foreground">Our Services</h3>
             <ul className="space-y-2">
               {services.map((service) => (
                 <li
                   key={service}
-                  className="text-gray-600 hover:text-blue-700 transition-colors duration-300 cursor-pointer"
+                  className="text-muted-foreground hover:text-primary transition-colors duration-300 cursor-pointer"
                 >
                   {service}
                 </li>
@@ -98,13 +98,13 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-gray-900">Contact Us</h3>
+            <h3 className="text-lg font-semibold text-foreground">Contact Us</h3>
             <ul className="space-y-3">
               {contactInfo.map((contact) => (
                 <li key={contact.text}>
                   <a
                     href={contact.href}
-                    className="flex items-center space-x-3 text-gray-600 hover:text-blue-700 transition-colors duration-300 group"
+                    className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-300 group"
                   >
                     <AppIcon
                       icon={contact.icon}
@@ -119,9 +119,9 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
+        <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-center items-center text-center space-y-4 md:space-y-0">
-            <p className="text-gray-600">
+            <p className="text-muted-foreground">
               © {new Date().getFullYear()} {COMPANY_INFO.name}. All rights reserved.
             </p>
           </div>

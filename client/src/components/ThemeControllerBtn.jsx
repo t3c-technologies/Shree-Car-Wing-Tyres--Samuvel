@@ -18,7 +18,7 @@ export function ThemeControllerBtn() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="icon" className="md:p-6">
+        <Button variant="outline" size="icon" className="h-10 w-10">
           <AppIcon
             icon="material-symbols:sunny"
             size={20}

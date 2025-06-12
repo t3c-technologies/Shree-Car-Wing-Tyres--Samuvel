@@ -1,12 +1,12 @@
 // ✅ Company Information - Shree Caar Wind - Tyres
 export const COMPANY_INFO = {
-  id: "shree-caar-wind-tyres-coimbatore",
-  name: "Shree Caar Wind - Tyres",
+  id: "shree-caar-wings-tyres-coimbatore",
+  name: "Shree Caar Wings - Tyres",
   slogan: "Your Trusted Multi-Brand Tyre Partner",
   tagline: "Premium Multi-Brand Tyre Dealer",
   brandPartner: "Multi-Brand Dealer",
   yearEstablished: 2020,
-  legalName: "Shree Caar Wind - Tyres",
+  legalName: "Shree Caar Wings - Tyres",
   businessType: "Multi-Brand Tyre Dealer",
   location: {
     city: "Coimbatore",
@@ -48,14 +48,14 @@ export const SOCIAL_MEDIA = [
     id: "instagram",
     name: "Instagram",
     icon: "lucide:instagram",
-    url: "https://www.instagram.com/shreecaarwindtyres/",
+    url: "https://www.instagram.com/shreecaarwingstyres/",
     label: "Follow us on Instagram"
   },
   {
     id: "facebook",
     name: "Facebook",
     icon: "lucide:facebook",
-    url: "https://www.facebook.com/shreecaarwindtyres/", // Update with actual Facebook URL
+    url: "https://www.facebook.com/shreecaarwingstyres/", // Update with actual Facebook URL
     label: "Like us on Facebook"
   }
 ];
