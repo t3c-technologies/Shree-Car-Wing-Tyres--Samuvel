@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { AppIcon } from '@/lib/icon';
 import AlgoliaSearchBar from '@/components/AlgoliaSearchBar';
+import { ThemeControllerBtn } from '@/components/ThemeControllerBtn';
 import { COMPANY_INFO, CONTACT_INFO, TYRE_CATEGORIES, NAV_ITEMS } from '@/utils/constants';
 import './Header.css';
 
@@ -203,6 +204,9 @@ const Header = () => {
 
             {/* Section 3: CTA - Right Edge */}
             <div className="flex items-center justify-end space-x-2 sm:space-x-3 flex-shrink-0">
+              {/* Theme Toggle Button */}
+              <ThemeControllerBtn />
+
               {/* Book Now Button - Desktop */}
               <div className="hidden md:block">
                 <a href={`tel:${CONTACT_INFO.primaryContact.phone}`}>
@@ -269,13 +273,16 @@ const Header = () => {
                     </h1>
                   </div>
                 </Link>
-                <button
-                  className="p-2 rounded-md border border-border hover:bg-accent flex justify-center hover:text-accent-foreground mobile-touch-target"
-                  onClick={() => setIsMenuOpen(false)}
-                  aria-label="Close mobile menu"
-                >
-                  <AppIcon icon="lucide:x" className="text-xl" />
-                </button>
+                <div className="flex items-center space-x-2">
+                  <ThemeControllerBtn />
+                  <button
+                    className="p-2 rounded-md border border-border hover:bg-accent flex justify-center hover:text-accent-foreground mobile-touch-target"
+                    onClick={() => setIsMenuOpen(false)}
+                    aria-label="Close mobile menu"
+                  >
+                    <AppIcon icon="lucide:x" className="text-xl" />
+                  </button>
+                </div>
               </div>
 
               {/* Scrollable Content Area */}
