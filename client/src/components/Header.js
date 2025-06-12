@@ -252,7 +252,7 @@ const Header = () => {
             {/* Mobile Menu Content */}
             <div className="lg:hidden mobile-menu-content mobile-menu-animate bg-background flex flex-col h-full">
               {/* Mobile Menu Header */}
-              <div className="flex items-center justify-between p-4 border-b border-border bg-background flex-shrink-0">
+              <div className="flex items-center justify-between p-4 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 flex-shrink-0">
                 <Link href="/" className="flex items-center space-x-2" onClick={() => setIsMenuOpen(false)}>
                   <div className="relative w-8 h-8 flex-shrink-0">
                     <Image
@@ -349,7 +349,7 @@ const Header = () => {
               </div>
 
               {/* Fixed CTA Section at Bottom */}
-              <div className="flex-shrink-0 p-4 border-t border-border bg-background">
+              <div className="flex-shrink-0 p-4 border-t border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="w-full max-w-md mx-auto">
                   <a href={`tel:${CONTACT_INFO.primaryContact.phone}`} className="block">
                     <button className="w-full inline-flex items-center justify-center rounded-md text-base font-semibold
