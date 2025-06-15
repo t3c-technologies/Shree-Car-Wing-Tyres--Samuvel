@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 import { AppIcon } from '@/shared/utils/icon';
+import { Card, CardContent, CardHeader, CardTitle } from '@/shared/components/ui/card';
+import { Badge } from '@/shared/components/ui/badge';
+import { Button } from '@/shared/components/ui/button';
 import {
     COMPANY_INFO,
     CONTACT_INFO,
@@ -36,33 +39,37 @@ const ServicesPage = () => {
                     </h2>
                     <div className="grid md:grid-cols-3 gap-8">
                         {mainServices.map((service, index) => (
-                            <div
+                            <Card
                                 key={index}
-                                className="bg-card border border-border rounded-xl p-6 transition-all duration-300 hover:shadow-lg animate-slideUp"
+                                className="transition-all duration-300 hover:shadow-lg animate-slideUp"
                                 style={{ animationDelay: `${index * 200}ms` }}
                             >
-                                <div className="flex items-center mb-4">
-                                    <AppIcon icon={service.icon} className="w-8 h-8 text-primary" />
-                                    <h3 className="text-xl font-semibold text-card-foreground ml-3">{service.title}</h3>
-                                </div>
-                                <p className="text-muted-foreground mb-6">{service.description}</p>
-                                <ul className="space-y-3 mb-6">
-                                    {service.features.map((feature, fIndex) => (
-                                        <li key={fIndex} className="flex items-start">
-                                            <AppIcon icon="mdi:check-circle" className="w-5 h-5 text-green-500 mt-0.5 mr-2 flex-shrink-0" />
-                                            <span className="text-card-foreground">{feature}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                                <div className="flex items-center justify-between mt-auto">
-                                    <span className="text-2xl font-bold text-primary">{service.price}<sup>*</sup></span>
-                                    <a href={`tel:${CONTACT_INFO.primaryContact.phone}`}>
-                                        <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:bg-primary/90 transition-colors duration-300">
-                                            Book Now
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
+                                <CardHeader>
+                                    <div className="flex items-center mb-4">
+                                        <AppIcon icon={service.icon} className="w-8 h-8 text-primary" />
+                                        <CardTitle className="text-xl ml-3">{service.title}</CardTitle>
+                                    </div>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-muted-foreground mb-6">{service.description}</p>
+                                    <ul className="space-y-3 mb-6">
+                                        {service.features.map((feature, fIndex) => (
+                                            <li key={fIndex} className="flex items-start">
+                                                <AppIcon icon="mdi:check-circle" className="w-5 h-5 text-green-500 mt-0.5 mr-2 flex-shrink-0" />
+                                                <span className="text-card-foreground">{feature}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                    <div className="flex items-center justify-between mt-auto">
+                                        <span className="text-2xl font-bold text-primary">{service.price}<sup>*</sup></span>
+                                        <Button asChild>
+                                            <a href={`tel:${CONTACT_INFO.primaryContact.phone}`}>
+                                                Book Now
+                                            </a>
+                                        </Button>
+                                    </div>
+                                </CardContent>
+                            </Card>
                         ))}
                     </div>
                     {/* Footnote for the asterisk */}

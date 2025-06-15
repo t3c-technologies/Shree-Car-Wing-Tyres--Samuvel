@@ -7,6 +7,16 @@ import { AppIcon } from '@/shared/utils/icon';
 import AlgoliaSearchBar from '@/shared/components/AlgoliaSearchBar';
 import { ThemeControllerBtn } from '@/shared/components/ThemeControllerBtn';
 import { COMPANY_INFO, CONTACT_INFO, TYRE_CATEGORIES, NAV_ITEMS } from '@/shared/utils/constants';
+import { Badge } from '@/shared/components/ui/badge';
+import { Button } from '@/shared/components/ui/button';
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from '@/shared/components/ui/navigation-menu';
+import { Separator } from '@/shared/components/ui/separator';
 import './Header.css';
 
 const Header = () => {
@@ -108,39 +118,35 @@ const Header = () => {
                     Home
                   </Link>
 
-                  {/* Tyres Dropdown */}
-                  <div className="relative">
-                    <button
-                      ref={buttonRef}
-                      onClick={() => setTyresDropdownOpen(!tyresDropdownOpen)}
-                      className="flex items-center text-sm sm:text-base md:text-lg font-medium text-muted-foreground hover:text-foreground focus:outline-none focus:underline focus:underline-offset-4 whitespace-nowrap"
-                      aria-expanded={tyresDropdownOpen}
-                    >
-                      Tyres
-                      <AppIcon icon="lucide:chevron-down" className={`ml-1 h-4 w-4 ${tyresDropdownOpen ? 'rotate-180' : ''}`} />
-                    </button>
-
-                    {tyresDropdownOpen && (
-                      <div ref={dropdownRef} className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-80 rounded-md premium-dropdown p-1 text-popover-foreground shadow-md z-50">
-                        {TYRE_CATEGORIES.map((category) => (
-                          <Link
-                            key={category.name}
-                            href={category.href}
-                            className="flex items-start rounded-sm px-3 py-3 text-sm sm:text-base premium-dropdown-item focus:outline-none"
-                            onClick={() => setTyresDropdownOpen(false)}
-                          >
-                            <AppIcon icon={category.icon} className="mr-3 h-5 w-5 mt-0.5 flex-shrink-0 premium-dropdown-icon" />
-                            <div className="min-w-0">
-                              <div className="font-medium text-sm sm:text-base premium-dropdown-title">{category.name}</div>
-                              <div className="text-xs sm:text-sm mt-1 line-clamp-2 premium-dropdown-description">
-                                {category.description}
-                              </div>
-                            </div>
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
+                  {/* Enhanced Tyres Dropdown */}
+                  <NavigationMenu>
+                    <NavigationMenuList>
+                      <NavigationMenuItem>
+                        <NavigationMenuTrigger className="text-sm sm:text-base md:text-lg font-medium">
+                          Tyres
+                        </NavigationMenuTrigger>
+                        <NavigationMenuContent>
+                          <div className="grid w-[600px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                            {TYRE_CATEGORIES.map((category) => (
+                              <Link
+                                key={category.name}
+                                href={category.href}
+                                className="group block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                              >
+                                <div className="flex items-center space-x-2">
+                                  <AppIcon icon={category.icon} className="h-5 w-5 text-primary" />
+                                  <div className="text-sm font-medium leading-none">{category.name}</div>
+                                </div>
+                                <p className="line-clamp-2 text-sm leading-snug text-muted-foreground mt-2">
+                                  {category.description}
+                                </p>
+                              </Link>
+                            ))}
+                          </div>
+                        </NavigationMenuContent>
+                      </NavigationMenuItem>
+                    </NavigationMenuList>
+                  </NavigationMenu>
 
                   {navItems.map((item) => (
                     <Link

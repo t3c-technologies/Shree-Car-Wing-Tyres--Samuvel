@@ -1,6 +1,9 @@
 "use client";
 
 import { AppIcon } from "@/shared/utils/icon";
+import { Badge } from "@/shared/components/ui/badge";
+import { Button } from "@/shared/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/shared/components/ui/card";
 import { TYRE_CATEGORIES, COMPANY_INFO } from "@/shared/utils/constants";
 
 const PremiumCategoriesSection = () => {
@@ -20,7 +23,10 @@ const PremiumCategoriesSection = () => {
                 {/* Categories Header */}
                 <div className="text-center mb-12">
                     <div className="animate-fadeInUp">
-                        <h2 className="text-3xl md:text-4xl font-bold text-card-foreground mb-4">
+                        <Badge variant="outline" className="mb-4">
+                            Vehicle Categories
+                        </Badge>
+                        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                             Shop by Vehicle Type
                         </h2>
                         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -29,84 +35,78 @@ const PremiumCategoriesSection = () => {
                     </div>
                 </div>
 
-                {/* Premium Categories Grid */}
-                <div className="bg-card rounded-3xl shadow-xl p-8 mb-12">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        {categories.map((category, index) => (
-                            <div
-                                key={category.id}
-                                className="group cursor-pointer p-6 rounded-2xl border border-border/50 hover:border-primary/30 hover:bg-primary/5 transition-all duration-300 hover:shadow-lg animate-fadeInUp"
-                                style={{ animationDelay: `${index * 100}ms` }}
-                            >
-                                <a href={category.href} className="block">
-                                    <div className="flex items-center gap-4 mb-4">
-                                        <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${category.gradient} flex items-center justify-center text-white shadow-lg`}>
-                                            <AppIcon icon={category.icon} className="w-6 h-6" />
-                                        </div>
-                                        <div>
-                                            <h3 className="font-bold text-lg text-card-foreground group-hover:text-primary transition-colors">
-                                                {category.name}
-                                            </h3>
-                                            <p className="text-sm text-muted-foreground">
-                                                {category.description}
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="space-y-2 mb-6">
-                                        <div className="text-sm text-muted-foreground">Vehicle types:</div>
-                                        <div className="space-y-1">
-                                            {category.vehicles.map((vehicle) => (
-                                                <div key={vehicle} className="flex items-center text-sm text-muted-foreground">
-                                                    <AppIcon icon="mdi:chevron-right" className="w-4 h-4 text-primary mr-2" />
-                                                    <span>{vehicle}</span>
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div>
-
-                                    <div className="space-y-2 mb-4">
-                                        <div className="text-sm text-muted-foreground">Top brands:</div>
-                                        <div className="flex flex-wrap gap-1">
-                                            {COMPANY_INFO.brands.fourWheeler.slice(0, 3).map((brand) => (
-                                                <span key={brand} className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
-                                                    {brand}
-                                                </span>
-                                            ))}
-                                        </div>
-                                    </div>
-
-                                    <button className="w-full text-sm border border-border group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-all rounded-lg py-2 px-4 font-medium">
-                                        Browse Collection
-                                    </button>
-                                </a>
-                            </div>
-                        ))}
-                    </div>
+                {/* Enhanced Categories Grid */}
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                    {categories.map((category, index) => (
+                        <Card
+                            key={category.id}
+                            className="group cursor-pointer hover:shadow-xl transition-all duration-300 hover:scale-105 border-2 hover:border-primary/30 animate-fadeInUp"
+                            style={{ animationDelay: `${index * 100}ms` }}
+                        >
+                            <CardHeader className="text-center">
+                                <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${category.gradient} flex items-center justify-center text-white shadow-lg mx-auto mb-4`}>
+                                    <AppIcon icon={category.icon} className="w-8 h-8" />
+                                </div>
+                                <CardTitle className="group-hover:text-primary transition-colors">
+                                    {category.name}
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="text-center">
+                                <p className="text-muted-foreground mb-4">
+                                    {category.description}
+                                </p>
+                                <Button
+                                    variant="outline"
+                                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                                    asChild
+                                >
+                                    <a href={category.href}>
+                                        Explore {category.name}
+                                        <AppIcon icon="mdi:arrow-right" className="w-4 h-4 ml-2" />
+                                    </a>
+                                </Button>
+                            </CardContent>
+                        </Card>
+                    ))}
                 </div>
 
                 {/* Premium Brands Showcase */}
-                <div className="bg-card rounded-3xl shadow-xl p-8 overflow-hidden">
-                    <div className="animate-fadeInUp animation-delay-600">
-                        <h3 className="text-2xl md:text-3xl font-bold text-center text-card-foreground mb-8">
-                            Authorized Dealer for Premium Brands
-                        </h3>
-                        <div className="relative">
-                            <div className="flex animate-marquee space-x-16">
-                                {[...topBrands, ...topBrands].map((brand, index) => (
-                                    <div
-                                        key={`${brand}-${index}`}
-                                        className="flex-shrink-0 opacity-70 hover:opacity-100 transition-opacity"
-                                    >
-                                        <div className="w-32 h-12 bg-muted/50 rounded-lg flex items-center justify-center text-muted-foreground font-semibold text-sm">
-                                            {brand}
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
+                <Card className="bg-gradient-to-br from-primary/5 to-primary/10 border-primary/20 overflow-hidden">
+                    <CardContent className="p-8">
+                        <div className="text-center mb-8">
+                            <Badge variant="secondary" className="mb-4">
+                                Premium Partners
+                            </Badge>
+                            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+                                Trusted by Leading Brands
+                            </h3>
+                            <p className="text-muted-foreground max-w-2xl mx-auto">
+                                We are authorized dealers for the world's most trusted tyre manufacturers
+                            </p>
                         </div>
-                    </div>
-                </div>
+
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center">
+                            {topBrands.map((brand, index) => (
+                                <div
+                                    key={brand}
+                                    className="flex items-center justify-center p-4 bg-background rounded-xl hover:shadow-lg transition-all duration-300 hover:scale-105 animate-fadeInUp"
+                                    style={{ animationDelay: `${(index + 4) * 100}ms` }}
+                                >
+                                    <span className="text-lg font-semibold text-foreground text-center">
+                                        {brand}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+
+                        <div className="text-center mt-8">
+                            <Button variant="outline" size="lg" className="px-8">
+                                <AppIcon icon="mdi:crown" className="w-5 h-5 mr-2" />
+                                View All Brands
+                            </Button>
+                        </div>
+                    </CardContent>
+                </Card>
             </div>
         </section>
     );

@@ -2,6 +2,11 @@
 
 import { useState } from "react";
 import { AppIcon } from "@/shared/utils/icon";
+import { Badge } from "@/shared/components/ui/badge";
+import { Button } from "@/shared/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/shared/components/ui/card";
+import { Input } from "@/shared/components/ui/input";
+import { Separator } from "@/shared/components/ui/separator";
 import { getAllGuides } from "@/shared/utils/guideConfig";
 import {
     COMPANY_INFO,

@@ -3,6 +3,11 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { AppIcon } from "@/shared/utils/icon";
+import { Badge } from "@/shared/components/ui/badge";
+import { Button } from "@/shared/components/ui/button";
+import { Card, CardContent } from "@/shared/components/ui/card";
+import { Input } from "@/shared/components/ui/input";
+import { Separator } from "@/shared/components/ui/separator";
 import { COMPANY_INFO, CONTACT_INFO, BUSINESS_STATS, TYRE_CATEGORIES } from "@/shared/utils/constants";
 
 const PremiumHeroSection = () => {
@@ -62,9 +67,10 @@ const PremiumHeroSection = () => {
                     {/* Left Content */}
                     <div className="text-primary-foreground space-y-6">
                         <div className="animate-fadeInUp">
-                            <div className="inline-block bg-accent/90 text-accent-foreground rounded-full px-4 py-2 text-sm mb-4 animate-pulse">
-                                ✨ {COMPANY_INFO.tagline}
-                            </div>
+                            <Badge variant="secondary" className="mb-4 bg-white/20 text-white border-white/30 hover:bg-white/30">
+                                <AppIcon icon="mdi:star" className="w-4 h-4 mr-2" />
+                                {COMPANY_INFO.tagline}
+                            </Badge>
                             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
                                 Premium Tyres for
                                 <span className="block bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">
@@ -77,44 +83,46 @@ const PremiumHeroSection = () => {
                             Experience superior performance and safety with our complete range of premium tyres from world-renowned brands.
                         </p>
 
-                        {/* Premium Search Bar */}
-                        <div className="animate-fadeInUp animation-delay-400 max-w-xl">
-                            <form onSubmit={handleSearch} className="flex bg-primary-foreground/95 backdrop-blur-sm rounded-full shadow-2xl border border-primary-foreground/20 p-2">
-                                <AppIcon icon="mdi:magnify" className="h-6 w-6 text-muted-foreground ml-4 my-auto" />
-                                <input
-                                    type="text"
-                                    placeholder="Search by tyre size or vehicle model..."
-                                    value={searchQuery}
-                                    onChange={(e) => setSearchQuery(e.target.value)}
-                                    className="flex-1 border-0 bg-transparent text-lg focus:outline-none focus:ring-0 px-4 py-3 text-card-foreground placeholder:text-muted-foreground/70"
-                                />
-                                <button
-                                    type="submit"
-                                    className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 font-semibold transition-all duration-200 hover:scale-105"
-                                >
-                                    Search
-                                </button>
-                            </form>
-                        </div>
+                        {/* Enhanced Search Bar */}
+                        <Card className="animate-fadeInUp animation-delay-400 max-w-xl bg-white/95 backdrop-blur-sm border-0 shadow-2xl">
+                            <CardContent className="p-2">
+                                <form onSubmit={handleSearch} className="flex items-center space-x-2">
+                                    <div className="flex-1 flex items-center space-x-2">
+                                        <AppIcon icon="mdi:magnify" className="h-5 w-5 text-muted-foreground ml-2" />
+                                        <Input
+                                            type="text"
+                                            placeholder="Search by tyre size or vehicle model..."
+                                            value={searchQuery}
+                                            onChange={(e) => setSearchQuery(e.target.value)}
+                                            className="border-0 bg-transparent text-base focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-muted-foreground/70"
+                                        />
+                                    </div>
+                                    <Button
+                                        type="submit"
+                                        className="px-6 py-2 font-semibold hover:scale-105 transition-transform"
+                                    >
+                                        Search
+                                    </Button>
+                                </form>
+                            </CardContent>
+                        </Card>
 
-                        {/* Action Buttons */}
+                        {/* Enhanced Action Buttons */}
                         <div className="animate-fadeInUp animation-delay-600 flex flex-col sm:flex-row gap-4 pt-4">
-                            <a href="#tyres" className="group">
-                                <button className="bg-primary-foreground text-primary px-8 py-4 rounded-full hover:bg-primary-foreground/90 transition-all duration-200 hover:scale-105 w-full sm:w-auto font-semibold shadow-lg">
-                                    <span className="flex items-center justify-center gap-2">
+                            <Button size="lg" className="bg-white text-primary hover:bg-white/90 px-8 py-4 font-semibold hover:scale-105 transition-all group" asChild>
+                                <a href="#tyres">
+                                    <span className="flex items-center gap-2">
                                         Explore Range
                                         <AppIcon icon="mdi:arrow-right" className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                                     </span>
-                                </button>
-                            </a>
-                            <a href={`tel:${CONTACT_INFO.primaryContact.phone}`} className="group">
-                                <button className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-full hover:bg-primary-foreground/10 transition-all duration-200 hover:scale-105 w-full sm:w-auto font-semibold">
-                                    <span className="flex items-center justify-center gap-2">
-                                        <AppIcon icon="mdi:phone" className="w-5 h-5" />
-                                        Book Service
-                                    </span>
-                                </button>
-                            </a>
+                                </a>
+                            </Button>
+                            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 font-semibold hover:scale-105 transition-all" asChild>
+                                <a href={`tel:${CONTACT_INFO.primaryContact.phone}`}>
+                                    <AppIcon icon="mdi:phone" className="w-5 h-5 mr-2" />
+                                    Book Service
+                                </a>
+                            </Button>
                         </div>
 
                         {/* Business Stats */}

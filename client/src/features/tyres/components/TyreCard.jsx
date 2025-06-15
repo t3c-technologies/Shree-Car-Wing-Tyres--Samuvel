@@ -1,5 +1,10 @@
 import React from 'react';
 import { AppIcon } from '@/shared/utils/icon';
+import { Card, CardContent, CardHeader } from '@/shared/components/ui/card';
+import { Badge } from '@/shared/components/ui/badge';
+import { Button } from '@/shared/components/ui/button';
+import { Separator } from '@/shared/components/ui/separator';
+import { Progress } from '@/shared/components/ui/progress';
 
 const TyreCard = React.memo(({
     tyre,
@@ -22,9 +27,8 @@ const TyreCard = React.memo(({
     };
 
     return (
-        <div
-            className={`bg-card border border-border rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 tyre-card-hover ${viewMode === 'list' ? 'flex' : ''
-                } tyre-card ${getAvailabilityClass()}`}
+        <Card className={`group overflow-hidden border-2 hover:border-primary/20 hover:shadow-xl transition-all duration-300 ${viewMode === 'list' ? 'flex' : ''
+            } ${getAvailabilityClass()}`}
         >
             {/* Image Section */}
             <div className={`relative ${viewMode === 'list' ? 'w-48 flex-shrink-0' : 'aspect-square'
@@ -41,55 +45,50 @@ const TyreCard = React.memo(({
 
                 {/* Badges */}
                 <div className="absolute top-3 left-3 flex flex-col gap-1">
-                    <span className="px-2 py-1 bg-primary text-primary-foreground rounded text-xs font-medium">
+                    <Badge variant="default" className="text-xs font-medium">
                         {tyre.category}
-                    </span>
+                    </Badge>
                     {tyre.availability?.status === 'Low Stock' && (
-                        <span className="px-2 py-1 bg-destructive text-destructive-foreground rounded text-xs font-medium">
+                        <Badge variant="destructive" className="text-xs font-medium">
                             Low Stock
-                        </span>
+                        </Badge>
                     )}
                     {tyre.availability?.status === 'Out of Stock' && (
-                        <span className="px-2 py-1 bg-muted text-muted-foreground rounded text-xs font-medium">
+                        <Badge variant="secondary" className="text-xs font-medium">
                             Out of Stock
-                        </span>
+                        </Badge>
                     )}
                     {tyre.availability?.status === 'Seasonal' && (
-                        <span className="px-2 py-1 bg-blue-500 text-white rounded text-xs font-medium">
+                        <Badge variant="outline" className="text-xs font-medium bg-blue-500 text-white border-blue-500">
                             Seasonal
-                        </span>
+                        </Badge>
                     )}
                 </div>
 
                 {/* Action Buttons */}
                 <div className="absolute top-3 right-3 flex flex-col gap-1">
-                    <button
+                    <Button
+                        size="icon"
+                        variant={isFavorite ? "destructive" : "secondary"}
                         onClick={() => onToggleFavorite(tyre.id)}
-                        className={`w-8 h-8 rounded-full flex items-center justify-center transition-colors ${isFavorite
-                            ? 'bg-destructive text-destructive-foreground'
-                            : 'bg-card/80 text-card-foreground hover:bg-destructive hover:text-destructive-foreground'
-                            }`}
+                        className="w-8 h-8 rounded-full bg-card/80 hover:bg-destructive hover:text-destructive-foreground"
                     >
                         <AppIcon icon="mdi:heart" className="w-4 h-4" />
-                    </button>
-                    <button
+                    </Button>
+                    <Button
+                        size="icon"
+                        variant={isInComparison ? "default" : "secondary"}
                         onClick={() => onToggleCompare(tyre.id)}
                         disabled={!canAddToComparison && !isInComparison}
-                        className={`w-8 h-8 rounded-full flex items-center justify-center transition-colors ${isInComparison
-                            ? 'bg-accent text-accent-foreground'
-                            : 'bg-card/80 text-card-foreground hover:bg-accent hover:text-accent-foreground'
-                            } ${!canAddToComparison && !isInComparison
-                                ? 'opacity-50 cursor-not-allowed'
-                                : ''
-                            }`}
+                        className="w-8 h-8 rounded-full bg-card/80 hover:bg-accent hover:text-accent-foreground disabled:opacity-50"
                     >
                         <AppIcon icon="mdi:compare" className="w-4 h-4" />
-                    </button>
+                    </Button>
                 </div>
             </div>
 
             {/* Content Section */}
-            <div className={`p-6 ${viewMode === 'list' ? 'flex-1' : ''}`}>
+            <CardContent className={`p-6 ${viewMode === 'list' ? 'flex-1' : ''}`}>
                 <div className="flex items-start justify-between mb-3">
                     <div>
                         <h3 className="text-lg font-semibold text-card-foreground mb-1 line-clamp-2">
@@ -112,17 +111,18 @@ const TyreCard = React.memo(({
                     <div className="mb-3">
                         <div className="flex flex-wrap gap-1">
                             {tyre.features.slice(0, 3).map((feature, idx) => (
-                                <span
+                                <Badge
                                     key={idx}
-                                    className="px-2 py-1 bg-muted text-muted-foreground rounded text-xs"
+                                    variant="secondary"
+                                    className="text-xs"
                                 >
                                     {typeof feature === 'string' ? feature : feature.name}
-                                </span>
+                                </Badge>
                             ))}
                             {tyre.features.length > 3 && (
-                                <span className="px-2 py-1 bg-muted text-muted-foreground rounded text-xs">
+                                <Badge variant="secondary" className="text-xs">
                                     +{tyre.features.length - 3} more
-                                </span>
+                                </Badge>
                             )}
                         </div>
                     </div>
@@ -159,21 +159,21 @@ const TyreCard = React.memo(({
 
                 {/* Action Buttons */}
                 <div className="flex gap-2">
-                    <a
-                        href={`/tyres/${tyre.id}`}
-                        className="flex-1 bg-primary text-primary-foreground text-center px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors font-medium"
-                    >
-                        View Details
-                    </a>
-                    <button
+                    <Button asChild className="flex-1">
+                        <a href={`/tyres/${tyre.id}`}>
+                            View Details
+                        </a>
+                    </Button>
+                    <Button
+                        variant="outline"
+                        size="icon"
                         onClick={() => onQuickView(tyre)}
-                        className="px-4 py-2 border border-border rounded-lg hover:bg-muted transition-colors"
                     >
                         <AppIcon icon="mdi:eye" className="w-4 h-4" />
-                    </button>
+                    </Button>
                 </div>
-            </div>
-        </div>
+            </CardContent>
+        </Card>
     );
 });
 

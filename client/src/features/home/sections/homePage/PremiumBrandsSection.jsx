@@ -25,7 +25,7 @@ const PremiumBrandsSection = () => {
 
                 {/* Brands Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {BRAND_INFO.map((brand, index) => (
+                    {BRAND_INFO.filter(brand => brand.href).map((brand, index) => (
                         <Link
                             key={brand.id}
                             href={brand.href}
