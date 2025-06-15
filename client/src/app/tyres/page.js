@@ -1,7 +1,12 @@
 "use client";
 
-import TyresPage from '@/uiPages/tyresPage/TyresPage';
+import { Suspense } from 'react';
+import TyresListing from '@/features/tyres/pages/TyresListing';
 
 export default function Page() {
-  return <TyresPage />;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TyresListing />
+    </Suspense>
+  );
 }

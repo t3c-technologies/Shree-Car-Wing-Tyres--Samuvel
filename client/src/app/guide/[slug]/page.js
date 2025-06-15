@@ -1,10 +1,11 @@
 import { notFound } from 'next/navigation';
-import Guide1Page from '@/uiPages/guidePage/Guide1Page';
-import Guide2Page from '@/uiPages/guidePage/Guide2Page';
-import Guide3Page from '@/uiPages/guidePage/Guide3Page';
-import Guide4Page from '@/uiPages/guidePage/Guide4Page';
-import Guide5Page from '@/uiPages/guidePage/Guide5Page';
-import { GUIDE_CONFIG, getAllGuideSlugs, getGuideBySlug } from '@/utils/guideConfig';
+import { use } from 'react';
+import Guide1Page from '@/features/guides/pages/Guide1Page';
+import Guide2Page from '@/features/guides/pages/Guide2Page';
+import Guide3Page from '@/features/guides/pages/Guide3Page';
+import Guide4Page from '@/features/guides/pages/Guide4Page';
+import Guide5Page from '@/features/guides/pages/Guide5Page';
+import { GUIDE_CONFIG, getAllGuideSlugs, getGuideBySlug } from '@/shared/utils/guideConfig';
 
 // Component mapping for dynamic imports
 const GUIDE_COMPONENTS = {
@@ -16,7 +17,8 @@ const GUIDE_COMPONENTS = {
 };
 
 export async function generateMetadata({ params }) {
-    const guide = getGuideBySlug(params.slug);
+    const { slug } = await params;
+    const guide = getGuideBySlug(slug);
 
     if (!guide) {
         return {
@@ -49,13 +51,14 @@ export async function generateMetadata({ params }) {
             type: "website",
         },
         keywords: guide.keywords,
-        canonical: `https://vidhyatyres.in/guide/${params.slug}`,
+        canonical: `https://vidhyatyres.in/guide/${slug}`,
     };
 }
 
 export default function GuideSlugPageRoute({ params }) {
-    const guide = getGuideBySlug(params.slug);
-    const GuideComponent = GUIDE_COMPONENTS[params.slug];
+    const { slug } = use(params);
+    const guide = getGuideBySlug(slug);
+    const GuideComponent = GUIDE_COMPONENTS[slug];
 
     if (!guide || !GuideComponent) {
         notFound();

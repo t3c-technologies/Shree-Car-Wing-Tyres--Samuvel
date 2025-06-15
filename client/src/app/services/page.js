@@ -1,4 +1,4 @@
-import ServicesPage from "@/uiPages/servicesPage/ServicesPage";
+import ServicesPage from "@/features/services/pages/ServicesPage";
 
 
 export const metadata = {

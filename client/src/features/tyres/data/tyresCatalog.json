@@ -1,0 +1,2965 @@
+[
+    {
+        "id": 1,
+        "name": "Assurance TripleMax 2",
+        "brand": "Goodyear",
+        "category": "TWO WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/two-wheeler/goodyear-assurance-triplemax-2",
+        "tagline": "Triple Protection for Every Ride",
+        "description": "Goodyear Assurance TripleMax 2 delivers superior wet grip, longer tread life, and enhanced fuel efficiency for motorcycles and scooters.",
+        "detailed_description": "The Assurance TripleMax 2 represents Goodyear's latest innovation in two-wheeler tire technology. Featuring an advanced silica-enhanced compound, this tire provides exceptional wet weather performance while maintaining durability for everyday commuting. The unique tread pattern ensures optimal water evacuation and reduces the risk of aquaplaning.",
+        "image_urls": [
+            "https://images.unsplash.com/photo-1558618047-b4081c4d60ee?w=400&h=400&fit=crop&crop=center",
+            "https://images.unsplash.com/photo-1572306375719-62e8bc888b39?w=400&h=400&fit=crop&crop=center",
+            "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&crop=center"
+        ],
+        "features": [
+            {
+                "name": "Wet Weather Grip",
+                "description": "Enhanced safety in rain with advanced silica compound",
+                "icon": "droplets"
+            },
+            {
+                "name": "Long Lasting Tread",
+                "description": "Extended mileage performance with durable compound",
+                "icon": "clock"
+            },
+            {
+                "name": "Fuel Efficiency",
+                "description": "Reduced rolling resistance for better fuel economy",
+                "icon": "fuel"
+            }
+        ],
+        "ideal_for": [
+            "COMMUTER BIKES",
+            "DAILY RIDING",
+            "ALL WEATHER CONDITIONS"
+        ],
+        "compatible_vehicles": [
+            "Honda Activa",
+            "TVS Jupiter",
+            "Bajaj Pulsar",
+            "Hero Splendor",
+            "Yamaha FZ",
+            "Honda CB Shine",
+            "Royal Enfield Classic",
+            "KTM Duke"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Standard",
+            "tread_compound": "Silica Enhanced",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 400,
+            "noise_level": "68 dB",
+            "fuel_efficiency_rating": "B",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.2,
+            "dry_performance": 8.5,
+            "comfort": 8.0,
+            "durability": 8.8,
+            "fuel_efficiency": 8.7,
+            "value_for_money": 8.3
+        },
+        "brochure": "/assets/TwoWheeler_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "90/90-12",
+                "width_mm": 90,
+                "aspect_ratio": 90,
+                "rim_diameter": 12,
+                "load_index": 54,
+                "speed_rating": "J",
+                "tube_type": "Tubeless",
+                "max_load_kg": 212,
+                "max_speed_kmh": 100,
+                "price": "₹3,200"
+            },
+            {
+                "size": "100/90-10",
+                "width_mm": 100,
+                "aspect_ratio": 90,
+                "rim_diameter": 10,
+                "load_index": 56,
+                "speed_rating": "J",
+                "tube_type": "Tubeless",
+                "max_load_kg": 224,
+                "max_speed_kmh": 100,
+                "price": "₹3,500"
+            }
+        ],
+        "price_range": "₹2,500 - ₹4,000",
+        "warranty": {
+            "duration": "2 Years",
+            "coverage": "Manufacturing defects and road hazard protection",
+            "terms": "Standard warranty terms apply"
+        },
+        "availability": {
+            "status": "Low Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 1250
+        },
+        "certifications": [
+            "BIS",
+            "ECE",
+            "DOT"
+        ],
+        "manufacturing": {
+            "country": "India",
+            "plant": "Aurangabad, Maharashtra",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015"
+            ]
+        },
+        "related_products": [
+            2,
+            4,
+            7
+        ],
+        "reviews": {
+            "average_rating": 4.3,
+            "total_reviews": 1847,
+            "rating_distribution": {
+                "5_star": 45,
+                "4_star": 32,
+                "3_star": 15,
+                "2_star": 5,
+                "1_star": 3
+            }
+        },
+        "tags": [
+            "tubeless",
+            "fuel-efficient",
+            "wet-grip",
+            "commuter",
+            "value"
+        ],
+        "launch_date": "2023-03-15",
+        "last_updated": "2025-01-15"
+    },
+    {
+        "id": 2,
+        "name": "UltraGrip Performance",
+        "brand": "JK Tyre",
+        "category": "FOUR WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/four-wheeler/jk-ultragrip-performance",
+        "tagline": "Superior Grip & Control",
+        "description": "JK Tyre UltraGrip Performance delivers exceptional traction and handling for passenger cars with advanced tread technology.",
+        "detailed_description": "The ContiScoot is engineered specifically for urban mobility, featuring Continental's RainGrip technology for exceptional wet weather performance. The compound is optimized for scooter characteristics, providing excellent mileage and consistent performance in city traffic conditions.",
+        "image_urls": [
+            "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+            "https://images.unsplash.com/photo-1613483817000-3c9b5c2b8dce?w=400&h=400&fit=crop&crop=center",
+            "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=400&h=400&fit=crop&crop=center"
+        ],
+        "features": [
+            {
+                "name": "Racing Technology",
+                "description": "Formula 1 derived compound for ultimate performance",
+                "icon": "trophy"
+            },
+            {
+                "name": "Asymmetric Design",
+                "description": "Optimized wet and dry performance zones",
+                "icon": "target"
+            },
+            {
+                "name": "SportContact",
+                "description": "Enhanced steering precision and road feedback",
+                "icon": "steering-wheel"
+            }
+        ],
+        "ideal_for": [
+            "SPORTS CARS",
+            "PERFORMANCE VEHICLES",
+            "SPIRITED DRIVING"
+        ],
+        "compatible_vehicles": [
+            "Maruti Swift",
+            "Hyundai i20",
+            "Honda City",
+            "Tata Nexon",
+            "Mahindra XUV500",
+            "Toyota Innova",
+            "Ford EcoSport",
+            "Renault Duster"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "High Performance",
+            "tread_compound": "Racing Derived",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 280,
+            "noise_level": "70 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.5,
+            "dry_performance": 9.8,
+            "comfort": 7.5,
+            "durability": 8.2,
+            "fuel_efficiency": 7.0,
+            "value_for_money": 7.8
+        },
+        "brochure": "/assets/FourWheeler_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "205/55 R16",
+                "width_mm": 205,
+                "aspect_ratio": 55,
+                "rim_diameter": 16,
+                "load_index": 91,
+                "speed_rating": "V",
+                "tube_type": "Tubeless",
+                "max_load_kg": 615,
+                "max_speed_kmh": 240,
+                "price": "₹12,500"
+            },
+            {
+                "size": "225/50 R17",
+                "width_mm": 225,
+                "aspect_ratio": 50,
+                "rim_diameter": 17,
+                "load_index": 94,
+                "speed_rating": "W",
+                "tube_type": "Tubeless",
+                "max_load_kg": 670,
+                "max_speed_kmh": 270,
+                "price": "₹14,200"
+            }
+        ],
+        "price_range": "₹8,000 - ₹15,000",
+        "warranty": {
+            "duration": "5 Years",
+            "coverage": "Manufacturing defects and performance guarantee",
+            "terms": "Premium warranty with roadside assistance"
+        },
+        "availability": {
+            "status": "Out of Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 850
+        },
+        "certifications": [
+            "BIS",
+            "ECE",
+            "DOT",
+            "UTQG"
+        ],
+        "manufacturing": {
+            "country": "Germany",
+            "plant": "Fulda, Germany",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            1,
+            5,
+            8
+        ],
+        "reviews": {
+            "average_rating": 4.6,
+            "total_reviews": 982,
+            "rating_distribution": {
+                "5_star": 58,
+                "4_star": 28,
+                "3_star": 10,
+                "2_star": 3,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "performance",
+            "racing",
+            "sports-car",
+            "high-speed",
+            "premium"
+        ],
+        "launch_date": "2022-08-20",
+        "last_updated": "2025-01-15"
+    },
+    {
+        "id": 3,
+        "name": "BluEarth AE-01",
+        "brand": "Yokohama",
+        "category": "TWO WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/two-wheeler/yokohama-bluearth-ae01",
+        "tagline": "Eco-Performance for Two Wheelers",
+        "description": "Yokohama BluEarth AE-01 combines environmental consciousness with superior performance for motorcycles and scooters.",
+        "detailed_description": "The Milaze X is specifically designed for the Indian commercial vehicle market, featuring a specialized compound that provides superior mileage and even wear characteristics. The reinforced construction ensures reliability under heavy load conditions while maintaining comfort for long-distance driving.",
+        "image_urls": [
+            "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&h=400&fit=crop&crop=center",
+            "https://images.unsplash.com/photo-1572306375719-62e8bc888b39?w=400&h=400&fit=crop&crop=center",
+            "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=400&fit=crop&crop=center"
+        ],
+        "features": [
+            {
+                "name": "All-Terrain Tread",
+                "description": "Versatile on-road and off-road performance",
+                "icon": "mountain"
+            },
+            {
+                "name": "DuPont Kevlar",
+                "description": "Enhanced strength and puncture resistance",
+                "icon": "shield"
+            },
+            {
+                "name": "Self-Cleaning Tread",
+                "description": "Excellent mud and stone ejection capability",
+                "icon": "cleaning"
+            }
+        ],
+        "ideal_for": [
+            "PICKUP TRUCKS",
+            "LIGHT COMMERCIAL VEHICLES",
+            "OFF-ROAD ADVENTURES"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "Kevlar Reinforced",
+            "temperature_grade": "B",
+            "traction_grade": "A",
+            "treadwear_rating": 560,
+            "noise_level": "72 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "B"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.0,
+            "dry_performance": 8.8,
+            "comfort": 7.8,
+            "durability": 9.2,
+            "fuel_efficiency": 7.5,
+            "value_for_money": 8.5
+        },
+        "brochure": "/assets/LCV_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "215/75 R15",
+                "width_mm": 215,
+                "aspect_ratio": 75,
+                "rim_diameter": 15,
+                "load_index": 100,
+                "speed_rating": "S",
+                "tube_type": "Tubeless",
+                "max_load_kg": 800,
+                "max_speed_kmh": 180,
+                "price": "₹8,500"
+            },
+            {
+                "size": "235/70 R16",
+                "width_mm": 235,
+                "aspect_ratio": 70,
+                "rim_diameter": 16,
+                "load_index": 106,
+                "speed_rating": "T",
+                "tube_type": "Tubeless",
+                "max_load_kg": 950,
+                "max_speed_kmh": 190,
+                "price": "₹9,200"
+            }
+        ],
+        "price_range": "₹6,000 - ₹10,000",
+        "warranty": {
+            "duration": "4 Years",
+            "coverage": "Manufacturing defects and commercial use protection",
+            "terms": "Enhanced warranty for commercial applications"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 720
+        },
+        "certifications": [
+            "BIS",
+            "ECE",
+            "DOT"
+        ],
+        "manufacturing": {
+            "country": "India",
+            "plant": "Aurangabad, Maharashtra",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015"
+            ]
+        },
+        "related_products": [
+            6,
+            9,
+            12
+        ],
+        "reviews": {
+            "average_rating": 4.4,
+            "total_reviews": 1234,
+            "rating_distribution": {
+                "5_star": 48,
+                "4_star": 35,
+                "3_star": 12,
+                "2_star": 4,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "all-terrain",
+            "commercial",
+            "kevlar",
+            "off-road",
+            "durable"
+        ],
+        "launch_date": "2023-01-10",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Honda Activa",
+            "TVS Jupiter",
+            "Bajaj Pulsar",
+            "Hero Splendor",
+            "Yamaha FZ",
+            "Honda CB Shine",
+            "Royal Enfield Classic",
+            "KTM Duke"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Turanza T005A",
+        "brand": "Bridgestone",
+        "category": "LIGHT COMMERCIAL",
+        "tyre_position": "all",
+        "url": "/tyres/light-commercial/kelly-edge-as-performance",
+        "tagline": "All-Season Commercial Performance",
+        "description": "Kelly Edge A/S Performance provides reliable all-season traction and durability for light commercial vehicles.",
+        "detailed_description": "The City Pro represents Michelin's commitment to urban mobility, featuring their proprietary silica compound technology that delivers superior wet grip while maintaining excellent fuel efficiency. The optimized tread pattern ensures even wear and extended mileage for city riders.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=10",
+            "https://picsum.photos/400/400?random=11",
+            "https://picsum.photos/400/400?random=12"
+        ],
+        "features": [
+            {
+                "name": "Silica Technology",
+                "description": "Enhanced wet grip and fuel efficiency",
+                "icon": "chemistry"
+            },
+            {
+                "name": "Extended Mileage",
+                "description": "Longer lasting tread compound",
+                "icon": "route"
+            },
+            {
+                "name": "Urban Optimized",
+                "description": "Designed specifically for city conditions",
+                "icon": "city"
+            }
+        ],
+        "ideal_for": [
+            "CITY COMMUTING",
+            "DAILY RIDERS",
+            "FUEL EFFICIENCY FOCUSED"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Standard",
+            "tread_compound": "Silica Enhanced",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 420,
+            "noise_level": "67 dB",
+            "fuel_efficiency_rating": "A",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.0,
+            "dry_performance": 8.3,
+            "comfort": 8.5,
+            "durability": 9.1,
+            "fuel_efficiency": 9.2,
+            "value_for_money": 8.7
+        },
+        "brochure": "/assets/TwoWheeler_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "90/100-10",
+                "width_mm": 90,
+                "aspect_ratio": 100,
+                "rim_diameter": 10,
+                "load_index": 53,
+                "speed_rating": "J",
+                "tube_type": "Tubeless",
+                "max_load_kg": 206,
+                "max_speed_kmh": 100,
+                "price": "₹3,800"
+            },
+            {
+                "size": "100/80-17",
+                "width_mm": 100,
+                "aspect_ratio": 80,
+                "rim_diameter": 17,
+                "load_index": 52,
+                "speed_rating": "P",
+                "tube_type": "Tubeless",
+                "max_load_kg": 200,
+                "max_speed_kmh": 150,
+                "price": "₹4,200"
+            }
+        ],
+        "price_range": "₹2,800 - ₹4,500",
+        "warranty": {
+            "duration": "2 Years",
+            "coverage": "Manufacturing defects and mileage guarantee",
+            "terms": "Michelin quality assurance program"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 1100
+        },
+        "certifications": [
+            "BIS",
+            "ECE",
+            "DOT"
+        ],
+        "manufacturing": {
+            "country": "India",
+            "plant": "Chennai, Tamil Nadu",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            1,
+            7,
+            10
+        ],
+        "reviews": {
+            "average_rating": 4.5,
+            "total_reviews": 2156,
+            "rating_distribution": {
+                "5_star": 52,
+                "4_star": 33,
+                "3_star": 11,
+                "2_star": 3,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "silica",
+            "fuel-efficient",
+            "urban",
+            "mileage",
+            "premium"
+        ],
+        "launch_date": "2022-11-05",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata Ace",
+            "Mahindra Bolero Pickup",
+            "Ashok Leyland Dost",
+            "Maruti Super Carry",
+            "Force Traveller",
+            "Eicher Pro 1049",
+            "Isuzu D-Max V-Cross",
+            "Bajaj RE Auto"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Geolandar A/T G015",
+        "brand": "Yokohama",
+        "category": "LIGHT COMMERCIAL",
+        "tyre_position": "all",
+        "url": "/tyres/light-commercial/yokohama-geolandar-at-g015",
+        "tagline": "All-Terrain Versatility",
+        "description": "Yokohama Geolandar A/T G015 provides excellent all-terrain performance for light commercial vehicles with superior durability.",
+        "detailed_description": "The Primacy 4 features Michelin's revolutionary EverGrip technology, which maintains consistent wet performance throughout the tire's life. The unique tread design includes expanding rain grooves that widen as the tire wears, ensuring optimal water evacuation from new to worn.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=13",
+            "https://picsum.photos/400/400?random=14",
+            "https://picsum.photos/400/400?random=15"
+        ],
+        "features": [
+            {
+                "name": "EverGrip Technology",
+                "description": "Consistent wet performance throughout tire life",
+                "icon": "grip"
+            },
+            {
+                "name": "Long Lasting",
+                "description": "Enhanced durability and mileage",
+                "icon": "infinity"
+            },
+            {
+                "name": "Quiet Comfort",
+                "description": "Reduced road noise for premium comfort",
+                "icon": "volume-off"
+            }
+        ],
+        "ideal_for": [
+            "PREMIUM SEDANS",
+            "FAMILY CARS",
+            "LONG DISTANCE TOURING"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Premium",
+            "tread_compound": "EverGrip Enhanced",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 640,
+            "noise_level": "68 dB",
+            "fuel_efficiency_rating": "B",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.6,
+            "dry_performance": 8.7,
+            "comfort": 9.0,
+            "durability": 9.3,
+            "fuel_efficiency": 8.2,
+            "value_for_money": 8.8
+        },
+        "brochure": "/assets/FourWheeler_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "195/65 R15",
+                "width_mm": 195,
+                "aspect_ratio": 65,
+                "rim_diameter": 15,
+                "load_index": 91,
+                "speed_rating": "V",
+                "tube_type": "Tubeless",
+                "max_load_kg": 615,
+                "max_speed_kmh": 240,
+                "price": "₹9,800"
+            },
+            {
+                "size": "215/60 R16",
+                "width_mm": 215,
+                "aspect_ratio": 60,
+                "rim_diameter": 16,
+                "load_index": 95,
+                "speed_rating": "V",
+                "tube_type": "Tubeless",
+                "max_load_kg": 690,
+                "max_speed_kmh": 240,
+                "price": "₹11,200"
+            }
+        ],
+        "price_range": "₹7,500 - ₹12,000",
+        "warranty": {
+            "duration": "5 Years",
+            "coverage": "Manufacturing defects and premium protection",
+            "terms": "Michelin Promise Plan included"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 950
+        },
+        "certifications": [
+            "BIS",
+            "ECE",
+            "DOT",
+            "UTQG"
+        ],
+        "manufacturing": {
+            "country": "India",
+            "plant": "Chennai, Tamil Nadu",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            2,
+            8,
+            11
+        ],
+        "reviews": {
+            "average_rating": 4.7,
+            "total_reviews": 1678,
+            "rating_distribution": {
+                "5_star": 61,
+                "4_star": 28,
+                "3_star": 8,
+                "2_star": 2,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "evergrip",
+            "premium",
+            "safety",
+            "comfort",
+            "longevity"
+        ],
+        "launch_date": "2023-06-12",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata Ace",
+            "Mahindra Bolero Pickup",
+            "Ashok Leyland Dost",
+            "Maruti Super Carry",
+            "Force Traveller",
+            "Eicher Pro 1049",
+            "Isuzu D-Max V-Cross",
+            "Bajaj RE Auto"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "SafeMaxx Pro",
+        "brand": "Bridgestone",
+        "category": "TRUCKS",
+        "tyre_position": "all",
+        "url": "/tyres/trucks/kelly-safemaxx",
+        "tagline": "Maximum Safety for Heavy Loads",
+        "description": "Kelly SafeMaxx provides exceptional safety and durability for truck applications with advanced steel belt construction.",
+        "detailed_description": "The Agilis+ is engineered specifically for commercial applications, featuring reinforced sidewalls and enhanced load-carrying capacity. The advanced tread compound provides excellent wet grip while maintaining durability under heavy loads and frequent use.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=16",
+            "https://picsum.photos/400/400?random=17",
+            "https://picsum.photos/400/400?random=18"
+        ],
+        "features": [
+            {
+                "name": "Heavy Load Capacity",
+                "description": "Enhanced weight carrying ability for commercial use",
+                "icon": "weight"
+            },
+            {
+                "name": "Wet Grip Technology",
+                "description": "Superior safety in wet conditions",
+                "icon": "grip"
+            },
+            {
+                "name": "Commercial Durability",
+                "description": "Built for intensive professional use",
+                "icon": "truck"
+            }
+        ],
+        "ideal_for": [
+            "DELIVERY VANS",
+            "CARGO VEHICLES",
+            "COMMERCIAL FLEETS"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced Commercial",
+            "tread_compound": "Commercial Grade",
+            "temperature_grade": "B",
+            "traction_grade": "A",
+            "treadwear_rating": 480,
+            "noise_level": "71 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.8,
+            "dry_performance": 8.2,
+            "comfort": 7.5,
+            "durability": 9.4,
+            "fuel_efficiency": 7.8,
+            "value_for_money": 8.6
+        },
+        "brochure": "/assets/LCV_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "185/75 R16",
+                "width_mm": 185,
+                "aspect_ratio": 75,
+                "rim_diameter": 16,
+                "load_index": 104,
+                "speed_rating": "R",
+                "tube_type": "Tubeless",
+                "max_load_kg": 900,
+                "max_speed_kmh": 170,
+                "price": "₹7,500"
+            },
+            {
+                "size": "205/75 R16",
+                "width_mm": 205,
+                "aspect_ratio": 75,
+                "rim_diameter": 16,
+                "load_index": 110,
+                "speed_rating": "R",
+                "tube_type": "Tubeless",
+                "max_load_kg": 1060,
+                "max_speed_kmh": 170,
+                "price": "₹8,200"
+            }
+        ],
+        "price_range": "₹5,500 - ₹9,000",
+        "warranty": {
+            "duration": "4 Years",
+            "coverage": "Manufacturing defects and commercial use warranty",
+            "terms": "Michelin commercial protection plan"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 680
+        },
+        "certifications": [
+            "BIS",
+            "ECE",
+            "DOT"
+        ],
+        "manufacturing": {
+            "country": "India",
+            "plant": "Chennai, Tamil Nadu",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            3,
+            9,
+            15
+        ],
+        "reviews": {
+            "average_rating": 4.4,
+            "total_reviews": 892,
+            "rating_distribution": {
+                "5_star": 46,
+                "4_star": 38,
+                "3_star": 12,
+                "2_star": 3,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "commercial",
+            "heavy-duty",
+            "wet-grip",
+            "fleet",
+            "professional"
+        ],
+        "launch_date": "2022-09-18",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata LPT 1613",
+            "Ashok Leyland 2518",
+            "Mahindra Blazo X",
+            "Volvo FMX",
+            "Eicher Pro 6025",
+            "BharatBenz 1617",
+            "Scania R450",
+            "MAN CLA 31.300"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Battlax BT-46",
+        "brand": "Bridgestone",
+        "category": "TWO WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/two-wheeler/bridgestone-battlax-bt46",
+        "tagline": "Street Performance Mastery",
+        "description": "Bridgestone Battlax BT-46 provides exceptional grip and handling for street motorcycles with advanced compound technology.",
+        "detailed_description": "The Battlax BT-46 represents Bridgestone's expertise in motorcycle tire technology, featuring a sport-oriented compound that delivers exceptional grip and cornering performance. The tire's construction ensures consistent performance characteristics throughout its life.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=19",
+            "https://picsum.photos/400/400?random=20",
+            "https://picsum.photos/400/400?random=21"
+        ],
+        "features": [
+            {
+                "name": "Sport Compound",
+                "description": "Enhanced grip and cornering performance",
+                "icon": "target"
+            },
+            {
+                "name": "Street Optimized",
+                "description": "Designed specifically for road use",
+                "icon": "road"
+            },
+            {
+                "name": "Consistent Performance",
+                "description": "Maintains performance characteristics throughout tire life",
+                "icon": "trending-up"
+            }
+        ],
+        "ideal_for": [
+            "SPORT BIKES",
+            "STREET RIDING",
+            "PERFORMANCE TOURING"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "Sport Compound",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 180,
+            "noise_level": "70 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.8,
+            "dry_performance": 9.3,
+            "comfort": 7.5,
+            "durability": 8.2,
+            "fuel_efficiency": 7.8,
+            "value_for_money": 8.4
+        },
+        "brochure": "/assets/2W_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "110/70-17",
+                "width_mm": 110,
+                "aspect_ratio": 70,
+                "rim_diameter": 17,
+                "load_index": 54,
+                "speed_rating": "H",
+                "tube_type": "Tubeless",
+                "max_load_kg": 212,
+                "max_speed_kmh": 210,
+                "price": "₹4,800"
+            },
+            {
+                "size": "140/70-17",
+                "width_mm": 140,
+                "aspect_ratio": 70,
+                "rim_diameter": 17,
+                "load_index": 66,
+                "speed_rating": "H",
+                "tube_type": "Tubeless",
+                "max_load_kg": 300,
+                "max_speed_kmh": 210,
+                "price": "₹6,200"
+            }
+        ],
+        "price_range": "₹4,500 - ₹7,000",
+        "warranty": {
+            "duration": "2 Years",
+            "coverage": "Manufacturing defects",
+            "terms": "Standard warranty terms apply"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 850
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "B",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "India",
+            "plant": "Pune, Maharashtra",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015"
+            ]
+        },
+        "related_products": [
+            1,
+            8,
+            12
+        ],
+        "reviews": {
+            "average_rating": 4.2,
+            "total_reviews": 634,
+            "rating_distribution": {
+                "5_star": 42,
+                "4_star": 36,
+                "3_star": 15,
+                "2_star": 5,
+                "1_star": 2
+            }
+        },
+        "tags": [
+            "sport",
+            "performance",
+            "street",
+            "grip",
+            "cornering"
+        ],
+        "launch_date": "2023-03-22",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Honda Activa",
+            "TVS Jupiter",
+            "Bajaj Pulsar",
+            "Hero Splendor",
+            "Yamaha FZ",
+            "Honda CB Shine",
+            "Royal Enfield Classic",
+            "KTM Duke"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Pilot Sport 4S",
+        "brand": "Yokohama",
+        "category": "FOUR WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/four-wheeler/michelin-primacy-4-plus",
+        "tagline": "Premium Comfort & Safety",
+        "description": "Michelin Primacy 4+ offers exceptional wet braking, long-lasting performance, and superior comfort for premium sedans and SUVs.",
+        "detailed_description": "The Primacy 4+ represents Michelin's flagship touring tire, engineered with advanced compounds and innovative tread design. It delivers exceptional wet weather performance while maintaining excellent durability and comfort for luxury vehicles.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=22",
+            "https://picsum.photos/400/400?random=23",
+            "https://picsum.photos/400/400?random=24"
+        ],
+        "features": [
+            {
+                "name": "Wet Braking",
+                "description": "Shorter braking distances on wet roads",
+                "icon": "shield"
+            },
+            {
+                "name": "Long Lasting",
+                "description": "Extended tread life with even wear pattern",
+                "icon": "clock"
+            },
+            {
+                "name": "Comfort",
+                "description": "Reduced road noise and vibration",
+                "icon": "volume-x"
+            }
+        ],
+        "ideal_for": [
+            "PREMIUM SEDANS",
+            "LUXURY SUVS",
+            "HIGHWAY TOURING"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Standard",
+            "tread_compound": "Silica Enhanced",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 500,
+            "noise_level": "69 dB",
+            "fuel_efficiency_rating": "A",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.4,
+            "dry_performance": 8.8,
+            "comfort": 9.2,
+            "durability": 9.0,
+            "fuel_efficiency": 8.9,
+            "value_for_money": 8.1
+        },
+        "brochure": "/assets/4W_Passenger_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "205/55R16",
+                "width_mm": 205,
+                "aspect_ratio": 55,
+                "rim_diameter": 16,
+                "load_index": 91,
+                "speed_rating": "V",
+                "tube_type": "Tubeless",
+                "max_load_kg": 615,
+                "max_speed_kmh": 240,
+                "price": "₹8,500"
+            },
+            {
+                "size": "225/45R17",
+                "width_mm": 225,
+                "aspect_ratio": 45,
+                "rim_diameter": 17,
+                "load_index": 94,
+                "speed_rating": "W",
+                "tube_type": "Tubeless",
+                "max_load_kg": 670,
+                "max_speed_kmh": 270,
+                "price": "₹11,200"
+            }
+        ],
+        "price_range": "₹7,500 - ₹15,000",
+        "warranty": {
+            "duration": "5 Years",
+            "coverage": "Manufacturing defects and road hazard protection",
+            "terms": "Premium warranty with roadside assistance"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 2100
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS",
+            "ISO 9001"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "A+",
+            "carbon_footprint": "Low"
+        },
+        "manufacturing": {
+            "country": "India",
+            "plant": "Chennai, Tamil Nadu",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            9,
+            10,
+            14
+        ],
+        "reviews": {
+            "average_rating": 4.6,
+            "total_reviews": 1247,
+            "rating_distribution": {
+                "5_star": 58,
+                "4_star": 32,
+                "3_star": 8,
+                "2_star": 1,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "premium",
+            "comfort",
+            "wet-grip",
+            "luxury",
+            "touring"
+        ],
+        "launch_date": "2021-08-15",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Maruti Swift",
+            "Hyundai i20",
+            "Honda City",
+            "Tata Nexon",
+            "Mahindra XUV500",
+            "Toyota Innova",
+            "Ford EcoSport",
+            "Renault Duster"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "UX Royale",
+        "brand": "JK Tyre",
+        "category": "TWO WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/two-wheeler/jk-ux-royale",
+        "tagline": "Premium Two Wheeler Performance",
+        "description": "JK Tyre UX Royale delivers premium performance with advanced compound technology for motorcycles and scooters.",
+        "detailed_description": "The EcoContact 6 showcases Continental's commitment to sustainable mobility without compromising on safety. Features innovative Green Chili 2.0 compound technology for reduced rolling resistance and enhanced wet performance.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=25",
+            "https://picsum.photos/400/400?random=26",
+            "https://picsum.photos/400/400?random=27"
+        ],
+        "features": [
+            {
+                "name": "Green Technology",
+                "description": "Eco-friendly compound for reduced environmental impact",
+                "icon": "leaf"
+            },
+            {
+                "name": "Fuel Efficiency",
+                "description": "Low rolling resistance for better fuel economy",
+                "icon": "fuel"
+            },
+            {
+                "name": "Wet Safety",
+                "description": "Superior wet grip and braking performance",
+                "icon": "droplets"
+            }
+        ],
+        "ideal_for": [
+            "ECO CARS",
+            "COMPACT SEDANS",
+            "HATCHBACKS"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Standard",
+            "tread_compound": "Green Chili 2.0",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 600,
+            "noise_level": "67 dB",
+            "fuel_efficiency_rating": "A+",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.1,
+            "dry_performance": 8.4,
+            "comfort": 8.6,
+            "durability": 8.8,
+            "fuel_efficiency": 9.5,
+            "value_for_money": 8.7
+        },
+        "brochure": "/assets/4W_Passenger_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "185/65R15",
+                "width_mm": 185,
+                "aspect_ratio": 65,
+                "rim_diameter": 15,
+                "load_index": 88,
+                "speed_rating": "H",
+                "tube_type": "Tubeless",
+                "max_load_kg": 560,
+                "max_speed_kmh": 210,
+                "price": "₹5,800"
+            },
+            {
+                "size": "195/60R16",
+                "width_mm": 195,
+                "aspect_ratio": 60,
+                "rim_diameter": 16,
+                "load_index": 89,
+                "speed_rating": "V",
+                "tube_type": "Tubeless",
+                "max_load_kg": 580,
+                "max_speed_kmh": 240,
+                "price": "₹7,200"
+            }
+        ],
+        "price_range": "₹5,500 - ₹9,000",
+        "warranty": {
+            "duration": "4 Years",
+            "coverage": "Manufacturing defects and wear protection",
+            "terms": "Eco-warranty with mileage guarantee"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 1800
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS",
+            "Green Label"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "A++",
+            "carbon_footprint": "Very Low"
+        },
+        "manufacturing": {
+            "country": "India",
+            "plant": "Chennai, Tamil Nadu",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            8,
+            11,
+            13
+        ],
+        "reviews": {
+            "average_rating": 4.4,
+            "total_reviews": 956,
+            "rating_distribution": {
+                "5_star": 48,
+                "4_star": 36,
+                "3_star": 12,
+                "2_star": 3,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "eco-friendly",
+            "fuel-efficient",
+            "green",
+            "sustainable",
+            "compact"
+        ],
+        "launch_date": "2022-05-10",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Honda Activa",
+            "TVS Jupiter",
+            "Bajaj Pulsar",
+            "Hero Splendor",
+            "Yamaha FZ",
+            "Honda CB Shine",
+            "Royal Enfield Classic",
+            "KTM Duke"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Potenza Sport",
+        "brand": "Bridgestone",
+        "category": "FOUR WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/four-wheeler/bridgestone-potenza-sport",
+        "tagline": "Ultimate Sport Performance",
+        "description": "Bridgestone Potenza Sport delivers exceptional handling and control for high-performance vehicles with advanced racing technology.",
+        "detailed_description": "The Potenza Sport incorporates cutting-edge technology from Bridgestone's motorsport heritage. Featuring advanced polymer compounds and an asymmetric tread pattern for maximum grip and precision handling in both wet and dry conditions.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=28",
+            "https://picsum.photos/400/400?random=29",
+            "https://picsum.photos/400/400?random=30"
+        ],
+        "features": [
+            {
+                "name": "Racing Heritage",
+                "description": "Technology derived from Formula 1 and motorsport",
+                "icon": "zap"
+            },
+            {
+                "name": "Precision Handling",
+                "description": "Exceptional steering response and cornering",
+                "icon": "target"
+            },
+            {
+                "name": "High Speed Stability",
+                "description": "Stable performance at high speeds",
+                "icon": "trending-up"
+            }
+        ],
+        "ideal_for": [
+            "SPORTS CARS",
+            "HIGH PERFORMANCE SEDANS",
+            "TRACK DAYS"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "High Performance",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 300,
+            "noise_level": "72 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.0,
+            "dry_performance": 9.7,
+            "comfort": 7.8,
+            "durability": 8.3,
+            "fuel_efficiency": 7.2,
+            "value_for_money": 8.0
+        },
+        "brochure": "/assets/4W_Passenger_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "225/45R17",
+                "width_mm": 225,
+                "aspect_ratio": 45,
+                "rim_diameter": 17,
+                "load_index": 94,
+                "speed_rating": "Y",
+                "tube_type": "Tubeless",
+                "max_load_kg": 670,
+                "max_speed_kmh": 300,
+                "price": "₹12,500"
+            },
+            {
+                "size": "245/40R18",
+                "width_mm": 245,
+                "aspect_ratio": 40,
+                "rim_diameter": 18,
+                "load_index": 97,
+                "speed_rating": "Y",
+                "tube_type": "Tubeless",
+                "max_load_kg": 730,
+                "max_speed_kmh": 300,
+                "price": "₹16,800"
+            }
+        ],
+        "price_range": "₹11,000 - ₹20,000",
+        "warranty": {
+            "duration": "3 Years",
+            "coverage": "Manufacturing defects",
+            "terms": "Performance warranty with track day coverage"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 750
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS",
+            "FIA Approved"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "C",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "Japan",
+            "plant": "Kurume, Japan",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            7,
+            12,
+            15
+        ],
+        "reviews": {
+            "average_rating": 4.5,
+            "total_reviews": 423,
+            "rating_distribution": {
+                "5_star": 55,
+                "4_star": 32,
+                "3_star": 10,
+                "2_star": 2,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "high-performance",
+            "sports",
+            "racing",
+            "precision",
+            "track"
+        ],
+        "launch_date": "2023-01-20",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Maruti Swift",
+            "Hyundai i20",
+            "Honda City",
+            "Tata Nexon",
+            "Mahindra XUV500",
+            "Toyota Innova",
+            "Ford EcoSport",
+            "Renault Duster"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Ranger A/T",
+        "brand": "JK Tyre",
+        "category": "TRUCKS",
+        "tyre_position": "all",
+        "url": "/tyres/trucks/jk-ranger-at",
+        "tagline": "Heavy Duty All-Terrain",
+        "description": "JK Tyre Ranger A/T provides exceptional all-terrain capability with superior load-carrying capacity for commercial trucks.",
+        "detailed_description": "The Grabber AT3 features an aggressive tread pattern designed for maximum traction across diverse terrains. Built with DuraGen Technology for extended tread life and StabiliTread Technology for enhanced on-road stability.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=31",
+            "https://picsum.photos/400/400?random=32",
+            "https://picsum.photos/400/400?random=33"
+        ],
+        "features": [
+            {
+                "name": "All-Terrain Traction",
+                "description": "Superior grip on various surfaces",
+                "icon": "mountain"
+            },
+            {
+                "name": "DuraGen Technology",
+                "description": "Extended tread life and durability",
+                "icon": "shield"
+            },
+            {
+                "name": "Self-Cleaning Tread",
+                "description": "Prevents mud and debris buildup",
+                "icon": "refresh-cw"
+            }
+        ],
+        "ideal_for": [
+            "SUVS",
+            "PICKUP TRUCKS",
+            "OFF-ROAD ADVENTURES"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "All-Terrain",
+            "temperature_grade": "A",
+            "traction_grade": "A",
+            "treadwear_rating": 660,
+            "noise_level": "74 dB",
+            "fuel_efficiency_rating": "D",
+            "wet_grip_rating": "B"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.2,
+            "dry_performance": 8.8,
+            "comfort": 7.5,
+            "durability": 9.2,
+            "fuel_efficiency": 7.0,
+            "value_for_money": 8.8
+        },
+        "brochure": "/assets/4W_Passenger_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "235/75R15",
+                "width_mm": 235,
+                "aspect_ratio": 75,
+                "rim_diameter": 15,
+                "load_index": 109,
+                "speed_rating": "S",
+                "tube_type": "Tubeless",
+                "max_load_kg": 1030,
+                "max_speed_kmh": 180,
+                "price": "₹9,500"
+            },
+            {
+                "size": "265/70R16",
+                "width_mm": 265,
+                "aspect_ratio": 70,
+                "rim_diameter": 16,
+                "load_index": 112,
+                "speed_rating": "S",
+                "tube_type": "Tubeless",
+                "max_load_kg": 1120,
+                "max_speed_kmh": 180,
+                "price": "₹12,800"
+            }
+        ],
+        "price_range": "₹8,500 - ₹15,000",
+        "warranty": {
+            "duration": "6 Years",
+            "coverage": "Tread wear warranty up to 60,000 miles",
+            "terms": "All-terrain warranty with road hazard protection"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 950
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS",
+            "3PMSF"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "C",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "USA",
+            "plant": "Charlotte, North Carolina",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015"
+            ]
+        },
+        "related_products": [
+            12,
+            13,
+            6
+        ],
+        "reviews": {
+            "average_rating": 4.3,
+            "total_reviews": 728,
+            "rating_distribution": {
+                "5_star": 44,
+                "4_star": 38,
+                "3_star": 14,
+                "2_star": 3,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "all-terrain",
+            "off-road",
+            "suv",
+            "durability",
+            "adventure"
+        ],
+        "launch_date": "2021-11-05",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata LPT 1613",
+            "Ashok Leyland 2518",
+            "Mahindra Blazo X",
+            "Volvo FMX",
+            "Eicher Pro 6025",
+            "BharatBenz 1617",
+            "Scania R450",
+            "MAN CLA 31.300"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "ADVAN Commercial R1",
+        "brand": "Yokohama",
+        "category": "TRUCKS",
+        "tyre_position": "all",
+        "url": "/tyres/trucks/yokohama-advan-commercial-r1",
+        "tagline": "Heavy Duty Commercial Performance",
+        "description": "Yokohama ADVAN Commercial R1 delivers exceptional durability and load capacity for commercial truck applications.",
+        "detailed_description": "The Scorpion Verde All Season represents Pirelli's commitment to sustainable mobility for SUVs. Features innovative materials and compounds for reduced environmental impact while maintaining superior performance across all seasons.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=34",
+            "https://picsum.photos/400/400?random=35",
+            "https://picsum.photos/400/400?random=36"
+        ],
+        "features": [
+            {
+                "name": "Eco-Friendly",
+                "description": "Made with sustainable materials and processes",
+                "icon": "leaf"
+            },
+            {
+                "name": "All Season Performance",
+                "description": "Optimized for year-round driving conditions",
+                "icon": "sun"
+            },
+            {
+                "name": "SUV Optimized",
+                "description": "Designed specifically for SUV characteristics",
+                "icon": "truck"
+            }
+        ],
+        "ideal_for": [
+            "PREMIUM SUVS",
+            "CROSSOVERS",
+            "ALL SEASON DRIVING"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Standard",
+            "tread_compound": "Verde Compound",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 560,
+            "noise_level": "70 dB",
+            "fuel_efficiency_rating": "B",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.9,
+            "dry_performance": 8.6,
+            "comfort": 8.8,
+            "durability": 8.7,
+            "fuel_efficiency": 8.4,
+            "value_for_money": 8.2
+        },
+        "brochure": "/assets/4W_Passenger_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "215/60R17",
+                "width_mm": 215,
+                "aspect_ratio": 60,
+                "rim_diameter": 17,
+                "load_index": 96,
+                "speed_rating": "V",
+                "tube_type": "Tubeless",
+                "max_load_kg": 710,
+                "max_speed_kmh": 240,
+                "price": "₹10,200"
+            },
+            {
+                "size": "235/55R18",
+                "width_mm": 235,
+                "aspect_ratio": 55,
+                "rim_diameter": 18,
+                "load_index": 100,
+                "speed_rating": "V",
+                "tube_type": "Tubeless",
+                "max_load_kg": 800,
+                "max_speed_kmh": 240,
+                "price": "₹13,500"
+            }
+        ],
+        "price_range": "₹9,500 - ₹16,000",
+        "warranty": {
+            "duration": "5 Years",
+            "coverage": "Manufacturing defects and eco-warranty",
+            "terms": "Green warranty with carbon offset program"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 1200
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS",
+            "FSC Certified"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "A+",
+            "carbon_footprint": "Low"
+        },
+        "manufacturing": {
+            "country": "Italy",
+            "plant": "Milan, Italy",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            8,
+            11,
+            14
+        ],
+        "reviews": {
+            "average_rating": 4.4,
+            "total_reviews": 567,
+            "rating_distribution": {
+                "5_star": 47,
+                "4_star": 35,
+                "3_star": 13,
+                "2_star": 4,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "eco-friendly",
+            "suv",
+            "all-season",
+            "premium",
+            "sustainable"
+        ],
+        "launch_date": "2022-07-12",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata LPT 1613",
+            "Ashok Leyland 2518",
+            "Mahindra Blazo X",
+            "Volvo FMX",
+            "Eicher Pro 6025",
+            "BharatBenz 1617",
+            "Scania R450",
+            "MAN CLA 31.300"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Navigator Elite",
+        "brand": "Goodyear",
+        "category": "LIGHT COMMERCIAL",
+        "tyre_position": "all",
+        "url": "/tyres/light-commercial/kelly-navigator-cargo",
+        "tagline": "Reliable Commercial Performance",
+        "description": "Kelly Navigator Cargo delivers dependable performance for light commercial vehicles with enhanced load capacity.",
+        "detailed_description": "The Dueler A/T 001 combines advanced tire technology with rugged construction for versatile all-terrain performance. Features enhanced tread compounds and reinforced sidewalls for demanding off-road conditions while maintaining on-road comfort.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=37",
+            "https://picsum.photos/400/400?random=38",
+            "https://picsum.photos/400/400?random=39"
+        ],
+        "features": [
+            {
+                "name": "All-Terrain Capability",
+                "description": "Versatile performance on and off road",
+                "icon": "compass"
+            },
+            {
+                "name": "Enhanced Durability",
+                "description": "Reinforced construction for tough conditions",
+                "icon": "shield"
+            },
+            {
+                "name": "Balanced Performance",
+                "description": "Optimal blend of comfort and capability",
+                "icon": "balance-scale"
+            }
+        ],
+        "ideal_for": [
+            "LIGHT TRUCKS",
+            "ADVENTURE SUVS",
+            "MIXED TERRAIN DRIVING"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "All-Terrain",
+            "temperature_grade": "A",
+            "traction_grade": "A",
+            "treadwear_rating": 580,
+            "noise_level": "73 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "B"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.0,
+            "dry_performance": 8.5,
+            "comfort": 7.8,
+            "durability": 9.0,
+            "fuel_efficiency": 7.4,
+            "value_for_money": 8.6
+        },
+        "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "225/70R16",
+                "width_mm": 225,
+                "aspect_ratio": 70,
+                "rim_diameter": 16,
+                "load_index": 103,
+                "speed_rating": "H",
+                "tube_type": "Tubeless",
+                "max_load_kg": 875,
+                "max_speed_kmh": 210,
+                "price": "₹8,900"
+            },
+            {
+                "size": "245/70R17",
+                "width_mm": 245,
+                "aspect_ratio": 70,
+                "rim_diameter": 17,
+                "load_index": 110,
+                "speed_rating": "H",
+                "tube_type": "Tubeless",
+                "max_load_kg": 1060,
+                "max_speed_kmh": 210,
+                "price": "₹11,500"
+            }
+        ],
+        "price_range": "₹8,000 - ₹13,000",
+        "warranty": {
+            "duration": "5 Years",
+            "coverage": "Manufacturing defects and road hazard",
+            "terms": "Adventure warranty with off-road coverage"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 1400
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "B",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "Thailand",
+            "plant": "Nong Khae, Thailand",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            11,
+            12,
+            15
+        ],
+        "reviews": {
+            "average_rating": 4.2,
+            "total_reviews": 683,
+            "rating_distribution": {
+                "5_star": 41,
+                "4_star": 39,
+                "3_star": 15,
+                "2_star": 4,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "all-terrain",
+            "adventure",
+            "durability",
+            "off-road",
+            "versatile"
+        ],
+        "launch_date": "2023-04-18",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata Ace",
+            "Mahindra Bolero Pickup",
+            "Ashok Leyland Dost",
+            "Maruti Super Carry",
+            "Force Traveller",
+            "Eicher Pro 1049",
+            "Isuzu D-Max V-Cross",
+            "Bajaj RE Auto"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "X-Ice Nordic",
+        "brand": "JK Tyre",
+        "category": "FOUR WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/four-wheeler/michelin-x-ice-snow",
+        "tagline": "Winter Mobility Confidence",
+        "description": "Michelin X-Ice Snow provides exceptional winter performance with superior traction on snow and ice for enhanced safety.",
+        "detailed_description": "The X-Ice Snow incorporates Michelin's latest winter tire technology with advanced siping patterns and specialized compounds. Designed to deliver maximum grip and control in challenging winter conditions while maintaining excellent wear characteristics.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=40",
+            "https://picsum.photos/400/400?random=41",
+            "https://picsum.photos/400/400?random=42"
+        ],
+        "features": [
+            {
+                "name": "Snow Traction",
+                "description": "Superior grip on snow and slush",
+                "icon": "snowflake"
+            },
+            {
+                "name": "Ice Braking",
+                "description": "Shorter stopping distances on ice",
+                "icon": "octagon"
+            },
+            {
+                "name": "Cold Weather Flexibility",
+                "description": "Maintains performance in extreme cold",
+                "icon": "thermometer"
+            }
+        ],
+        "ideal_for": [
+            "WINTER DRIVING",
+            "SNOW CONDITIONS",
+            "COLD CLIMATES"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Standard",
+            "tread_compound": "Winter Compound",
+            "temperature_grade": "A",
+            "traction_grade": "AA",
+            "treadwear_rating": 440,
+            "noise_level": "68 dB",
+            "fuel_efficiency_rating": "E",
+            "wet_grip_rating": "B"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.5,
+            "dry_performance": 7.8,
+            "comfort": 8.2,
+            "durability": 8.4,
+            "fuel_efficiency": 6.8,
+            "value_for_money": 8.0
+        },
+        "brochure": "/assets/4W_Passenger_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "205/55R16",
+                "width_mm": 205,
+                "aspect_ratio": 55,
+                "rim_diameter": 16,
+                "load_index": 91,
+                "speed_rating": "T",
+                "tube_type": "Tubeless",
+                "max_load_kg": 615,
+                "max_speed_kmh": 190,
+                "price": "₹9,200"
+            },
+            {
+                "size": "215/60R17",
+                "width_mm": 215,
+                "aspect_ratio": 60,
+                "rim_diameter": 17,
+                "load_index": 96,
+                "speed_rating": "T",
+                "tube_type": "Tubeless",
+                "max_load_kg": 710,
+                "max_speed_kmh": 190,
+                "price": "₹11,800"
+            }
+        ],
+        "price_range": "₹8,500 - ₹14,000",
+        "warranty": {
+            "duration": "4 Years",
+            "coverage": "Manufacturing defects and winter performance guarantee",
+            "terms": "Winter tire warranty with performance guarantee"
+        },
+        "availability": {
+            "status": "Seasonal",
+            "regions": [
+                "North India",
+                "Hill Stations"
+            ],
+            "dealers": 650
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS",
+            "3PMSF",
+            "M+S"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "C",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "Canada",
+            "plant": "Nova Scotia, Canada",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            8,
+            9,
+            12
+        ],
+        "reviews": {
+            "average_rating": 4.5,
+            "total_reviews": 312,
+            "rating_distribution": {
+                "5_star": 54,
+                "4_star": 33,
+                "3_star": 10,
+                "2_star": 2,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "winter",
+            "snow",
+            "ice",
+            "cold-weather",
+            "safety"
+        ],
+        "launch_date": "2023-09-01",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Maruti Swift",
+            "Hyundai i20",
+            "Honda City",
+            "Tata Nexon",
+            "Mahindra XUV500",
+            "Toyota Innova",
+            "Ford EcoSport",
+            "Renault Duster"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Marathon LHT",
+        "brand": "Goodyear",
+        "category": "TRUCKS",
+        "tyre_position": "all",
+        "url": "/tyres/trucks/goodyear-marathon-lht",
+        "tagline": "Long Haul Truck Excellence",
+        "description": "Goodyear Marathon LHT delivers exceptional fuel efficiency and durability for long-haul trucking operations.",
+        "detailed_description": "The M55 Steel Radial features advanced steel belt construction and specialized tread compounds designed for maximum durability in demanding commercial applications. Engineered for superior retreadability and extended service life.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=43",
+            "https://picsum.photos/400/400?random=44",
+            "https://picsum.photos/400/400?random=45"
+        ],
+        "features": [
+            {
+                "name": "Steel Belt Construction",
+                "description": "Enhanced strength and puncture resistance",
+                "icon": "shield"
+            },
+            {
+                "name": "High Load Capacity",
+                "description": "Superior load-carrying capability",
+                "icon": "weight"
+            },
+            {
+                "name": "Retreadable",
+                "description": "Extended life through retreading capability",
+                "icon": "refresh-cw"
+            }
+        ],
+        "ideal_for": [
+            "COMMERCIAL TRUCKS",
+            "HEAVY TRANSPORT",
+            "LONG HAUL OPERATIONS"
+        ],
+        "technical_specs": {
+            "construction": "Steel Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "Heavy Duty",
+            "temperature_grade": "B",
+            "traction_grade": "A",
+            "treadwear_rating": 800,
+            "noise_level": "76 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "B"
+        },
+        "performance_ratings": {
+            "wet_performance": 7.8,
+            "dry_performance": 8.2,
+            "comfort": 6.5,
+            "durability": 9.5,
+            "fuel_efficiency": 7.6,
+            "value_for_money": 9.0
+        },
+        "brochure": "/assets/Trucks_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "295/80R22.5",
+                "width_mm": 295,
+                "aspect_ratio": 80,
+                "rim_diameter": 22.5,
+                "load_index": 152,
+                "speed_rating": "M",
+                "tube_type": "Tubeless",
+                "max_load_kg": 4000,
+                "max_speed_kmh": 130,
+                "price": "₹28,500"
+            },
+            {
+                "size": "315/80R22.5",
+                "width_mm": 315,
+                "aspect_ratio": 80,
+                "rim_diameter": 22.5,
+                "load_index": 156,
+                "speed_rating": "L",
+                "tube_type": "Tubeless",
+                "max_load_kg": 4500,
+                "max_speed_kmh": 120,
+                "price": "₹32,000"
+            }
+        ],
+        "price_range": "₹25,000 - ₹35,000",
+        "warranty": {
+            "duration": "3 Years",
+            "coverage": "Manufacturing defects and mileage warranty",
+            "terms": "Commercial warranty with fleet support"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India",
+                "West India",
+                "East India"
+            ],
+            "dealers": 2500
+        },
+        "certifications": [
+            "DOT",
+            "ECE R30",
+            "BIS",
+            "ISI Mark"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "B",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "India",
+            "plant": "Halol, Gujarat",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015",
+                "IATF 16949"
+            ]
+        },
+        "related_products": [
+            4,
+            5,
+            6
+        ],
+        "reviews": {
+            "average_rating": 4.3,
+            "total_reviews": 1456,
+            "rating_distribution": {
+                "5_star": 45,
+                "4_star": 37,
+                "3_star": 14,
+                "2_star": 3,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "commercial",
+            "heavy-duty",
+            "trucks",
+            "durability",
+            "retreadable"
+        ],
+        "launch_date": "2021-06-30",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata LPT 1613",
+            "Ashok Leyland 2518",
+            "Mahindra Blazo X",
+            "Volvo FMX",
+            "Eicher Pro 6025",
+            "BharatBenz 1617",
+            "Scania R450",
+            "MAN CLA 31.300"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Duraplus HD",
+        "brand": "Goodyear",
+        "category": "LIGHT COMMERCIAL",
+        "tyre_position": "all",
+        "url": "/tyres/light-commercial/goodyear-duraplus-hd",
+        "tagline": "Heavy Duty Commercial Performance",
+        "description": "Goodyear Duraplus HD delivers exceptional durability and load capacity for light commercial vehicles.",
+        "detailed_description": "The Duraplus HD combines advanced tire technology with rugged construction for commercial applications.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=46"
+        ],
+        "features": [
+            {
+                "name": "Heavy Duty Construction",
+                "description": "Reinforced structure for commercial loads",
+                "icon": "shield"
+            }
+        ],
+        "ideal_for": [
+            "LIGHT COMMERCIAL VEHICLES"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "Commercial Grade",
+            "temperature_grade": "B",
+            "traction_grade": "A",
+            "treadwear_rating": 650,
+            "noise_level": "71 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "B"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.1,
+            "dry_performance": 8.4,
+            "comfort": 7.2,
+            "durability": 9.1,
+            "fuel_efficiency": 7.8,
+            "value_for_money": 8.7
+        },
+        "brochure": "/assets/LightCommercial_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "195/70R15C",
+                "width_mm": 195,
+                "aspect_ratio": 70,
+                "rim_diameter": 15,
+                "load_index": 104,
+                "speed_rating": "R",
+                "tube_type": "Tubeless",
+                "max_load_kg": 900,
+                "max_speed_kmh": 170,
+                "price": "₹7,800"
+            }
+        ],
+        "price_range": "₹7,000 - ₹9,500",
+        "warranty": {
+            "duration": "4 Years",
+            "coverage": "Manufacturing defects",
+            "terms": "Commercial warranty"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "South India"
+            ],
+            "dealers": 1600
+        },
+        "certifications": [
+            "DOT",
+            "BIS"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "B",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "India",
+            "plant": "Chennai, Tamil Nadu",
+            "quality_standards": [
+                "ISO 9001:2015"
+            ]
+        },
+        "related_products": [
+            1,
+            15
+        ],
+        "reviews": {
+            "average_rating": 4.2,
+            "total_reviews": 445,
+            "rating_distribution": {
+                "5_star": 43,
+                "4_star": 35,
+                "3_star": 16,
+                "2_star": 4,
+                "1_star": 2
+            }
+        },
+        "tags": [
+            "commercial",
+            "heavy-duty",
+            "durability"
+        ],
+        "launch_date": "2022-11-18",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata Ace",
+            "Mahindra Bolero Pickup",
+            "Ashok Leyland Dost",
+            "Maruti Super Carry",
+            "Force Traveller",
+            "Eicher Pro 1049",
+            "Isuzu D-Max V-Cross",
+            "Bajaj RE Auto"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Energy XM2+",
+        "brand": "Michelin",
+        "category": "FOUR WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/four-wheeler/michelin-energy-xm2-plus",
+        "tagline": "Fuel Efficiency & Longevity",
+        "description": "Michelin Energy XM2+ delivers exceptional fuel efficiency and extended tyre life for passenger cars.",
+        "detailed_description": "The Energy XM2+ combines Michelin's advanced silica compound with optimized tread design for maximum fuel savings and long-lasting performance.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=47"
+        ],
+        "features": [
+            {
+                "name": "Green X Technology",
+                "description": "Reduces fuel consumption without compromising performance",
+                "icon": "leaf"
+            },
+            {
+                "name": "Michelin Total Performance",
+                "description": "Balanced performance in all conditions",
+                "icon": "shield-check"
+            }
+        ],
+        "ideal_for": [
+            "DAILY COMMUTING",
+            "HIGHWAY DRIVING"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Standard",
+            "tread_compound": "Silica Enhanced",
+            "temperature_grade": "A",
+            "traction_grade": "A",
+            "treadwear_rating": 700,
+            "noise_level": "68 dB",
+            "fuel_efficiency_rating": "A",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.2,
+            "dry_performance": 8.8,
+            "comfort": 9.0,
+            "durability": 9.4,
+            "fuel_efficiency": 9.6,
+            "value_for_money": 8.5
+        },
+        "brochure": "/assets/4W_Passenger_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "195/65R15",
+                "width_mm": 195,
+                "aspect_ratio": 65,
+                "rim_diameter": 15,
+                "load_index": 91,
+                "speed_rating": "H",
+                "tube_type": "Tubeless",
+                "max_load_kg": 615,
+                "max_speed_kmh": 210,
+                "price": "₹8,200"
+            },
+            {
+                "size": "205/55R16",
+                "width_mm": 205,
+                "aspect_ratio": 55,
+                "rim_diameter": 16,
+                "load_index": 94,
+                "speed_rating": "V",
+                "tube_type": "Tubeless",
+                "max_load_kg": 670,
+                "max_speed_kmh": 240,
+                "price": "₹9,800"
+            }
+        ],
+        "price_range": "₹7,500 - ₹12,000",
+        "warranty": {
+            "duration": "5 Years",
+            "coverage": "Manufacturing defects and even wear",
+            "terms": "Premium warranty"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "Pan India"
+            ],
+            "dealers": 2200
+        },
+        "certifications": [
+            "DOT",
+            "ECE",
+            "BIS"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "A+",
+            "carbon_footprint": "Low"
+        },
+        "manufacturing": {
+            "country": "India",
+            "plant": "Chennai, Tamil Nadu",
+            "quality_standards": [
+                "ISO 9001:2015",
+                "ISO 14001:2015"
+            ]
+        },
+        "related_products": [
+            2,
+            8,
+            10
+        ],
+        "reviews": {
+            "average_rating": 4.6,
+            "total_reviews": 2156,
+            "rating_distribution": {
+                "5_star": 58,
+                "4_star": 32,
+                "3_star": 8,
+                "2_star": 2,
+                "1_star": 0
+            }
+        },
+        "tags": [
+            "fuel-efficient",
+            "long-lasting",
+            "premium",
+            "eco-friendly"
+        ],
+        "launch_date": "2023-03-15",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Maruti Suzuki Swift",
+            "Hyundai i20",
+            "Honda City",
+            "Tata Nexon",
+            "Volkswagen Polo",
+            "Skoda Rapid",
+            "Ford EcoSport",
+            "Nissan Micra"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Pilot Road 5",
+        "brand": "Michelin",
+        "category": "TWO WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/two-wheeler/michelin-pilot-road-5",
+        "tagline": "Sport Touring Excellence",
+        "description": "Michelin Pilot Road 5 delivers exceptional grip and longevity for sport touring motorcycles.",
+        "detailed_description": "Advanced ACT+ technology provides consistent performance from first mile to last mile with superior wet grip.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=48"
+        ],
+        "features": [
+            {
+                "name": "ACT+ Technology",
+                "description": "Adaptive Casing Technology for enhanced performance",
+                "icon": "cog"
+            },
+            {
+                "name": "2CT+ Compound",
+                "description": "Dual compound for grip and longevity",
+                "icon": "grip"
+            }
+        ],
+        "ideal_for": [
+            "SPORT TOURING",
+            "HIGHWAY RIDING"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "2CT+ Dual",
+            "temperature_grade": "A",
+            "traction_grade": "A",
+            "treadwear_rating": 180,
+            "noise_level": "65 dB",
+            "fuel_efficiency_rating": "B",
+            "wet_grip_rating": "A"
+        },
+        "performance_ratings": {
+            "wet_performance": 9.5,
+            "dry_performance": 9.2,
+            "comfort": 8.8,
+            "durability": 8.9,
+            "fuel_efficiency": 8.4,
+            "value_for_money": 8.7
+        },
+        "brochure": "/assets/2W_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "120/70ZR17",
+                "width_mm": 120,
+                "aspect_ratio": 70,
+                "rim_diameter": 17,
+                "load_index": 58,
+                "speed_rating": "W",
+                "tube_type": "Tubeless",
+                "max_load_kg": 236,
+                "max_speed_kmh": 270,
+                "price": "₹12,500"
+            },
+            {
+                "size": "180/55ZR17",
+                "width_mm": 180,
+                "aspect_ratio": 55,
+                "rim_diameter": 17,
+                "load_index": 73,
+                "speed_rating": "W",
+                "tube_type": "Tubeless",
+                "max_load_kg": 365,
+                "max_speed_kmh": 270,
+                "price": "₹18,900"
+            }
+        ],
+        "price_range": "₹11,000 - ₹20,000",
+        "warranty": {
+            "duration": "2 Years",
+            "coverage": "Manufacturing defects",
+            "terms": "Sport tyre warranty"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "Metro Cities",
+                "Major Cities"
+            ],
+            "dealers": 850
+        },
+        "certifications": [
+            "DOT",
+            "ECE"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "B+",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "Thailand",
+            "plant": "Rayong, Thailand",
+            "quality_standards": [
+                "ISO 9001:2015"
+            ]
+        },
+        "related_products": [
+            1,
+            7,
+            12
+        ],
+        "reviews": {
+            "average_rating": 4.7,
+            "total_reviews": 892,
+            "rating_distribution": {
+                "5_star": 68,
+                "4_star": 25,
+                "3_star": 5,
+                "2_star": 2,
+                "1_star": 0
+            }
+        },
+        "tags": [
+            "sport-touring",
+            "premium",
+            "wet-grip",
+            "performance"
+        ],
+        "launch_date": "2023-08-20",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Yamaha MT-09",
+            "Kawasaki Ninja 650",
+            "Honda CBR650R",
+            "Triumph Street Triple",
+            "BMW F 750 GS",
+            "KTM 790 Duke",
+            "Suzuki GSX-S750",
+            "Ducati Monster 821"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Edge A/S",
+        "brand": "Kelly",
+        "category": "FOUR WHEELER",
+        "tyre_position": "all",
+        "url": "/tyres/four-wheeler/kelly-edge-as",
+        "tagline": "All-Season Reliability",
+        "description": "Kelly Edge A/S provides dependable all-season performance with excellent value for money.",
+        "detailed_description": "Engineered for everyday driving with consistent performance in various weather conditions and long tread life.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=49"
+        ],
+        "features": [
+            {
+                "name": "All-Season Tread",
+                "description": "Optimized for year-round performance",
+                "icon": "weather"
+            },
+            {
+                "name": "DuraShield Construction",
+                "description": "Enhanced durability and strength",
+                "icon": "shield"
+            }
+        ],
+        "ideal_for": [
+            "DAILY COMMUTING",
+            "CITY DRIVING"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Standard",
+            "tread_compound": "All-Season",
+            "temperature_grade": "A",
+            "traction_grade": "A",
+            "treadwear_rating": 600,
+            "noise_level": "70 dB",
+            "fuel_efficiency_rating": "B",
+            "wet_grip_rating": "B"
+        },
+        "performance_ratings": {
+            "wet_performance": 8.2,
+            "dry_performance": 8.4,
+            "comfort": 8.6,
+            "durability": 8.8,
+            "fuel_efficiency": 8.0,
+            "value_for_money": 9.2
+        },
+        "brochure": "/assets/4W_Passenger_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "185/65R15",
+                "width_mm": 185,
+                "aspect_ratio": 65,
+                "rim_diameter": 15,
+                "load_index": 88,
+                "speed_rating": "H",
+                "tube_type": "Tubeless",
+                "max_load_kg": 560,
+                "max_speed_kmh": 210,
+                "price": "₹5,800"
+            },
+            {
+                "size": "195/65R15",
+                "width_mm": 195,
+                "aspect_ratio": 65,
+                "rim_diameter": 15,
+                "load_index": 91,
+                "speed_rating": "H",
+                "tube_type": "Tubeless",
+                "max_load_kg": 615,
+                "max_speed_kmh": 210,
+                "price": "₹6,400"
+            }
+        ],
+        "price_range": "₹5,500 - ₹8,500",
+        "warranty": {
+            "duration": "4 Years",
+            "coverage": "Manufacturing defects",
+            "terms": "Standard warranty"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "West India"
+            ],
+            "dealers": 1200
+        },
+        "certifications": [
+            "DOT",
+            "BIS"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "B",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "India",
+            "plant": "Aurangabad, Maharashtra",
+            "quality_standards": [
+                "ISO 9001:2015"
+            ]
+        },
+        "related_products": [
+            2,
+            17
+        ],
+        "reviews": {
+            "average_rating": 4.3,
+            "total_reviews": 1284,
+            "rating_distribution": {
+                "5_star": 46,
+                "4_star": 36,
+                "3_star": 14,
+                "2_star": 3,
+                "1_star": 1
+            }
+        },
+        "tags": [
+            "all-season",
+            "value",
+            "reliable",
+            "affordable"
+        ],
+        "launch_date": "2022-05-10",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Maruti Suzuki Alto",
+            "Hyundai Santro",
+            "Tata Tiago",
+            "Renault Kwid",
+            "Datsun GO",
+            "Chevrolet Beat",
+            "Ford Figo",
+            "Nissan Micra"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Metric",
+        "brand": "Kelly",
+        "category": "LIGHT COMMERCIAL",
+        "tyre_position": "all",
+        "url": "/tyres/light-commercial/kelly-metric",
+        "tagline": "Commercial Value Champion",
+        "description": "Kelly Metric delivers exceptional durability and load capacity for light commercial applications at an outstanding value.",
+        "detailed_description": "Built with proven technology for commercial use, offering reliability and cost-effectiveness for fleet operators.",
+        "image_urls": [
+            "https://picsum.photos/400/400?random=50"
+        ],
+        "features": [
+            {
+                "name": "Commercial Grade Compound",
+                "description": "Enhanced for commercial vehicle demands",
+                "icon": "truck"
+            },
+            {
+                "name": "Value Engineering",
+                "description": "Maximum performance per rupee spent",
+                "icon": "rupee"
+            }
+        ],
+        "ideal_for": [
+            "LIGHT COMMERCIAL VEHICLES",
+            "DELIVERY VANS"
+        ],
+        "technical_specs": {
+            "construction": "Radial",
+            "sidewall": "Reinforced",
+            "tread_compound": "Commercial Grade",
+            "temperature_grade": "B",
+            "traction_grade": "A",
+            "treadwear_rating": 550,
+            "noise_level": "72 dB",
+            "fuel_efficiency_rating": "C",
+            "wet_grip_rating": "B"
+        },
+        "performance_ratings": {
+            "wet_performance": 7.8,
+            "dry_performance": 8.1,
+            "comfort": 7.4,
+            "durability": 8.9,
+            "fuel_efficiency": 7.6,
+            "value_for_money": 9.0
+        },
+        "brochure": "/assets/Non_Trucks_Catalogue.pdf",
+        "specification_table": [
+            {
+                "size": "185R14C",
+                "width_mm": 185,
+                "aspect_ratio": 82,
+                "rim_diameter": 14,
+                "load_index": 102,
+                "speed_rating": "R",
+                "tube_type": "Tubeless",
+                "max_load_kg": 850,
+                "max_speed_kmh": 170,
+                "price": "₹6,200"
+            },
+            {
+                "size": "195/70R15C",
+                "width_mm": 195,
+                "aspect_ratio": 70,
+                "rim_diameter": 15,
+                "load_index": 104,
+                "speed_rating": "R",
+                "tube_type": "Tubeless",
+                "max_load_kg": 900,
+                "max_speed_kmh": 170,
+                "price": "₹6,800"
+            }
+        ],
+        "price_range": "₹5,800 - ₹8,200",
+        "warranty": {
+            "duration": "3 Years",
+            "coverage": "Manufacturing defects",
+            "terms": "Commercial warranty"
+        },
+        "availability": {
+            "status": "In Stock",
+            "regions": [
+                "North India",
+                "Central India"
+            ],
+            "dealers": 950
+        },
+        "certifications": [
+            "DOT",
+            "BIS"
+        ],
+        "environmental": {
+            "recyclable": true,
+            "eco_rating": "B",
+            "carbon_footprint": "Medium"
+        },
+        "manufacturing": {
+            "country": "India",
+            "plant": "Aurangabad, Maharashtra",
+            "quality_standards": [
+                "ISO 9001:2015"
+            ]
+        },
+        "related_products": [
+            16,
+            11
+        ],
+        "reviews": {
+            "average_rating": 4.1,
+            "total_reviews": 567,
+            "rating_distribution": {
+                "5_star": 41,
+                "4_star": 34,
+                "3_star": 18,
+                "2_star": 5,
+                "1_star": 2
+            }
+        },
+        "tags": [
+            "commercial",
+            "value",
+            "durable",
+            "cost-effective"
+        ],
+        "launch_date": "2021-12-08",
+        "last_updated": "2025-01-15",
+        "compatible_vehicles": [
+            "Tata Ace",
+            "Mahindra Bolero Pickup",
+            "Ashok Leyland Dost",
+            "Maruti Super Carry",
+            "Piaggio Porter",
+            "Mahindra Jeeto",
+            "Force Trax",
+            "Bajaj Maxima"
+        ]
+    }
+]

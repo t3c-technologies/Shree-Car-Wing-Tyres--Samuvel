@@ -1,4 +1,4 @@
-import HomePage from "@/uiPages/homePage/HomePage";
+import HomePage from '@/features/home/pages/HomePage';
 
 export default function Home() {
   return <HomePage />;

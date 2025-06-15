@@ -1,4 +1,4 @@
-import OffersPage from "@/uiPages/offersPage/OffersPage";
+import OffersPage from "@/features/offers/pages/OffersPage";
 
 export const metadata = {
   title: "Vidhya Tyres | Offers",

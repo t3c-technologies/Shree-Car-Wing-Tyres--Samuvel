@@ -1,4 +1,4 @@
-import GuidePage from "@/uiPages/guidePage/GuidePage";
+import GuidePage from "@/features/guides/pages/GuidePage";
 
 export const metadata = {
   title: "Vidhya Tyres | Guide",
